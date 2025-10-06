@@ -3,36 +3,38 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>AutoLegal – AI Legal Assistant</title>
+  <title>AutoLegal Aapka Legal Sathi</title>
+  <meta name="description" content="AI Power for Indian Law: Master Contracts and Compliance. Your trusted AI companion for faster Indian legal clarity." />
 
-  <!-- Fonts, icons, bootstrap -->
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
-
-  <!-- Google Identity Services library -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
 
   <style>
-    /* ===========================
-       AutoLegal - Main Styles
-       ===========================
-       A full, modern UI styling block with responsive layout,
-       accessibility-focused spacing, and visually distinct components.
-    */
     :root {
-      --bg: #f7f9fb;
-      --card: #ffffff;
-      --muted: #666;
-      --primary: #0b1226;
-      --accent1: #6a11cb;
-      --accent2: #2575fc;
-      --accent-grad: linear-gradient(135deg, var(--accent1), var(--accent2));
-      --output-bg: #eef2f7;
-      --radius-lg: 18px;
-      --radius-md: 12px;
-      --shadow-soft: 0 10px 30px rgba(2,6,23,0.08);
-      font-family: 'Roboto', sans-serif;
+      --white: #ffffff;
+      --black: #121212;
+      --light-gray: #f0f0f0;
+      --mid-gray: #a0a0a0;
+      --dark-gray: #333333;
+      --focus-gray: #6e6e6e;
+      --bg: var(--white);
+      --card: var(--white);
+      --muted: var(--mid-gray);
+      --primary: var(--black);
+      --accent1: var(--dark-gray);
+      --accent2: var(--black);
+      --accent-grad: linear-gradient(135deg, var(--dark-gray), var(--black));
+      --output-bg: var(--light-gray);
+      --footer-bg: var(--dark-gray);
+      --radius-lg: 20px;
+      --radius-md: 14px;
+      --shadow-soft: 0 12px 36px rgba(18, 18, 18, 0.08);
+      --shadow-accent: 0 8px 20px rgba(18, 18, 18, 0.2);
+      font-family: 'Inter', sans-serif;
     }
 
     html, body {
@@ -44,629 +46,1112 @@
       -moz-osx-font-smoothing: grayscale;
       scroll-behavior: smooth;
     }
+    h1, h2, h3, h4, h5 { font-weight: 900; }
+    p { line-height: 1.6; }
 
-    /* ---------- Nav ---------- */
     nav.navbar {
-      background: #121416;
-      padding: 0.6rem 1rem;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+      background: var(--black);
+      padding: 0.8rem 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.25);
+      position: sticky;
+      top: 0;
+      z-index: 1000;
     }
-    .navbar-brand { color: #fff; font-weight: 900; letter-spacing: 0.02em; }
-    .nav-link { color: #cfcfcf !important; font-weight:600; margin-left: 12px; }
-    .nav-link:hover { color: #fff !important; text-decoration: none; }
+    .navbar-brand { color: var(--white); font-weight: 900; letter-spacing: 0.03em; font-size: 1.5rem; }
+    .nav-link { color: #cccccc !important; font-weight:700; margin-left: 1rem; transition: color 0.2s; }
+    .nav-link:hover { color: var(--white) !important; text-decoration: underline; }
 
-    /* ---------- Hero ---------- */
     .hero {
       padding: 6.5rem 1.25rem 3.5rem;
       text-align: center;
-      max-width: 1100px;
+      max-width: 900px;
       margin: 0 auto;
     }
-    .hero h1 {
-      font-size: 3.2rem;
-      margin-bottom: 0.75rem;
-      color: var(--primary);
-      font-weight: 900;
-    }
-    .hero p { font-size: 1.15rem; color: var(--muted); margin-bottom: 1.5rem; }
+    .hero h1 { font-size: clamp(2.5rem, 5vw, 3.8rem); margin-bottom: 1rem; }
+    .hero p { font-size: 1.25rem; color: var(--muted); margin-bottom: 2rem; }
 
     .cta-buttons { display:flex; gap: 1rem; justify-content:center; flex-wrap:wrap; }
 
     .btn-primary {
-      background: var(--primary);
-      color: #fff;
-      border-radius: 12px;
-      padding: 0.9rem 2.2rem;
-      font-weight: 800;
+      background: var(--accent-grad);
+      color: var(--white);
+      border: none;
+      border-radius: var(--radius-md);
+      padding: 1rem 2.4rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      transition: all 0.25s ease;
+    }
+    .btn-primary:hover {
+      box-shadow: var(--shadow-accent);
+      transform: translateY(-2px);
+      filter: brightness(1.1);
     }
     .btn-secondary {
       background: transparent;
       color: var(--primary);
       border: 2px solid var(--primary);
-      border-radius: 12px;
-      padding: 0.8rem 1.8rem;
+      border-radius: var(--radius-md);
+      padding: 0.9rem 2rem;
       font-weight: 700;
+      transition: all 0.25s ease;
+    }
+    .btn-secondary:hover {
+      background: var(--primary);
+      color: var(--white);
+      border-color: var(--primary);
     }
 
-    /* ---------- Layout ---------- */
-    .section-container { max-width: 1200px; margin: 2.6rem auto; padding: 0 1rem; }
-    .section-title { font-size: 2.5rem; font-weight: 900; text-align:center; margin-bottom: 2rem; }
+    .section-container { max-width: 1200px; margin: 4rem auto; padding: 0 1.5rem; }
+    .section-title { font-size: 2.8rem; font-weight: 900; text-align:center; margin-bottom: 3rem; }
 
     .offer-grid {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
-      gap: 1.5rem;
-      margin-bottom: 1.8rem;
+      gap: 1.8rem;
     }
 
     .offer-card {
       background: var(--card);
       border-radius: var(--radius-lg);
-      padding: 2.1rem;
+      padding: 2.5rem 1.5rem;
       box-shadow: var(--shadow-soft);
       text-align:center;
       cursor:pointer;
-      transition: transform 0.22s ease, box-shadow 0.22s ease;
-      font-weight: 800;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      transition: transform 0.25s ease, box-shadow 0.25s ease, background 0.25s;
+      font-weight: 700;
+      font-size: 1.1rem;
+      line-height: 1.4;
+      border: 1px solid var(--light-gray);
     }
-    .offer-card:hover { transform: translateY(-8px); box-shadow: 0 18px 48px rgba(0,0,0,0.12); }
 
-    .offer-card i { font-size: 3.8rem; color: var(--primary); margin-bottom: 0.8rem; }
+    .offer-card-expanded {
+      grid-column: span 1.333;
+    }
+
+    .offer-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 20px 50px rgba(18, 18, 18, 0.15);
+      background: var(--light-gray);
+    }
+    .offer-card i {
+      font-size: 3.5rem;
+      color: var(--black);
+      background: none;
+      -webkit-background-clip: unset;
+      -webkit-text-fill-color: initial;
+      margin-bottom: 1rem;
+    }
 
     .ai-feature-grid {
       display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 1.6rem;
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+      gap: 2rem;
     }
 
     .feature-card {
       background: var(--card);
-      padding: 1.75rem;
+      padding: 2rem;
       border-radius: var(--radius-lg);
       box-shadow: var(--shadow-soft);
       display:flex;
       flex-direction: column;
-      min-height: 320px;
+      min-height: 340px;
+      transition: box-shadow 0.3s;
+      border: 1px solid var(--light-gray);
     }
-    .feature-card h5 { margin-bottom: 0.8rem; font-weight: 900; color: var(--muted); }
-    .feature-card p { margin-bottom: 1rem; color: #444; }
+    .feature-card:focus-within { box-shadow: 0 0 0 3px var(--focus-gray); }
 
-    textarea, input[type="text"], input[type="file"] {
+    .feature-card h5 {
+      margin-bottom: 0.6rem;
+      font-weight: 900;
+      color: var(--primary);
+      font-size: 1.4rem;
+    }
+    .feature-card p {
+      margin-bottom: 1.2rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    textarea, input[type="text"], input[type="file"], input[type="password"], input[type="email"] {
       width: 100%;
-      border-radius: 12px;
-      padding: 0.95rem 1rem;
-      border: 1px solid #dcdcdc;
+      border-radius: var(--radius-md);
+      padding: 1rem;
+      border: 1px solid var(--mid-gray);
       font-size: 1rem;
       resize: vertical;
-      margin-bottom: 0.8rem;
+      margin-bottom: 1rem;
+      transition: border-color 0.2s, box-shadow 0.2s;
     }
+    textarea:focus, input[type="text"]:focus, input[type="file"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+      border-color: var(--black);
+      box-shadow: 0 0 0 2px rgba(18, 18, 18, 0.2);
+      outline: none;
+    }
+    input[type="file"] { padding: 0.75rem 1rem; }
 
     .text-output {
       background: var(--output-bg);
-      padding: 1rem;
-      border-radius: 10px;
-      min-height: 90px;
+      padding: 1.2rem;
+      border-radius: var(--radius-md);
+      min-height: 120px;
       white-space: pre-wrap;
-      font-family: monospace;
-      color: #111;
+      font-family: Consolas, monospace;
+      color: var(--primary);
+      overflow-x: auto;
+      margin-top: auto;
+      border: 1px solid #e0e0e0;
     }
 
-    /* ---------- Chat widget ---------- */
-    #chatToggleButton {
+    #chatWidget {
       position: fixed;
-      right: 28px;
-      bottom: 28px;
-      width: 64px;
-      height: 64px;
+      right: 20px;
+      bottom: 20px;
+      width: 350px;
+      height: 480px;
+      max-width: 90vw;
+      max-height: 90vh;
+      border-radius: var(--radius-lg);
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      z-index: 9998;
+      overflow: hidden;
+      background: var(--white);
+      transform: translateY(calc(100% + 20px));
+      transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+      display: flex;
+      flex-direction: column;
+    }
+    #chatWidget.active { transform: translateY(0); }
+    #chatToggleButton {
+      background: var(--black);
+      box-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      position: fixed;
+      right: 32px;
+      bottom: 32px;
+      width: 60px;
+      height: 60px;
       border-radius: 50%;
       display:flex;
       align-items:center;
       justify-content:center;
       font-size: 26px;
       color: white;
-      background: linear-gradient(135deg, #6a11cb, #2575fc);
-      box-shadow: 0 10px 32px rgba(40,60,150,0.25);
       z-index: 9999;
       cursor:pointer;
+      border: none;
+      transition: opacity 0.3s, transform 0.2s, box-shadow 0.3s;
     }
-
-    #chatWidget {
-      position: fixed;
-      right: 28px;
-      bottom: 110px;
-      width: 360px;
-      height: 520px;
-      border-radius: 18px;
-      display: flex;
-      flex-direction: column;
-      background: white;
-      box-shadow: 0 28px 68px rgba(0,0,0,0.16);
-      transform: translateY(18px);
-      opacity: 0;
-      pointer-events: none;
-      transition: all 0.35s cubic-bezier(.22,.9,.3,1);
-      z-index: 9999;
+    #chatToggleButton:hover { box-shadow: 0 6px 16px rgba(0,0,0,0.5); }
+    #chatWidget.active + #chatToggleButton {
+        opacity: 0;
+        pointer-events: none;
+        transform: scale(0.8);
     }
-    #chatWidget.active { transform: translateY(0); opacity: 1; pointer-events: auto; }
-
     #chatWidgetHeader {
-      padding: 14px 18px;
-      background: linear-gradient(135deg, #6a11cb, #2575fc);
-      color: #fff;
-      border-top-left-radius: 18px;
-      border-top-right-radius: 18px;
+      background: var(--black);
+      color: var(--white);
       display:flex;
       align-items:center;
       justify-content: space-between;
-      font-weight: 800;
+      font-weight: 700;
+      padding: 16px 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-    #chatWidgetBody { padding: 14px; display:flex; flex-direction: column; height: calc(100% - 64px); background: #f7fbff; }
-
-    #chatMessages { flex: 1; overflow-y: auto; margin-bottom: 10px; }
-    .message-row { display:flex; align-items:flex-end; margin-bottom: 10px; }
-    .message-row.user { justify-content:flex-end; }
-    .chat-bubble { padding: 10px 14px; border-radius: 14px; max-width: 78%; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
-    .chat-bubble.bot { background: #e9f0ff; color: #0b1226; border-bottom-left-radius: 6px; }
-    .chat-bubble.user { background: linear-gradient(135deg, #2575fc, #6a11cb); color: #fff; border-bottom-right-radius: 6px; }
-
-    .chat-input-container { display:flex; gap: 10px; align-items:center; margin-top: 6px; }
-    .chat-input-container input { flex:1; padding: 12px 14px; border-radius: 999px; border: 1px solid #d8d8d8; }
-    .chat-input-container button { padding: 10px 14px; border-radius: 999px; border: none; background: #2575fc; color: white; font-weight: 800; }
-
-    /* ---------- Modal ---------- */
-    .modal-overlay {
-      position: fixed;
-      inset: 0;
-      display:none;
+    #chatWidgetBody {
+      background: var(--light-gray);
+      padding: 16px;
+      display:flex;
+      flex-direction: column;
+      height: 100%;
+    }
+    #chatMessages {
+        flex-grow: 1;
+        overflow-y: auto;
+        padding-right: 5px;
+        margin-bottom: 10px;
+        scrollbar-width: thin;
+        scrollbar-color: var(--mid-gray) transparent;
+    }
+    #chatMessages::-webkit-scrollbar { width: 6px; }
+    #chatMessages::-webkit-scrollbar-thumb { background-color: var(--mid-gray); border-radius: 3px; }
+    #chatMessages::-webkit-scrollbar-track { background: transparent; }
+    .message-row { display: flex; margin-bottom: 12px; }
+    .message-row.user { justify-content: flex-end; }
+    .message-row.bot { justify-content: flex-start; }
+    .chat-avatar {
+      width: 28px; height: 28px; border-radius: 50%;
+      background: var(--dark-gray); color: var(--white);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.8rem; flex-shrink: 0; margin-right: 8px;
+    }
+    .chat-bubble {
+      max-width: 80%;
+      padding: 10px 14px;
+      border-radius: 18px;
+      line-height: 1.4;
+      font-size: 0.9rem;
+      word-wrap: break-word;
+      white-space: pre-wrap;
+      box-shadow: 0 1px 2px rgba(0,0,0,0.08);
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+    }
+    .chat-bubble.bot {
+      background: var(--white);
+      color: var(--primary);
+      border-bottom-left-radius: 6px;
+    }
+    .chat-bubble.user {
+      background: var(--black);
+      color: var(--white);
+      border-bottom-right-radius: 6px;
+    }
+    .chat-input-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding-top: 5px;
+    }
+    #chatInputWidget {
+      flex-grow: 1;
+      padding: 10px 15px;
+      border-radius: 20px;
+      border: 1px solid var(--mid-gray);
+      font-size: 1rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    #chatInputWidget:focus { border-color: var(--black); }
+    .chat-input-container button {
+      background: var(--black);
+      border: none;
+      color: var(--white);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      font-size: 1rem;
+      display: flex;
       align-items: center;
       justify-content: center;
-      background: rgba(2,6,23,0.6);
-      z-index: 99999;
+      transition: background 0.2s, transform 0.2s;
     }
-    .modal-overlay.active { display:flex; }
+    .chat-input-container button:hover:not(:disabled) { background: var(--dark-gray); transform: scale(1.05); }
+
+    .modal-overlay {
+        position: fixed;
+        top: 0; left: 0;
+        width: 100%; height: 100%;
+        background: rgba(0, 0, 0, 0.75);
+        display: none;
+        justify-content: center;
+        align-items: center;
+        z-index: 2000;
+        opacity: 0;
+        transition: opacity 0.3s ease-in-out;
+    }
+    .modal-overlay.active {
+        display: flex;
+        opacity: 1;
+    }
     .modal-content {
-      background: white;
-      width: 420px;
-      max-width: 94%;
-      border-radius: 16px;
-      padding: 1.8rem;
-      box-shadow: 0 24px 64px rgba(0,0,0,0.22);
-      position: relative;
+        background: var(--card);
+        padding: 30px;
+        border-radius: var(--radius-lg);
+        max-width: 420px;
+        width: 90%;
+        box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+        position: relative;
+        transform: translateY(-20px);
+        transition: transform 0.3s ease-in-out;
     }
-    .modal-close { position: absolute; right: 12px; top: 8px; border:none; background:none; font-size: 1.8rem; color:#999; cursor:pointer; }
+    .modal-overlay.active .modal-content {
+        transform: translateY(0);
+    }
+    .modal-close {
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        background: none;
+        border: none;
+        font-size: 1.5rem;
+        color: var(--mid-gray);
+        cursor: pointer;
+        transition: color 0.2s;
+    }
+    .modal-close:hover {
+        color: var(--primary);
+    }
+    .modal-content h2 { font-weight: 900; color: var(--primary); }
 
-    /* ---------- Footer ---------- */
-    footer { margin-top: 3rem; padding: 2.5rem 1rem; background: white; text-align:center; border-top: 1px solid #eee; }
-    footer .footer-credit { color: var(--muted); font-weight: 600; }
+    .btn-google {
+        background: var(--primary);
+        color: white;
+        border: none;
+        padding: 12px;
+        border-radius: var(--radius-md);
+        font-weight: 700;
+        transition: background 0.2s;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .btn-google:hover { background: var(--focus-gray); }
 
-    /* ---------- Responsive ---------- */
-    @media (max-width: 992px) {
-      .offer-grid { grid-template-columns: repeat(2,1fr); }
-      .ai-feature-grid { grid-template-columns: 1fr; }
-      #chatWidget { right: 16px; left: 16px; width: auto; bottom: 80px; max-width: calc(100% - 32px); }
+    .btn-guest {
+        background: var(--light-gray);
+        color: var(--primary);
+        border: 1px solid var(--mid-gray);
+        padding: 12px;
+        border-radius: var(--radius-md);
+        font-weight: 700;
+        transition: background 0.2s;
+        width: 100%;
+    }
+    .btn-guest:hover { background: var(--output-bg); }
+
+    .login-actions {
+        display: flex;
+        gap: 10px;
+        margin-top: 5px;
+    }
+    .login-btn-primary {
+        flex-grow: 1;
+        background: var(--black);
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: var(--radius-md);
+        font-weight: 700;
+        transition: background 0.2s;
+    }
+    .login-btn-primary:hover { background: var(--dark-gray); }
+
+    .login-btn-secondary {
+        background: var(--light-gray);
+        color: var(--primary);
+        border: 1px solid var(--mid-gray);
+        padding: 10px 20px;
+        border-radius: var(--radius-md);
+        font-weight: 700;
+        transition: background 0.2s;
+    }
+    .login-btn-secondary:hover { background: var(--output-bg); }
+
+    .form-switch {
+        display: flex;
+        justify-content: center;
+        margin: 15px 0;
+    }
+    .form-switch button {
+        background: none;
+        border: none;
+        color: var(--primary);
+        text-decoration: underline;
+        cursor: pointer;
+        font-size: 0.9rem;
+    }
+    .form-switch button:hover {
+        color: var(--dark-gray);
+    }
+
+    /* Connection Status */
+    .connection-status {
+      position: fixed;
+      top: 70px;
+      right: 20px;
+      padding: 8px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      z-index: 1001;
+      transition: all 0.3s ease;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+    }
+
+    .connection-status.connected {
+      background: #4CAF50;
+      color: white;
+    }
+
+    .connection-status.disconnected {
+      background: #f44336;
+      color: white;
+    }
+
+    .connection-status.connecting {
+      background: #ff9800;
+      color: white;
+    }
+
+    footer {
+      margin-top: 4rem;
+      padding: 3rem 1rem;
+      background: var(--footer-bg);
+      border-top: 1px solid var(--black);
+      color: var(--light-gray);
+    }
+
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 1rem;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+    }
+
+    .footer-container > div {
+        max-width: 400px;
+        margin-bottom: 20px;
+        flex: 1 1 auto;
+    }
+
+    .footer-container h3 { color: var(--white); font-size: 1.3rem; margin-bottom: 1rem; }
+    .footer-container li a { color: var(--mid-gray); text-decoration: none; font-weight: 500; display: block; padding: 4px 0; }
+    .footer-container li a:hover { color: var(--white); text-decoration: underline; }
+    .footer-credit { margin-top: 1rem; font-size: 0.9rem; text-align: center; color: var(--mid-gray); }
+
+    @media (max-width: 1200px) {
+        .offer-grid {
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        }
+        .offer-card-expanded {
+             grid-column: auto;
+        }
+    }
+    @media (max-width: 768px) {
+        .footer-container {
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 20px;
+        }
+        .footer-container > div {
+            flex: 1 1 100%;
+        }
+        .about { text-align: center; }
+        .links { text-align: center; }
+        .footer-container li a { display: inline-block; padding: 0 10px; }
+        .footer-container ul { padding: 0; list-style: none; }
+
+        .offer-grid {
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        }
+
+        .connection-status {
+          top: 60px;
+          right: 10px;
+          font-size: 0.7rem;
+        }
     }
     @media (max-width: 480px) {
-      .hero h1 { font-size: 2.2rem; }
-      .offer-grid { grid-template-columns: 1fr; }
-      #chatToggleButton { right: 16px; bottom: 18px; width: 56px; height: 56px; }
+      .btn-primary, .btn-secondary { width: 100%; text-align: center; }
+      .ai-feature-grid { grid-template-columns: 1fr; }
     }
-
   </style>
 </head>
 <body>
 
-  <!-- ============================
-       NAVIGATION
-       ============================ -->
-  <nav class="navbar navbar-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">AutoLegal</a>
+  <!-- Connection Status Indicator -->
+  <div id="connectionStatus" class="connection-status connecting" style="display: none;">
+    <i class="fas fa-spinner fa-spin"></i> Checking Backend...
+  </div>
+
+  <nav class="navbar navbar-dark sticky-top">
+    <div class="container-fluid" style="max-width: 1200px;">
+      <a class="navbar-brand" href="#hero">AutoLegal Aapka Legal Sathi</a>
       <div class="d-flex align-items-center">
-        <button class="btn btn-link nav-link" onclick="scrollToSection('offer')">Offerings</button>
-        <button class="btn btn-link nav-link" onclick="scrollToSection('features')">Features</button>
-        <button class="btn btn-link nav-link" onclick="openLoginModal()">Login</button>
+        <a class="nav-link" href="#offer">Offerings</a>
+        <a class="nav-link" href="#features">Features</a>
+        <button class="btn btn-link nav-link" onclick="openLoginModal()" aria-controls="loginModal">Login</button>
       </div>
     </div>
   </nav>
 
-  <!-- ============================
-       HERO
-       ============================ -->
-  <section class="hero" id="hero" role="banner" aria-label="AutoLegal Hero">
-    <h1>AutoLegal — AI Legal Assistant</h1>
-    <p>Smart, fast, and tailored AI tools for contracts, compliance, OCR and legal research — built for Indian law workflows.</p>
+  <section class="hero" id="hero" role="banner" aria-label="AutoLegal AI Legal Assistant">
+    <h1>AutoLegal Aapka Legal Sathi</h1>
+    <p>AI Power for Indian Law: Master Contracts and Compliance.</p>
     <div class="cta-buttons">
-      <button class="btn btn-primary" onclick="scrollToSection('features')">Try the AI Tools</button>
+      <button class="btn btn-primary" onclick="scrollToSection('features')">Start Using AI Tools</button>
       <button class="btn btn-secondary" onclick="openLoginModal()">Login / Connect</button>
     </div>
   </section>
 
-  <!-- ============================
-       OFFERINGS
-       ============================ -->
-  <section id="offer" class="section-container" aria-label="What we offer">
-    <h2 class="section-title">What We Offer</h2>
+  <section id="offer" class="section-container" aria-labelledby="offer-title">
+    <h2 class="section-title" id="offer-title">What We Offer</h2>
 
-    <div class="offer-grid" role="list" aria-label="Feature grid">
-      <div class="offer-card" role="listitem" tabindex="0" onclick="scrollToSection('simplifySection')">
+    <div class="offer-grid" role="list">
+      <div class="offer-card" role="listitem" tabindex="0" onclick="scrollToSection('simplifySection')" aria-label="Clause Simplification Tool">
         <i class="fas fa-lightbulb"></i>
         <div>Clause Simplification</div>
       </div>
-      <div class="offer-card" role="listitem" tabindex="0" onclick="scrollToSection('riskSection')">
+      <div class="offer-card" role="listitem" tabindex="0" onclick="scrollToSection('riskSection')" aria-label="Risk Analysis Tool">
         <i class="fas fa-shield-alt"></i>
         <div>Risk Analysis</div>
       </div>
-      <div class="offer-card" role="listitem" tabindex="0" onclick="scrollToSection('complianceSection')">
+      <div class="offer-card" role="listitem" tabindex="0" onclick="scrollToSection('complianceSection')" aria-label="Compliance Checking Tool">
         <i class="fas fa-balance-scale"></i>
         <div>Compliance Checking</div>
       </div>
-      <div class="offer-card" role="listitem" tabindex="0" onclick="scrollToSection('summarizeSection')">
+      <div class="offer-card" role="listitem" tabindex="0" onclick="scrollToSection('summarizeSection')" aria-label="Contract Summaries Tool">
         <i class="fas fa-file-contract"></i>
         <div>Contract Summaries</div>
       </div>
-    </div>
 
-    <div class="offer-grid" style="grid-template-columns: repeat(3,1fr);">
-      <div class="offer-card" onclick="scrollToSection('ocrSection')">
+      <div class="offer-card offer-card-expanded" role="listitem" tabindex="0" onclick="scrollToSection('ocrSection')" aria-label="OCR and Extraction Tool">
         <i class="fas fa-camera"></i>
         <div>OCR & Extraction</div>
       </div>
-      <div class="offer-card" onclick="openChatBot()">
-        <i class="fas fa-robot"></i>
-        <div>AI Legal Chatbot</div>
-      </div>
-      <div class="offer-card" onclick="scrollToSection('newsSection')">
+      <div class="offer-card offer-card-expanded" role="listitem" tabindex="0" onclick="scrollToSection('newsSection')" aria-label="Legal Updates Finder">
         <i class="fas fa-newspaper"></i>
         <div>Legal Updates</div>
+      </div>
+
+      <div class="offer-card offer-card-expanded" role="listitem" tabindex="0" onclick="openChatBot()" aria-label="AI Legal Chatbot">
+        <i class="fas fa-robot"></i>
+        <div>AI Legal Chat</div>
       </div>
     </div>
   </section>
 
-  <!-- ============================
-       FEATURES SECTION (same page outputs)
-       ============================ -->
-  <section id="features" class="section-container">
-    <h3 class="section-title">AI Tools</h3>
+  <section id="features" class="section-container" aria-labelledby="features-title">
+    <h3 class="section-title" id="features-title">Try Our AI Tools</h3>
 
-    <div class="ai-feature-grid" role="list" aria-label="AI features">
+    <div class="ai-feature-grid" role="list">
 
-      <!-- Clause Simplifier -->
-      <div class="feature-card" id="simplifySection" role="article" aria-label="Clause simplifier">
-        <h5>Clause Simplifier</h5>
-        <p>Paste a clause and get a plain-language explanation.</p>
-        <textarea id="clauseInput" placeholder="Enter the clause text here..." rows="5"></textarea>
-        <button id="btnSimplify" class="btn btn-primary" onclick="simplifyClause()">Simplify Clause</button>
+      <div class="feature-card" id="simplifySection" role="article" aria-labelledby="simplify-heading">
+        <h5 id="simplify-heading">Clause Simplifier</h5>
+        <p>Paste a complex legal clause and get a plain-language explanation.</p>
+        <textarea id="clauseInput" placeholder="Enter the clause text here..." rows="5" aria-label="Clause text input for simplification"></textarea>
+        <button id="btnSimplify" class="btn btn-primary mt-auto mb-3" onclick="simplifyClause()">Simplify Clause</button>
         <div id="simplifiedClause" class="text-output" aria-live="polite" role="status">Results will appear here...</div>
       </div>
 
-      <!-- Contract Summarizer -->
-      <div class="feature-card" id="summarizeSection" role="article" aria-label="Contract summarizer">
-        <h5>Contract Summarizer</h5>
-        <p>Paste contract text to produce a short summary with bullet points.</p>
-        <textarea id="contractInput" placeholder="Paste the contract text here..." rows="5"></textarea>
-        <button id="btnSummarize" class="btn btn-primary" onclick="analyzeContract()">Summarize Contract</button>
+      <div class="feature-card" id="summarizeSection" role="article" aria-labelledby="summarize-heading">
+        <h5 id="summarize-heading">Contract Summarizer</h5>
+        <p>Paste contract text to produce a short summary with key points and bullet points.</p>
+        <textarea id="contractInput" placeholder="Paste the contract text here..." rows="5" aria-label="Contract text input for summarization"></textarea>
+        <button id="btnSummarize" class="btn btn-primary mt-auto mb-3" onclick="summarizeContract()">Summarize Contract</button>
         <div id="contractSummary" class="text-output" aria-live="polite" role="status">Summary will appear here...</div>
       </div>
 
-      <!-- OCR -->
-      <div class="feature-card" id="ocrSection" role="article" aria-label="OCR extraction">
-        <h5>OCR & Extraction</h5>
-        <p>Upload an image and we will extract the text. Note: server must have OCR support or fallback will be used.</p>
-        <input type="file" id="ocrFile" accept="image/*" />
-        <button id="btnOCR" class="btn btn-primary" onclick="doOCR()">Extract Text from Image</button>
+      <div class="feature-card" id="ocrSection" role="article" aria-labelledby="ocr-heading">
+        <h5 id="ocr-heading">OCR & Extraction</h5>
+        <p>Upload an image (e.g., a scanned document) and we will extract the text for you.</p>
+        <input type="file" id="ocrFile" accept="image/*" aria-label="Upload image for OCR"/>
+        <button id="btnOCR" class="btn btn-primary mt-auto mb-3" onclick="doOCR()">Extract Text from Image</button>
         <div id="ocrResult" class="text-output" aria-live="polite" role="status">OCR output will appear here...</div>
       </div>
 
-      <!-- Risk Analysis -->
-      <div class="feature-card" id="riskSection" role="article" aria-label="Risk analysis">
-        <h5>Risk Analysis</h5>
-        <p>Paste text or a contract clause to identify potential legal risks.</p>
-        <textarea id="riskInput" placeholder="Enter text to analyze risk..." rows="5"></textarea>
-        <button id="btnRiskAnalyze" class="btn btn-primary" onclick="performRiskAnalysis()">Analyze Risk</button>
+      <div class="feature-card" id="riskSection" role="article" aria-labelledby="risk-heading">
+        <h5 id="risk-heading">Risk Analysis</h5>
+        <p>Paste text or a contract clause to identify potential legal risks and vulnerabilities.</p>
+        <textarea id="riskInput" placeholder="Enter text to analyze risk..." rows="5" aria-label="Risk analysis input"></textarea>
+        <button id="btnRiskAnalyze" class="btn btn-primary mt-auto mb-3" onclick="performRiskAnalysis()">Analyze Risk</button>
         <div id="riskResult" class="text-output" aria-live="polite" role="status">Risk analysis results...</div>
       </div>
 
-      <!-- Compliance Checker -->
-      <div class="feature-card" id="complianceSection" role="article" aria-label="Compliance checker">
-        <h5>Compliance Checker (India)</h5>
-        <p>Check for compliance issues under Indian law.</p>
-        <textarea id="complianceInput" placeholder="Enter compliance-related text..." rows="5"></textarea>
-        <button id="btnComplianceCheck" class="btn btn-primary" onclick="checkCompliance()">Check Compliance</button>
+      <div class="feature-card" id="complianceSection" role="article" aria-labelledby="compliance-heading">
+        <h5 id="compliance-heading">Compliance Checker (India)</h5>
+        <p>Check a document or text block for specific compliance issues under Indian law.</p>
+        <textarea id="complianceInput" placeholder="Enter compliance-related text..." rows="5" aria-label="Compliance check input"></textarea>
+        <button id="btnComplianceCheck" class="btn btn-primary mt-auto mb-3" onclick="checkCompliance()">Check Compliance</button>
         <div id="complianceResult" class="text-output" aria-live="polite" role="status">Compliance check output...</div>
       </div>
 
-      <!-- Legal Updates -->
-      <div class="feature-card" id="newsSection" role="article" aria-label="Legal updates finder">
-        <h5>Legal Updates Finder</h5>
-        <p>Search for current legal news by topic (uses NewsAPI).</p>
-        <input id="newsInput" type="text" placeholder="e.g., GST, Indian Contract Act" />
-        <button id="btnGetNews" class="btn btn-primary" onclick="fetchCustomNews()">Get Updates</button>
+      <div class="feature-card" id="newsSection" role="article" aria-labelledby="news-heading">
+        <h5 id="news-heading">Legal Updates Finder</h5>
+        <p>Search for current legal news by topic (uses NewsAPI or similar backend source).</p>
+        <input id="newsInput" type="text" placeholder="e.g., GST, Indian Contract Act" aria-label="Legal news topic input" />
+        <button id="btnGetNews" class="btn btn-primary mt-auto mb-3" onclick="fetchCustomNews()">Get Updates</button>
         <div id="newsResult" class="text-output" aria-live="polite" role="status">News updates will appear here...</div>
       </div>
 
     </div>
   </section>
 
-  <!-- ============================
-       CHAT WIDGET (floating)
-       ============================ -->
-  <div id="chatToggleButton" title="Open chat" aria-label="Open chat" role="button" tabindex="0" onclick="openChatBot()">
+  <button id="chatToggleButton" title="Open chat" aria-label="Open AI Legal Chat" role="button" tabindex="0" onclick="openChatBot()">
     <i class="fas fa-robot"></i>
-  </div>
+  </button>
 
-  <div id="chatWidget" aria-hidden="true" role="dialog" aria-label="AI chat widget">
+  <div id="chatWidget" aria-hidden="true" role="dialog" aria-modal="false" aria-label="AI Legal Assistant Chat Widget">
     <div id="chatWidgetHeader" tabindex="0" role="button" onclick="toggleChat()">
       <div style="display:flex; align-items:center; gap:12px;">
         <i class="fas fa-robot" style="font-size:1.4rem;"></i>
-        <div style="font-weight:900;">AI Legal Chat</div>
+        <div style="font-weight:900;">AutoLegal Chat</div>
       </div>
-      <div style="font-weight:800;"><i class="fas fa-chevron-down"></i></div>
+      <div style="font-weight:800;" id="chatToggleIcon"><i class="fas fa-chevron-down"></i></div>
     </div>
     <div id="chatWidgetBody">
-      <div id="chatMessages" role="log" aria-live="polite"></div>
-      <div class="chat-input-container">
-        <input id="chatInputWidget" placeholder="Ask your legal question..." onkeypress="if(event.key==='Enter') sendChatWidget()" aria-label="Chat input" />
-        <button id="chatSendBtn" onclick="sendChatWidget()"><i class="fas fa-paper-plane"></i></button>
-      </div>
-      <div style="font-size:0.75rem; color:#666; margin-top:8px; text-align:center;">Disclaimer: AI responses are informational and not legal advice.</div>
-    </div>
-  </div>
-
-  <!-- ============================
-       LOGIN MODAL
-       ============================ -->
-  <div id="loginModal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
-    <div class="modal-content" role="document">
-      <button id="modalCloseBtn" class="modal-close" aria-label="Close">&times;</button>
-      <h2 style="margin-top:0; margin-bottom:8px;">Welcome to AutoLegal</h2>
-      <p style="color:var(--muted); margin-bottom:1.2rem;">Sign in with Google to save your sessions, or continue as guest.</p>
-
-      <div style="display:flex; flex-direction:column; gap:12px; margin-bottom: 1rem;">
-        <button id="btnGoogle" class="btn-google" style="background:#db4437; color:white; padding:12px 16px; border-radius:10px; border:none;">
-          <i class="fab fa-google" style="margin-right:8px;"></i> Continue with Google
-        </button>
-        <button id="btnGuest" style="background:var(--primary); color:white; border-radius:10px; padding:12px 16px; border:none;">Continue as Guest</button>
-      </div>
-
-      <hr style="margin: 12px 0;" />
-
-      <form id="loginForm" autocomplete="off">
-        <input type="text" id="username" placeholder="Username" required />
-        <input type="password" id="password" placeholder="Password" required />
-        <div class="login-actions" style="display:flex; gap:8px;">
-          <button type="submit" class="btn login-btn" style="flex:1; background:var(--primary); color:white;">Login</button>
-          <button type="button" id="btnRegister" class="btn" style="flex:1; background:#6c757d; color:white;">Register</button>
+      <div id="chatMessages" role="log" aria-live="polite">
         </div>
-      </form>
+      <div class="chat-input-container">
+        <input id="chatInputWidget" placeholder="Ask your legal question..." aria-label="Chat input field" />
+        <button id="chatSendBtn" onclick="sendChatWidget()" aria-label="Send message"><i class="fas fa-paper-plane"></i></button>
+      </div>
+      <div style="font-size:0.75rem; color:var(--mid-gray); margin-top:8px; text-align:center;">Disclaimer: AI responses are informational and not legal advice.</div>
     </div>
   </div>
 
-  <!-- ============================
-       FOOTER
-       ============================ -->
+  <!-- Login Modal -->
+  <div id="loginModal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true" tabindex="-1">
+    <div class="modal-content" role="document">
+      <button id="modalCloseBtn" class="modal-close" aria-label="Close Login Modal">&times;</button>
+
+      <div id="loginFormContainer">
+        <h2 style="margin-top:0; margin-bottom:12px;">Welcome to AutoLegal</h2>
+        <p style="color:var(--muted); margin-bottom:1.5rem;">Sign in to save your sessions and history</p>
+
+        <div style="display:flex; flex-direction:column; gap:14px; margin-bottom: 2rem;">
+          <!-- Google Sign-In Button -->
+          <div id="g_id_onload"
+               data-client_id="458527801830-lu08hpr2j2burpa9i15l1j7g832pfb3o.apps.googleusercontent.com"
+               data-context="signin"
+               data-ux_mode="popup"
+               data-callback="handleGoogleSignIn"
+               data-auto_prompt="false">
+          </div>
+
+          <div class="g_id_signin"
+               data-type="standard"
+               data-shape="rectangular"
+               data-theme="filled_blue"
+               data-text="signin_with"
+               data-size="large"
+               data-logo_alignment="left">
+          </div>
+
+          <button class="btn-guest" onclick="continueAsGuest()">Continue as Guest</button>
+        </div>
+
+        <div style="display: flex; align-items: center; margin-bottom: 2rem;">
+          <hr style="flex-grow: 1; border-color: var(--light-gray); margin: 0 10px 0 0;" />
+          <span style="color: var(--mid-gray); font-size: 0.9rem; font-weight: 500;">OR</span>
+          <hr style="flex-grow: 1; border-color: var(--light-gray); margin: 0 0 0 10px;" />
+        </div>
+
+        <form id="loginForm" autocomplete="off" style="display: flex; flex-direction: column; gap: 10px;">
+          <input type="email" id="loginEmail" placeholder="Email address" required aria-label="Email address"/>
+          <input type="password" id="loginPassword" placeholder="Password" required aria-label="Password"/>
+          <div class="login-actions" style="margin-top: 10px;">
+            <button type="submit" class="login-btn-primary">Login</button>
+          </div>
+        </form>
+
+        <div class="form-switch">
+          <button onclick="showRegisterForm()">Don't have an account? Register</button>
+        </div>
+      </div>
+
+      <!-- Register Form (Hidden by default) -->
+      <div id="registerFormContainer" style="display: none;">
+        <h2 style="margin-top:0; margin-bottom:12px;">Create Account</h2>
+        <p style="color:var(--muted); margin-bottom:1.5rem;">Join AutoLegal to save your work</p>
+
+        <form id="registerForm" autocomplete="off" style="display: flex; flex-direction: column; gap: 10px;">
+          <input type="text" id="registerName" placeholder="Full Name" required aria-label="Full Name"/>
+          <input type="email" id="registerEmail" placeholder="Email address" required aria-label="Email address"/>
+          <input type="password" id="registerPassword" placeholder="Password" required aria-label="Password"/>
+          <input type="password" id="registerConfirmPassword" placeholder="Confirm Password" required aria-label="Confirm Password"/>
+          <div class="login-actions" style="margin-top: 10px;">
+            <button type="submit" class="login-btn-primary">Create Account</button>
+          </div>
+        </form>
+
+        <div class="form-switch">
+          <button onclick="showLoginForm()">Already have an account? Login</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <footer role="contentinfo">
     <div class="footer-container">
       <div class="about">
-        <h3>About AutoLegal</h3>
-        <p style="max-width:520px;">AutoLegal streamlines legal workflows tailored for Indian law — contract summarization, clause simplification, risk spotting, OCR extraction, and legal updates in one intelligent assistant.</p>
+        <h3>About AutoLegal Aapka Legal Sathi</h3>
+        <p style="max-width:380px;">AutoLegal streamlines legal workflows tailored for Indian law — contract summarization, clause simplification, risk spotting, OCR extraction, and legal updates in one intelligent assistant. AI Power for Indian Law: Master Contracts and Compliance.</p>
       </div>
-      <div class="links" style="text-align:center;">
+      <div class="links">
         <h3>Quick Links</h3>
-        <ul style="list-style:none; padding:0; margin:0;">
-          <li><a href="#hero" onclick="scrollToSection('hero')">Home</a></li>
-          <li><a href="#offer" onclick="scrollToSection('offer')">Offerings</a></li>
-          <li><a href="#features" onclick="scrollToSection('features')">Features</a></li>
+        <ul style="list-style:none;">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#offer">Offerings</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
         </ul>
       </div>
     </div>
     <div class="footer-credit">&copy; 2023 - <span id="currentYear"></span> AutoLegal. All rights reserved.</div>
   </footer>
 
-  <!-- ============================
-       SCRIPTS - Behavior & AJAX
-       ============================ -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
   <script>
-    /* =========================================================
-       Main frontend script — handles Google Sign-In, chat,
-       feature calls (simplify/summarize/risk/compliance), OCR,
-       and UI interactions. All DOM calls are guarded to avoid
-       "reading 'addEventListener' of null" errors.
-       ========================================================= */
-
-    // Replace with YOUR Google Client ID (from Google Cloud Console)
-    const GOOGLE_CLIENT_ID = "458527801830-lu08hpr2j2burpa9i15l1j7g832pfb3o.apps.googleusercontent.com";
-
-    // Small helper — safe element retrieval
-    function $(id) {
-      return document.getElementById(id);
-    }
-
-    // DOM ready guard
-    document.addEventListener('DOMContentLoaded', () => {
-      // Set footer year
-      const yearEl = $('currentYear');
-      if (yearEl) yearEl.textContent = new Date().getFullYear();
-
-      // Setup buttons and events safely (only if elements exist)
-      const btnGoogle = $('btnGoogle');
-      const modalClose = $('modalCloseBtn');
-      const loginModal = $('loginModal');
-      const btnGuest = $('btnGuest');
-      const registerBtn = $('btnRegister');
-      const loginForm = $('loginForm');
-
-      // Initialize google.accounts.id only if client id is replaced (prevents errors)
-      if (window.google && typeof window.google.accounts !== 'undefined') {
-        try {
-          window.google.accounts.id.initialize({
-            client_id: GOOGLE_CLIENT_ID,
-            callback: handleGoogleCredentialResponse,
-            auto_select: false,
-            cancel_on_tap_outside: true,
-          });
-        } catch (e) {
-          console.warn('Google Identity initialization failed: ', e);
-        }
-      } else {
-        console.warn('Google Identity library not available - sign-in disabled.');
-      }
-
-      // Attach handlers (guarded)
-      if (btnGoogle) {
-        btnGoogle.addEventListener('click', () => {
-          if (window.google && window.google.accounts) {
-            try {
-              window.google.accounts.id.prompt();
-            } catch (e) {
-              alert('Google prompt failed — check client id and console for details.');
-            }
-          } else {
-            alert('Google sign-in is not loaded. Check your internet connection or script tag.');
-          }
-        });
-      }
-
-      if (modalClose) {
-        modalClose.addEventListener('click', () => {
-          closeLoginModal();
-        });
-      }
-
-      if (btnGuest) {
-        btnGuest.addEventListener('click', () => {
-          closeLoginModal();
-          showToast('Signed in as guest — session not persisted.');
-        });
-      }
-
-      if (registerBtn) {
-        registerBtn.addEventListener('click', () => {
-          alert('Register flow not implemented — placeholder.');
-        });
-      }
-
-      if (loginForm) {
-        loginForm.addEventListener('submit', (ev) => {
-          ev.preventDefault();
-          // a simple local login placeholder — do not use for production
-          const user = $('username').value || 'user';
-          closeLoginModal();
-          showToast('Logged in as ' + user + ' (local placeholder)');
-        });
-      }
-
-      // Ensure other feature buttons exist before binding to avoid null errors
-      safeBind($('btnSimplify'), 'click', simplifyClause);
-      safeBind($('btnSummarize'), 'click', analyzeContract);
-      safeBind($('btnOCR'), 'click', doOCR);
-      safeBind($('btnRiskAnalyze'), 'click', performRiskAnalysis);
-      safeBind($('btnComplianceCheck'), 'click', checkCompliance);
-      safeBind($('btnGetNews'), 'click', fetchCustomNews);
-      safeBind($('chatSendBtn'), 'click', sendChatWidget);
-
-      // Initialize chat input enter key
-      const chatInput = $('chatInputWidget');
-      if (chatInput) {
-        chatInput.addEventListener('keydown', (e) => {
-          if (e.key === 'Enter' && !e.shiftKey) {
-            e.preventDefault();
-            sendChatWidget();
-          }
-        });
-      }
-
-      // Render initial chat welcome
-      renderChatMessages();
-    });
-
-    // Small safe event binder
-    function safeBind(el, event, fn) {
+    const $ = id => document.getElementById(id);
+    const safeBind = (el, event, fn) => {
       if (el && typeof fn === 'function') el.addEventListener(event, fn);
-    }
+    };
 
-    // UI helpers (toast-like)
-    function showToast(msg, timeout = 3000) {
-      // Simple non-blocking toast using an alert fallback
+    // Enhanced API call function with better error handling
+    async function postJSON(url, payload) {
       try {
-        const toast = document.createElement('div');
-        toast.textContent = msg;
-        toast.style.position = 'fixed';
-        toast.style.bottom = '90px';
-        toast.style.left = '50%';
-        toast.style.transform = 'translateX(-50%)';
-        toast.style.padding = '10px 14px';
-        toast.style.background = 'rgba(12,20,40,0.92)';
-        toast.style.color = 'white';
-        toast.style.borderRadius = '10px';
-        toast.style.zIndex = 999999;
-        document.body.appendChild(toast);
-        setTimeout(() => toast.remove(), timeout);
-      } catch (e) {
-        console.log('Toast: ', msg);
-      }
-    }
+        console.log(`📡 Calling API: ${url}`);
 
-    // =========================
-    // Google ID token callback
-    // =========================
-    function handleGoogleCredentialResponse(response) {
-      // response.credential contains the ID token
-      if (!response || !response.credential) {
-        alert('No credential returned by Google Sign-In');
-        return;
-      }
+        // Add timeout to prevent hanging requests
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 30000); // 30 second timeout
 
-      // Send token to backend for verification
-      fetch('/api/google-login', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ credential: response.credential }),
-      })
-      .then(r => r.json())
-      .then(data => {
-        if (data && data.success) {
-          showToast('Welcome back, ' + (data.user.name || data.user.email));
-          closeLoginModal();
-        } else {
-          alert('Google login failed: ' + (data.message || 'Unknown error'));
+        const response = await fetch(url, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify(payload),
+          signal: controller.signal
+        });
+
+        clearTimeout(timeoutId);
+
+        if (!response.ok) {
+          const errorText = await response.text();
+          throw new Error(`HTTP ${response.status}: ${errorText}`);
         }
-      })
-      .catch(err => {
-        console.error('Google login error:', err);
-        alert('Google login error — see console.');
-      });
+
+        const data = await response.json();
+        console.log('✅ API response received');
+        return data;
+
+      } catch (error) {
+        console.error('❌ API call failed:', error);
+
+        if (error.name === 'AbortError') {
+          return {
+            error: 'Request timeout - server is taking too long to respond',
+            details: 'Try again or check if the backend is running'
+          };
+        }
+
+        return {
+          error: 'Failed to connect to server',
+          details: error.message,
+          suggestion: 'Make sure your backend is running on http://127.0.0.1:5000'
+        };
+      }
     }
 
-    // =========================
-    // Modal controls
-    // =========================
+    // Health check function
+    async function checkBackendHealth() {
+      try {
+        console.log('🔍 Checking backend health...');
+        const controller = new AbortController();
+        const timeoutId = setTimeout(() => controller.abort(), 5000);
+
+        const response = await fetch('/api/health', {
+          method: 'GET',
+          signal: controller.signal
+        });
+
+        clearTimeout(timeoutId);
+
+        if (response.ok) {
+          const health = await response.json();
+          console.log('✅ Backend services:', health.services);
+          return true;
+        } else {
+          console.warn('⚠️ Backend health check failed with status:', response.status);
+          return false;
+        }
+      } catch (error) {
+        console.warn('⚠️ Backend not responding:', error.message);
+        return false;
+      }
+    }
+
+    // Connection status monitoring
+    let connectionStatus = $('connectionStatus');
+
+    async function updateConnectionStatus() {
+      if (connectionStatus) {
+        connectionStatus.style.display = 'block';
+        connectionStatus.className = 'connection-status connecting';
+        connectionStatus.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Checking Backend...';
+      }
+
+      const isHealthy = await checkBackendHealth();
+      if (connectionStatus) {
+        if (isHealthy) {
+          connectionStatus.className = 'connection-status connected';
+          connectionStatus.innerHTML = '<i class="fas fa-wifi"></i> Backend Connected';
+        } else {
+          connectionStatus.className = 'connection-status disconnected';
+          connectionStatus.innerHTML = '<i class="fas fa-wifi-slash"></i> Backend Disconnected';
+        }
+
+        // Hide after 3 seconds
+        setTimeout(() => {
+          if (connectionStatus) {
+            connectionStatus.style.display = 'none';
+          }
+        }, 3000);
+      }
+      return isHealthy;
+    }
+
+    // Show connection status when user interacts
+    function showConnectionStatus() {
+      updateConnectionStatus();
+    }
+
+    function scrollToSection(id) {
+        showConnectionStatus();
+        const el = $(id);
+        if (el) {
+            el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        }
+    }
+
+    function showToast(msg, timeout = 3000) {
+      const toast = document.createElement('div');
+      toast.textContent = msg;
+      Object.assign(toast.style, {
+        position: 'fixed', bottom: '90px', left: '50%', transform: 'translateX(-50%)',
+        padding: '12px 18px', background: 'rgba(12,20,40,0.95)', color: 'white',
+        borderRadius: '10px', zIndex: 999999, transition: 'opacity 0.3s', opacity: 0,
+        fontSize: '0.9rem', fontWeight: '500', textAlign: 'center', maxWidth: '80%'
+      });
+      document.body.appendChild(toast);
+      setTimeout(() => { toast.style.opacity = 1; }, 50);
+      setTimeout(() => { toast.style.opacity = 0; }, timeout - 300);
+      setTimeout(() => toast.remove(), timeout);
+    }
+
+    // Modal Functions
     function openLoginModal() {
       const el = $('loginModal');
       if (el) {
-        el.classList.add('active');
         el.style.display = 'flex';
-        el.setAttribute('aria-hidden', 'false');
+        requestAnimationFrame(() => {
+            el.classList.add('active');
+            el.setAttribute('aria-hidden', 'false');
+            el.focus();
+        });
       }
     }
+
     function closeLoginModal() {
       const el = $('loginModal');
       if (el) {
         el.classList.remove('active');
-        el.style.display = 'none';
         el.setAttribute('aria-hidden', 'true');
+        setTimeout(() => {
+          el.style.display = 'none';
+        }, 350);
       }
     }
 
-    // =========================
-    // Chat logic (frontend)
-    // =========================
+    function showRegisterForm() {
+      $('loginFormContainer').style.display = 'none';
+      $('registerFormContainer').style.display = 'block';
+    }
+
+    function showLoginForm() {
+      $('registerFormContainer').style.display = 'none';
+      $('loginFormContainer').style.display = 'block';
+    }
+
+    // Google Sign-In Handler
+    function handleGoogleSignIn(response) {
+      console.log('Google Sign-In response:', response);
+
+      if (response.credential) {
+        showToast('Signing in with Google...');
+
+        // Send the credential to your backend
+        postJSON('/api/google-login', { credential: response.credential })
+          .then(result => {
+            if (result.success) {
+              showToast('Google login successful!');
+              closeLoginModal();
+              // Update UI to show logged in state
+              updateUserInterface(result.user);
+            } else {
+              showToast('Google login failed: ' + (result.message || 'Unknown error'));
+            }
+          })
+          .catch(error => {
+            console.error('Google login error:', error);
+            showToast('Google login failed. Please try again.');
+          });
+      } else {
+        showToast('Google Sign-In was cancelled.');
+      }
+    }
+
+    function updateUserInterface(user) {
+      // Update navigation to show user is logged in
+      const loginButton = document.querySelector('.nav-link[onclick="openLoginModal()"]');
+      if (loginButton && user) {
+        loginButton.textContent = `Hi, ${user.name || user.email}`;
+        loginButton.onclick = null;
+        loginButton.style.cursor = 'default';
+      }
+    }
+
+    function continueAsGuest() {
+      showToast('Signed in as guest — session not persisted.');
+      closeLoginModal();
+    }
+
+    // Input sanitization
+    function sanitizeInput(text, maxLength = 4000) {
+      if (!text) return '';
+
+      // Trim and limit length
+      let sanitized = text.trim().substring(0, maxLength);
+
+      // Remove potentially harmful characters but keep legal text intact
+      sanitized = sanitized.replace(/[<>]/g, '');
+
+      return sanitized;
+    }
+
+    // Registration Handler
+    async function handleRegistration(event) {
+      event.preventDefault();
+
+      const name = sanitizeInput($('registerName').value.trim());
+      const email = sanitizeInput($('registerEmail').value.trim());
+      const password = $('registerPassword').value;
+      const confirmPassword = $('registerConfirmPassword').value;
+
+      if (!name || !email || !password) {
+        showToast('Please fill in all fields');
+        return;
+      }
+
+      if (password !== confirmPassword) {
+        showToast('Passwords do not match');
+        return;
+      }
+
+      if (password.length < 6) {
+        showToast('Password must be at least 6 characters long');
+        return;
+      }
+
+      const registerButton = event.target.querySelector('button[type="submit"]');
+      const originalText = registerButton.innerHTML;
+      registerButton.disabled = true;
+      registerButton.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Creating Account...';
+
+      try {
+        // For now, simulate registration since we don't have a backend endpoint
+        // In a real app, you would call: await postJSON('/api/register', { name, email, password });
+
+        // Simulate API call
+        await new Promise(resolve => setTimeout(resolve, 1500));
+
+        showToast('Account created successfully! You can now login.');
+        showLoginForm();
+
+        // Clear form
+        $('registerForm').reset();
+
+      } catch (error) {
+        showToast('Registration failed: ' + error.message);
+      } finally {
+        registerButton.disabled = false;
+        registerButton.innerHTML = originalText;
+      }
+    }
+
+    // Login Handler
+    async function handleLogin(event) {
+      event.preventDefault();
+
+      const email = sanitizeInput($('loginEmail').value.trim());
+      const password = $('loginPassword').value;
+
+      if (!email || !password) {
+        showToast('Please enter both email and password');
+        return;
+      }
+
+      const loginButton = event.target.querySelector('button[type="submit"]');
+      const originalText = loginButton.innerHTML;
+      loginButton.disabled = true;
+      loginButton.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Signing in...';
+
+      try {
+        // For now, simulate login since we don't have a backend endpoint
+        // In a real app, you would call: await postJSON('/api/login', { email, password });
+
+        // Simulate API call
+        await new Promise(resolve => setTimeout(resolve, 1500));
+
+        showToast('Login successful!');
+        closeLoginModal();
+
+        // Simulate user data
+        updateUserInterface({ name: 'User', email: email });
+
+        // Clear form
+        $('loginForm').reset();
+
+      } catch (error) {
+        showToast('Login failed: ' + error.message);
+      } finally {
+        loginButton.disabled = false;
+        loginButton.innerHTML = originalText;
+      }
+    }
+
+    // Image compression helper
+    function compressImageIfNeeded(dataURL, mimeType, maxWidth = 1200) {
+      return new Promise((resolve) => {
+        const img = new Image();
+        img.onload = function() {
+          // If image is already small, return as-is
+          if (img.width <= maxWidth) {
+            resolve(dataURL);
+            return;
+          }
+
+          // Create canvas for compression
+          const canvas = document.createElement('canvas');
+          const ctx = canvas.getContext('2d');
+
+          // Calculate new dimensions
+          const ratio = maxWidth / img.width;
+          canvas.width = maxWidth;
+          canvas.height = img.height * ratio;
+
+          // Draw and compress
+          ctx.drawImage(img, 0, 0, canvas.width, canvas.height);
+          resolve(canvas.toDataURL(mimeType, 0.8)); // 0.8 quality
+        };
+        img.src = dataURL;
+      });
+    }
+
+    // Chat functionality
     let chatHistory = [{ role: 'bot', text: 'Welcome! How can I assist you with legal matters today?' }];
+    let chatDebounceTimer;
+    const CHAT_WIDGET = $('chatWidget');
+    const CHAT_TOGGLE_BUTTON = $('chatToggleButton');
+
+    function debounceChat() {
+      clearTimeout(chatDebounceTimer);
+      return new Promise(resolve => {
+        chatDebounceTimer = setTimeout(resolve, 300);
+      });
+    }
 
     function renderChatMessages() {
       const list = $('chatMessages');
@@ -674,249 +1159,403 @@
       list.innerHTML = '';
       chatHistory.forEach(msg => {
         const row = document.createElement('div');
-        row.className = 'message-row ' + (msg.role || 'bot');
+        row.className = 'message-row ' + msg.role;
 
         if (msg.role === 'bot') {
           const avatar = document.createElement('div');
           avatar.className = 'chat-avatar';
-          avatar.style.width = '42px';
-          avatar.style.height = '42px';
-          avatar.style.borderRadius = '50%';
-          avatar.style.background = 'linear-gradient(135deg,#6a11cb,#2575fc)';
-          avatar.style.display = 'flex';
-          avatar.style.alignItems = 'center';
-          avatar.style.justifyContent = 'center';
-          avatar.style.color = '#fff';
-          avatar.style.marginRight = '10px';
           avatar.innerHTML = '<i class="fas fa-robot"></i>';
           row.appendChild(avatar);
         }
 
         const bubble = document.createElement('div');
-        bubble.className = 'chat-bubble ' + (msg.role === 'user' ? 'user' : 'bot');
+        bubble.className = 'chat-bubble ' + msg.role;
         bubble.textContent = msg.text || '';
         row.appendChild(bubble);
-
-        if (msg.role === 'user') row.style.justifyContent = 'flex-end';
         list.appendChild(row);
       });
-
       list.scrollTop = list.scrollHeight;
     }
 
     async function sendChatWidget() {
       const inputEl = $('chatInputWidget');
-      if (!inputEl) return;
-      const query = inputEl.value.trim();
+      const sendBtn = $('chatSendBtn');
+      if (!inputEl || !sendBtn) return;
+
+      const query = sanitizeInput(inputEl.value.trim());
       if (!query) return;
+
+      // Debounce rapid requests
+      await debounceChat();
+
+      inputEl.disabled = true;
+      sendBtn.disabled = true;
+      sendBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i>';
 
       chatHistory.push({ role: 'user', text: query });
       renderChatMessages();
       inputEl.value = '';
 
-      // show typing indicator
-      chatHistory.push({ role: 'bot', text: 'AI is typing...' });
+      const typingMessage = { role: 'bot', text: 'AI is typing...' };
+      chatHistory.push(typingMessage);
       renderChatMessages();
 
       try {
-        const res = await fetch('/api/chat', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ query }),
+        const result = await postJSON('/api/chat', { query: query });
+
+        chatHistory.pop();
+        if (result.error) {
+          chatHistory.push({
+            role: 'bot',
+            text: `❌ Error: ${result.error}\n\n💡 ${result.suggestion || 'Please try again later.'}`
+          });
+        } else {
+          chatHistory.push({ role: 'bot', text: result.response || 'No response from AI.' });
+        }
+
+      } catch (error) {
+        chatHistory.pop();
+        chatHistory.push({
+          role: 'bot',
+          text: '❌ Error communicating with AI backend. Please check if the server is running.'
         });
-        const data = await res.json();
-        // remove typing indicator
-        chatHistory.pop();
-        chatHistory.push({ role: 'bot', text: data.response || 'No response from AI.' });
+      } finally {
         renderChatMessages();
-      } catch (err) {
-        console.error('Chat error:', err);
-        chatHistory.pop();
-        chatHistory.push({ role: 'bot', text: 'Error communicating with AI.' });
-        renderChatMessages();
+        inputEl.disabled = false;
+        sendBtn.disabled = false;
+        sendBtn.innerHTML = '<i class="fas fa-paper-plane"></i>';
+        inputEl.focus();
       }
     }
 
     function toggleChat() {
-      const widget = $('chatWidget');
-      const toggle = $('chatToggleButton');
-      if (!widget) return;
-      const active = widget.classList.toggle('active');
-      widget.style.pointerEvents = active ? 'auto' : 'none';
-      widget.style.opacity = active ? '1' : '0';
-      if (toggle) toggle.style.display = active ? 'none' : 'flex';
-      if (active) {
+      const icon = $('chatToggleIcon');
+      if (!CHAT_WIDGET || !icon) return;
+
+      const isActive = CHAT_WIDGET.classList.toggle('active');
+
+      CHAT_WIDGET.setAttribute('aria-hidden', !isActive);
+      icon.innerHTML = isActive ? '<i class="fas fa-chevron-down"></i>' : '<i class="fas fa-chevron-up"></i>';
+
+      if (isActive) {
         setTimeout(() => {
           const input = $('chatInputWidget');
           if (input) input.focus();
-        }, 180);
+        }, 450);
       }
     }
 
     function openChatBot() {
-      const widget = $('chatWidget');
-      if (!widget) return;
-      if (!widget.classList.contains('active')) toggleChat();
+      showConnectionStatus();
+      if (!CHAT_WIDGET) return;
+      if (!CHAT_WIDGET.classList.contains('active')) toggleChat();
     }
 
-    // =========================
-    // AI feature helper: ask backend endpoints
-    // Common function for handling POST -> JSON results
-    // =========================
-    async function postJSON(url, payload) {
-      try {
-        const res = await fetch(url, {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify(payload)
-        });
-        if (!res.ok) {
-          const txt = await res.text();
-          console.error('postJSON error payload', url, payload, 'status', res.status, txt);
-          return { error: 'Server error: ' + res.status + ' — ' + txt };
-        }
-        return await res.json();
-      } catch (e) {
-        console.error('postJSON network error:', e);
-        return { error: e.message || 'Network error' };
-      }
-    }
-
-    // =========================
-    // Clause Simplifier
-    // =========================
+    // AI Feature Functions
     async function simplifyClause() {
-      const input = $('clauseInput');
-      const output = $('simplifiedClause');
-      if (!input || !output) return;
-      const text = input.value.trim();
-      if (!text) { output.textContent = 'Please enter a clause to simplify.'; return; }
-      output.textContent = 'Processing...';
-      const result = await postJSON('/api/simplify', { text });
-      if (result.error) {
-        output.textContent = 'Error: ' + result.error;
-      } else {
-        output.textContent = (result.simplified || result.response || JSON.stringify(result)).trim();
-      }
-    }
+        const input = $('clauseInput');
+        const output = $('simplifiedClause');
+        const button = $('btnSimplify');
 
-    // =========================
-    // Contract Summarizer
-    // =========================
-    async function analyzeContract() {
-      const input = $('contractInput');
-      const output = $('contractSummary');
-      if (!input || !output) return;
-      const text = input.value.trim();
-      if (!text) { output.textContent = 'Please paste contract text.'; return; }
-      output.textContent = 'Processing...';
-      const result = await postJSON('/api/summarize', { text });
-      if (result.error) output.textContent = 'Error: ' + result.error;
-      else output.textContent = (result.summary || result.response || JSON.stringify(result)).trim();
-    }
+        if (!input || !output || !button) return;
 
-    // =========================
-    // Risk Analysis
-    // =========================
-    async function performRiskAnalysis() {
-      const input = $('riskInput');
-      const output = $('riskResult');
-      if (!input || !output) return;
-      const text = input.value.trim();
-      if (!text) { output.textContent = 'Please provide text for analysis.'; return; }
-      output.textContent = 'Analyzing...';
-      const result = await postJSON('/api/risk', { text });
-      if (result.error) output.textContent = 'Error: ' + result.error;
-      else output.textContent = (result.risks || result.response || JSON.stringify(result)).trim();
-    }
-
-    // =========================
-    // Compliance Checker
-    // =========================
-    async function checkCompliance() {
-      const input = $('complianceInput');
-      const output = $('complianceResult');
-      if (!input || !output) return;
-      const text = input.value.trim();
-      if (!text) { output.textContent = 'Enter text to check compliance.'; return; }
-      output.textContent = 'Checking compliance...';
-      const result = await postJSON('/api/compliance', { text });
-      if (result.error) output.textContent = 'Error: ' + result.error;
-      else output.textContent = (result.compliance || result.response || JSON.stringify(result)).trim();
-    }
-
-    // =========================
-    // News (Legal Updates)
-    // =========================
-    async function fetchCustomNews() {
-      const input = $('newsInput');
-      const output = $('newsResult');
-      if (!input || !output) return;
-      const topic = input.value.trim();
-      if (!topic) { output.textContent = 'Please enter a topic.'; return; }
-      output.textContent = 'Fetching updates...';
-      const result = await postJSON('/api/news', { topic });
-      if (result.error) output.textContent = 'Error: ' + result.error;
-      else {
-        if (result.updates && result.updates.length) output.textContent = result.updates.join('\\n\\n');
-        else output.textContent = 'No updates found for: ' + topic;
-      }
-    }
-
-    // =========================
-    // OCR (client sends base64 to backend)
-    // server must run pytesseract or return error text
-    // =========================
-    function doOCR() {
-      const fileInput = $('ocrFile');
-      const output = $('ocrResult');
-      if (!fileInput || !output) return;
-      if (fileInput.files.length === 0) { output.textContent = 'Please select an image file.'; return; }
-      const file = fileInput.files[0];
-      const reader = new FileReader();
-      output.textContent = 'Preparing image...';
-      reader.onload = async function() {
-        const base64 = reader.result.split(',')[1];
-        output.textContent = 'Sending to server for OCR...';
-        try {
-          const res = await postJSON('/api/ocr', { imageData: base64 });
-          if (res.error) output.textContent = 'Error: ' + res.error;
-          else output.textContent = (res.text || JSON.stringify(res)).trim();
-        } catch (e) {
-          output.textContent = 'OCR failed: ' + (e.message || e);
+        const text = sanitizeInput(input.value.trim());
+        if (!text) {
+            output.textContent = 'Please enter a clause to simplify.';
+            return;
         }
-      };
-      reader.onerror = function(e) {
-        output.textContent = 'Error reading file: ' + e;
-      };
-      reader.readAsDataURL(file);
+
+        if (text.length < 10) {
+            output.textContent = 'Please enter a longer clause for meaningful simplification.';
+            return;
+        }
+
+        const originalText = button.innerHTML;
+        button.disabled = true;
+        button.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Processing...';
+        output.textContent = 'Simplifying clause...';
+
+        try {
+            const result = await postJSON('/api/simplify', { text: text });
+            if (result.error) {
+                output.textContent = `Error: ${result.error}`;
+                if (result.details) {
+                    output.textContent += `\nDetails: ${result.details}`;
+                }
+            } else {
+                output.textContent = result.simplified || 'No response received';
+            }
+        } catch (error) {
+            output.textContent = `Error: ${error.message}`;
+        } finally {
+            button.disabled = false;
+            button.innerHTML = originalText;
+        }
     }
 
-    // =========================
-    // small helpers and navigation
-    // =========================
-    function scrollToSection(id) {
-      const el = $(id);
-      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    async function summarizeContract() {
+        const input = $('contractInput');
+        const output = $('contractSummary');
+        const button = $('btnSummarize');
+
+        if (!input || !output || !button) return;
+
+        const text = sanitizeInput(input.value.trim());
+        if (!text) {
+            output.textContent = 'Please paste contract text.';
+            return;
+        }
+
+        if (text.length < 20) {
+            output.textContent = 'Please enter a longer contract text for meaningful summarization.';
+            return;
+        }
+
+        const originalText = button.innerHTML;
+        button.disabled = true;
+        button.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Processing...';
+        output.textContent = 'Summarizing contract...';
+
+        try {
+            const result = await postJSON('/api/summarize', { text: text });
+            if (result.error) {
+                output.textContent = `Error: ${result.error}`;
+                if (result.details) {
+                    output.textContent += `\nDetails: ${result.details}`;
+                }
+            } else {
+                output.textContent = result.summary || 'No response received';
+            }
+        } catch (error) {
+            output.textContent = `Error: ${error.message}`;
+        } finally {
+            button.disabled = false;
+            button.innerHTML = originalText;
+        }
     }
 
-    // bind simple helpers to avoid null reference
-    window.openChatBot = openChatBot;
-    window.toggleChat = toggleChat;
-    window.openLoginModal = openLoginModal;
-    window.closeLoginModal = closeLoginModal;
-    window.simplifyClause = simplifyClause;
-    window.analyzeContract = analyzeContract;
-    window.doOCR = doOCR;
-    window.performRiskAnalysis = performRiskAnalysis;
-    window.checkCompliance = checkCompliance;
-    window.fetchCustomNews = fetchCustomNews;
-    window.sendChatWidget = sendChatWidget;
+    async function performRiskAnalysis() {
+        const input = $('riskInput');
+        const output = $('riskResult');
+        const button = $('btnRiskAnalyze');
 
-    // Defensive log to indicate script loaded
-    console.info('AutoLegal frontend scripts loaded.');
+        if (!input || !output || !button) return;
 
-    /* End of main JS */
+        const text = sanitizeInput(input.value.trim());
+        if (!text) {
+            output.textContent = 'Please provide text for risk analysis.';
+            return;
+        }
+
+        if (text.length < 10) {
+            output.textContent = 'Please enter more text for meaningful risk analysis.';
+            return;
+        }
+
+        const originalText = button.innerHTML;
+        button.disabled = true;
+        button.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Processing...';
+        output.textContent = 'Analyzing risks...';
+
+        try {
+            const result = await postJSON('/api/risk', { text: text });
+            if (result.error) {
+                output.textContent = `Error: ${result.error}`;
+                if (result.details) {
+                    output.textContent += `\nDetails: ${result.details}`;
+                }
+            } else {
+                output.textContent = result.risks || 'No response received';
+            }
+        } catch (error) {
+            output.textContent = `Error: ${error.message}`;
+        } finally {
+            button.disabled = false;
+            button.innerHTML = originalText;
+        }
+    }
+
+    async function checkCompliance() {
+        const input = $('complianceInput');
+        const output = $('complianceResult');
+        const button = $('btnComplianceCheck');
+
+        if (!input || !output || !button) return;
+
+        const text = sanitizeInput(input.value.trim());
+        if (!text) {
+            output.textContent = 'Please provide text for compliance check.';
+            return;
+        }
+
+        if (text.length < 10) {
+            output.textContent = 'Please enter more text for meaningful compliance check.';
+            return;
+        }
+
+        const originalText = button.innerHTML;
+        button.disabled = true;
+        button.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Processing...';
+        output.textContent = 'Checking compliance...';
+
+        try {
+            const result = await postJSON('/api/compliance', { text: text });
+            if (result.error) {
+                output.textContent = `Error: ${result.error}`;
+                if (result.details) {
+                    output.textContent += `\nDetails: ${result.details}`;
+                }
+            } else {
+                output.textContent = result.compliance || 'No response received';
+            }
+        } catch (error) {
+            output.textContent = `Error: ${error.message}`;
+        } finally {
+            button.disabled = false;
+            button.innerHTML = originalText;
+        }
+    }
+
+    async function fetchCustomNews() {
+        const input = $('newsInput');
+        const output = $('newsResult');
+        const button = $('btnGetNews');
+
+        if (!input || !output || !button) return;
+
+        const topic = sanitizeInput(input.value.trim());
+        if (!topic) {
+            output.textContent = 'Please enter a news topic.';
+            return;
+        }
+
+        const originalText = button.innerHTML;
+        button.disabled = true;
+        button.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Processing...';
+        output.textContent = 'Fetching legal updates...';
+
+        try {
+            const result = await postJSON('/api/news', { topic: topic });
+            if (result.error) {
+                output.textContent = `Error: ${result.error}`;
+                if (result.details) {
+                    output.textContent += `\nDetails: ${result.details}`;
+                }
+            } else {
+                const updates = result.updates || [];
+                output.textContent = updates.join('\n\n') || 'No news found for this topic';
+            }
+        } catch (error) {
+            output.textContent = `Error: ${error.message}`;
+        } finally {
+            button.disabled = false;
+            button.innerHTML = originalText;
+        }
+    }
+
+    async function doOCR() {
+        const fileInput = $('ocrFile');
+        const output = $('ocrResult');
+        const button = $('btnOCR');
+
+        if (!fileInput.files[0]) {
+            output.textContent = 'Please select an image file.';
+            return;
+        }
+
+        const file = fileInput.files[0];
+
+        // File validation
+        const validTypes = ['image/jpeg', 'image/png', 'image/jpg', 'image/gif', 'image/bmp'];
+        const maxSize = 5 * 1024 * 1024; // 5MB
+
+        if (!validTypes.includes(file.type)) {
+            output.textContent = 'Please select a valid image file (JPEG, PNG, GIF, BMP).';
+            return;
+        }
+
+        if (file.size > maxSize) {
+            output.textContent = 'Image size too large. Please select an image under 5MB.';
+            return;
+        }
+
+        const originalText = button.innerHTML;
+        button.disabled = true;
+        button.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i> Processing...';
+        output.textContent = 'Processing image...';
+
+        const reader = new FileReader();
+
+        reader.onload = async function(e) {
+            try {
+                // Compress image if too large
+                const base64Image = await compressImageIfNeeded(e.target.result, file.type);
+                const result = await postJSON('/api/ocr', { imageData: base64Image });
+
+                if (result.error) {
+                    output.textContent = `Error: ${result.error}`;
+                    if (result.details) {
+                        output.textContent += `\nDetails: ${result.details}`;
+                    }
+                } else {
+                    output.textContent = result.text || 'No text extracted from image';
+                }
+            } catch (error) {
+                output.textContent = `Error: ${error.message}`;
+            } finally {
+                button.disabled = false;
+                button.innerHTML = originalText;
+            }
+        };
+
+        reader.onerror = function() {
+            output.textContent = 'Error reading file. Please try another image.';
+            button.disabled = false;
+            button.innerHTML = originalText;
+        };
+
+        reader.readAsDataURL(file);
+    }
+
+    // Initialize everything when DOM is loaded
+    document.addEventListener('DOMContentLoaded', () => {
+        const yearEl = $('currentYear');
+        if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+        // Check backend health on startup
+        updateConnectionStatus();
+
+        // Bind form submissions
+        safeBind($('registerForm'), 'submit', handleRegistration);
+        safeBind($('loginForm'), 'submit', handleLogin);
+
+        // Bind modal close
+        safeBind($('modalCloseBtn'), 'click', closeLoginModal);
+
+        // Initialize chat
+        renderChatMessages();
+
+        // Bind chat input
+        safeBind($('chatInputWidget'), 'keypress', function(e) {
+            if (e.key === 'Enter') {
+                sendChatWidget();
+            }
+        });
+
+        // Close modal when clicking outside
+        safeBind($('loginModal'), 'click', function(e) {
+            if (e.target.id === 'loginModal') {
+                closeLoginModal();
+            }
+        });
+
+        // Add connection status check to main interactions
+        const mainButtons = document.querySelectorAll('.btn-primary, .offer-card, .nav-link');
+        mainButtons.forEach(button => {
+            safeBind(button, 'click', showConnectionStatus);
+        });
+    });
+
   </script>
 </body>
 </html>
