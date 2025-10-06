@@ -1,0 +1,922 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AutoLegal – AI Legal Assistant</title>
+
+  <!-- Fonts, icons, bootstrap -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet"/>
+
+  <!-- Google Identity Services library -->
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+
+  <style>
+    /* ===========================
+       AutoLegal - Main Styles
+       ===========================
+       A full, modern UI styling block with responsive layout,
+       accessibility-focused spacing, and visually distinct components.
+    */
+    :root {
+      --bg: #f7f9fb;
+      --card: #ffffff;
+      --muted: #666;
+      --primary: #0b1226;
+      --accent1: #6a11cb;
+      --accent2: #2575fc;
+      --accent-grad: linear-gradient(135deg, var(--accent1), var(--accent2));
+      --output-bg: #eef2f7;
+      --radius-lg: 18px;
+      --radius-md: 12px;
+      --shadow-soft: 0 10px 30px rgba(2,6,23,0.08);
+      font-family: 'Roboto', sans-serif;
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      background: var(--bg);
+      color: var(--primary);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      scroll-behavior: smooth;
+    }
+
+    /* ---------- Nav ---------- */
+    nav.navbar {
+      background: #121416;
+      padding: 0.6rem 1rem;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+    }
+    .navbar-brand { color: #fff; font-weight: 900; letter-spacing: 0.02em; }
+    .nav-link { color: #cfcfcf !important; font-weight:600; margin-left: 12px; }
+    .nav-link:hover { color: #fff !important; text-decoration: none; }
+
+    /* ---------- Hero ---------- */
+    .hero {
+      padding: 6.5rem 1.25rem 3.5rem;
+      text-align: center;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .hero h1 {
+      font-size: 3.2rem;
+      margin-bottom: 0.75rem;
+      color: var(--primary);
+      font-weight: 900;
+    }
+    .hero p { font-size: 1.15rem; color: var(--muted); margin-bottom: 1.5rem; }
+
+    .cta-buttons { display:flex; gap: 1rem; justify-content:center; flex-wrap:wrap; }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+      border-radius: 12px;
+      padding: 0.9rem 2.2rem;
+      font-weight: 800;
+    }
+    .btn-secondary {
+      background: transparent;
+      color: var(--primary);
+      border: 2px solid var(--primary);
+      border-radius: 12px;
+      padding: 0.8rem 1.8rem;
+      font-weight: 700;
+    }
+
+    /* ---------- Layout ---------- */
+    .section-container { max-width: 1200px; margin: 2.6rem auto; padding: 0 1rem; }
+    .section-title { font-size: 2.5rem; font-weight: 900; text-align:center; margin-bottom: 2rem; }
+
+    .offer-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1.5rem;
+      margin-bottom: 1.8rem;
+    }
+
+    .offer-card {
+      background: var(--card);
+      border-radius: var(--radius-lg);
+      padding: 2.1rem;
+      box-shadow: var(--shadow-soft);
+      text-align:center;
+      cursor:pointer;
+      transition: transform 0.22s ease, box-shadow 0.22s ease;
+      font-weight: 800;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+    .offer-card:hover { transform: translateY(-8px); box-shadow: 0 18px 48px rgba(0,0,0,0.12); }
+
+    .offer-card i { font-size: 3.8rem; color: var(--primary); margin-bottom: 0.8rem; }
+
+    .ai-feature-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.6rem;
+    }
+
+    .feature-card {
+      background: var(--card);
+      padding: 1.75rem;
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-soft);
+      display:flex;
+      flex-direction: column;
+      min-height: 320px;
+    }
+    .feature-card h5 { margin-bottom: 0.8rem; font-weight: 900; color: var(--muted); }
+    .feature-card p { margin-bottom: 1rem; color: #444; }
+
+    textarea, input[type="text"], input[type="file"] {
+      width: 100%;
+      border-radius: 12px;
+      padding: 0.95rem 1rem;
+      border: 1px solid #dcdcdc;
+      font-size: 1rem;
+      resize: vertical;
+      margin-bottom: 0.8rem;
+    }
+
+    .text-output {
+      background: var(--output-bg);
+      padding: 1rem;
+      border-radius: 10px;
+      min-height: 90px;
+      white-space: pre-wrap;
+      font-family: monospace;
+      color: #111;
+    }
+
+    /* ---------- Chat widget ---------- */
+    #chatToggleButton {
+      position: fixed;
+      right: 28px;
+      bottom: 28px;
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size: 26px;
+      color: white;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      box-shadow: 0 10px 32px rgba(40,60,150,0.25);
+      z-index: 9999;
+      cursor:pointer;
+    }
+
+    #chatWidget {
+      position: fixed;
+      right: 28px;
+      bottom: 110px;
+      width: 360px;
+      height: 520px;
+      border-radius: 18px;
+      display: flex;
+      flex-direction: column;
+      background: white;
+      box-shadow: 0 28px 68px rgba(0,0,0,0.16);
+      transform: translateY(18px);
+      opacity: 0;
+      pointer-events: none;
+      transition: all 0.35s cubic-bezier(.22,.9,.3,1);
+      z-index: 9999;
+    }
+    #chatWidget.active { transform: translateY(0); opacity: 1; pointer-events: auto; }
+
+    #chatWidgetHeader {
+      padding: 14px 18px;
+      background: linear-gradient(135deg, #6a11cb, #2575fc);
+      color: #fff;
+      border-top-left-radius: 18px;
+      border-top-right-radius: 18px;
+      display:flex;
+      align-items:center;
+      justify-content: space-between;
+      font-weight: 800;
+    }
+    #chatWidgetBody { padding: 14px; display:flex; flex-direction: column; height: calc(100% - 64px); background: #f7fbff; }
+
+    #chatMessages { flex: 1; overflow-y: auto; margin-bottom: 10px; }
+    .message-row { display:flex; align-items:flex-end; margin-bottom: 10px; }
+    .message-row.user { justify-content:flex-end; }
+    .chat-bubble { padding: 10px 14px; border-radius: 14px; max-width: 78%; box-shadow: 0 6px 18px rgba(0,0,0,0.06); }
+    .chat-bubble.bot { background: #e9f0ff; color: #0b1226; border-bottom-left-radius: 6px; }
+    .chat-bubble.user { background: linear-gradient(135deg, #2575fc, #6a11cb); color: #fff; border-bottom-right-radius: 6px; }
+
+    .chat-input-container { display:flex; gap: 10px; align-items:center; margin-top: 6px; }
+    .chat-input-container input { flex:1; padding: 12px 14px; border-radius: 999px; border: 1px solid #d8d8d8; }
+    .chat-input-container button { padding: 10px 14px; border-radius: 999px; border: none; background: #2575fc; color: white; font-weight: 800; }
+
+    /* ---------- Modal ---------- */
+    .modal-overlay {
+      position: fixed;
+      inset: 0;
+      display:none;
+      align-items: center;
+      justify-content: center;
+      background: rgba(2,6,23,0.6);
+      z-index: 99999;
+    }
+    .modal-overlay.active { display:flex; }
+    .modal-content {
+      background: white;
+      width: 420px;
+      max-width: 94%;
+      border-radius: 16px;
+      padding: 1.8rem;
+      box-shadow: 0 24px 64px rgba(0,0,0,0.22);
+      position: relative;
+    }
+    .modal-close { position: absolute; right: 12px; top: 8px; border:none; background:none; font-size: 1.8rem; color:#999; cursor:pointer; }
+
+    /* ---------- Footer ---------- */
+    footer { margin-top: 3rem; padding: 2.5rem 1rem; background: white; text-align:center; border-top: 1px solid #eee; }
+    footer .footer-credit { color: var(--muted); font-weight: 600; }
+
+    /* ---------- Responsive ---------- */
+    @media (max-width: 992px) {
+      .offer-grid { grid-template-columns: repeat(2,1fr); }
+      .ai-feature-grid { grid-template-columns: 1fr; }
+      #chatWidget { right: 16px; left: 16px; width: auto; bottom: 80px; max-width: calc(100% - 32px); }
+    }
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 2.2rem; }
+      .offer-grid { grid-template-columns: 1fr; }
+      #chatToggleButton { right: 16px; bottom: 18px; width: 56px; height: 56px; }
+    }
+
+  </style>
+</head>
+<body>
+
+  <!-- ============================
+       NAVIGATION
+       ============================ -->
+  <nav class="navbar navbar-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">AutoLegal</a>
+      <div class="d-flex align-items-center">
+        <button class="btn btn-link nav-link" onclick="scrollToSection('offer')">Offerings</button>
+        <button class="btn btn-link nav-link" onclick="scrollToSection('features')">Features</button>
+        <button class="btn btn-link nav-link" onclick="openLoginModal()">Login</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============================
+       HERO
+       ============================ -->
+  <section class="hero" id="hero" role="banner" aria-label="AutoLegal Hero">
+    <h1>AutoLegal — AI Legal Assistant</h1>
+    <p>Smart, fast, and tailored AI tools for contracts, compliance, OCR and legal research — built for Indian law workflows.</p>
+    <div class="cta-buttons">
+      <button class="btn btn-primary" onclick="scrollToSection('features')">Try the AI Tools</button>
+      <button class="btn btn-secondary" onclick="openLoginModal()">Login / Connect</button>
+    </div>
+  </section>
+
+  <!-- ============================
+       OFFERINGS
+       ============================ -->
+  <section id="offer" class="section-container" aria-label="What we offer">
+    <h2 class="section-title">What We Offer</h2>
+
+    <div class="offer-grid" role="list" aria-label="Feature grid">
+      <div class="offer-card" role="listitem" tabindex="0" onclick="scrollToSection('simplifySection')">
+        <i class="fas fa-lightbulb"></i>
+        <div>Clause Simplification</div>
+      </div>
+      <div class="offer-card" role="listitem" tabindex="0" onclick="scrollToSection('riskSection')">
+        <i class="fas fa-shield-alt"></i>
+        <div>Risk Analysis</div>
+      </div>
+      <div class="offer-card" role="listitem" tabindex="0" onclick="scrollToSection('complianceSection')">
+        <i class="fas fa-balance-scale"></i>
+        <div>Compliance Checking</div>
+      </div>
+      <div class="offer-card" role="listitem" tabindex="0" onclick="scrollToSection('summarizeSection')">
+        <i class="fas fa-file-contract"></i>
+        <div>Contract Summaries</div>
+      </div>
+    </div>
+
+    <div class="offer-grid" style="grid-template-columns: repeat(3,1fr);">
+      <div class="offer-card" onclick="scrollToSection('ocrSection')">
+        <i class="fas fa-camera"></i>
+        <div>OCR & Extraction</div>
+      </div>
+      <div class="offer-card" onclick="openChatBot()">
+        <i class="fas fa-robot"></i>
+        <div>AI Legal Chatbot</div>
+      </div>
+      <div class="offer-card" onclick="scrollToSection('newsSection')">
+        <i class="fas fa-newspaper"></i>
+        <div>Legal Updates</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       FEATURES SECTION (same page outputs)
+       ============================ -->
+  <section id="features" class="section-container">
+    <h3 class="section-title">AI Tools</h3>
+
+    <div class="ai-feature-grid" role="list" aria-label="AI features">
+
+      <!-- Clause Simplifier -->
+      <div class="feature-card" id="simplifySection" role="article" aria-label="Clause simplifier">
+        <h5>Clause Simplifier</h5>
+        <p>Paste a clause and get a plain-language explanation.</p>
+        <textarea id="clauseInput" placeholder="Enter the clause text here..." rows="5"></textarea>
+        <button id="btnSimplify" class="btn btn-primary" onclick="simplifyClause()">Simplify Clause</button>
+        <div id="simplifiedClause" class="text-output" aria-live="polite" role="status">Results will appear here...</div>
+      </div>
+
+      <!-- Contract Summarizer -->
+      <div class="feature-card" id="summarizeSection" role="article" aria-label="Contract summarizer">
+        <h5>Contract Summarizer</h5>
+        <p>Paste contract text to produce a short summary with bullet points.</p>
+        <textarea id="contractInput" placeholder="Paste the contract text here..." rows="5"></textarea>
+        <button id="btnSummarize" class="btn btn-primary" onclick="analyzeContract()">Summarize Contract</button>
+        <div id="contractSummary" class="text-output" aria-live="polite" role="status">Summary will appear here...</div>
+      </div>
+
+      <!-- OCR -->
+      <div class="feature-card" id="ocrSection" role="article" aria-label="OCR extraction">
+        <h5>OCR & Extraction</h5>
+        <p>Upload an image and we will extract the text. Note: server must have OCR support or fallback will be used.</p>
+        <input type="file" id="ocrFile" accept="image/*" />
+        <button id="btnOCR" class="btn btn-primary" onclick="doOCR()">Extract Text from Image</button>
+        <div id="ocrResult" class="text-output" aria-live="polite" role="status">OCR output will appear here...</div>
+      </div>
+
+      <!-- Risk Analysis -->
+      <div class="feature-card" id="riskSection" role="article" aria-label="Risk analysis">
+        <h5>Risk Analysis</h5>
+        <p>Paste text or a contract clause to identify potential legal risks.</p>
+        <textarea id="riskInput" placeholder="Enter text to analyze risk..." rows="5"></textarea>
+        <button id="btnRiskAnalyze" class="btn btn-primary" onclick="performRiskAnalysis()">Analyze Risk</button>
+        <div id="riskResult" class="text-output" aria-live="polite" role="status">Risk analysis results...</div>
+      </div>
+
+      <!-- Compliance Checker -->
+      <div class="feature-card" id="complianceSection" role="article" aria-label="Compliance checker">
+        <h5>Compliance Checker (India)</h5>
+        <p>Check for compliance issues under Indian law.</p>
+        <textarea id="complianceInput" placeholder="Enter compliance-related text..." rows="5"></textarea>
+        <button id="btnComplianceCheck" class="btn btn-primary" onclick="checkCompliance()">Check Compliance</button>
+        <div id="complianceResult" class="text-output" aria-live="polite" role="status">Compliance check output...</div>
+      </div>
+
+      <!-- Legal Updates -->
+      <div class="feature-card" id="newsSection" role="article" aria-label="Legal updates finder">
+        <h5>Legal Updates Finder</h5>
+        <p>Search for current legal news by topic (uses NewsAPI).</p>
+        <input id="newsInput" type="text" placeholder="e.g., GST, Indian Contract Act" />
+        <button id="btnGetNews" class="btn btn-primary" onclick="fetchCustomNews()">Get Updates</button>
+        <div id="newsResult" class="text-output" aria-live="polite" role="status">News updates will appear here...</div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================
+       CHAT WIDGET (floating)
+       ============================ -->
+  <div id="chatToggleButton" title="Open chat" aria-label="Open chat" role="button" tabindex="0" onclick="openChatBot()">
+    <i class="fas fa-robot"></i>
+  </div>
+
+  <div id="chatWidget" aria-hidden="true" role="dialog" aria-label="AI chat widget">
+    <div id="chatWidgetHeader" tabindex="0" role="button" onclick="toggleChat()">
+      <div style="display:flex; align-items:center; gap:12px;">
+        <i class="fas fa-robot" style="font-size:1.4rem;"></i>
+        <div style="font-weight:900;">AI Legal Chat</div>
+      </div>
+      <div style="font-weight:800;"><i class="fas fa-chevron-down"></i></div>
+    </div>
+    <div id="chatWidgetBody">
+      <div id="chatMessages" role="log" aria-live="polite"></div>
+      <div class="chat-input-container">
+        <input id="chatInputWidget" placeholder="Ask your legal question..." onkeypress="if(event.key==='Enter') sendChatWidget()" aria-label="Chat input" />
+        <button id="chatSendBtn" onclick="sendChatWidget()"><i class="fas fa-paper-plane"></i></button>
+      </div>
+      <div style="font-size:0.75rem; color:#666; margin-top:8px; text-align:center;">Disclaimer: AI responses are informational and not legal advice.</div>
+    </div>
+  </div>
+
+  <!-- ============================
+       LOGIN MODAL
+       ============================ -->
+  <div id="loginModal" class="modal-overlay" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-content" role="document">
+      <button id="modalCloseBtn" class="modal-close" aria-label="Close">&times;</button>
+      <h2 style="margin-top:0; margin-bottom:8px;">Welcome to AutoLegal</h2>
+      <p style="color:var(--muted); margin-bottom:1.2rem;">Sign in with Google to save your sessions, or continue as guest.</p>
+
+      <div style="display:flex; flex-direction:column; gap:12px; margin-bottom: 1rem;">
+        <button id="btnGoogle" class="btn-google" style="background:#db4437; color:white; padding:12px 16px; border-radius:10px; border:none;">
+          <i class="fab fa-google" style="margin-right:8px;"></i> Continue with Google
+        </button>
+        <button id="btnGuest" style="background:var(--primary); color:white; border-radius:10px; padding:12px 16px; border:none;">Continue as Guest</button>
+      </div>
+
+      <hr style="margin: 12px 0;" />
+
+      <form id="loginForm" autocomplete="off">
+        <input type="text" id="username" placeholder="Username" required />
+        <input type="password" id="password" placeholder="Password" required />
+        <div class="login-actions" style="display:flex; gap:8px;">
+          <button type="submit" class="btn login-btn" style="flex:1; background:var(--primary); color:white;">Login</button>
+          <button type="button" id="btnRegister" class="btn" style="flex:1; background:#6c757d; color:white;">Register</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ============================
+       FOOTER
+       ============================ -->
+  <footer role="contentinfo">
+    <div class="footer-container">
+      <div class="about">
+        <h3>About AutoLegal</h3>
+        <p style="max-width:520px;">AutoLegal streamlines legal workflows tailored for Indian law — contract summarization, clause simplification, risk spotting, OCR extraction, and legal updates in one intelligent assistant.</p>
+      </div>
+      <div class="links" style="text-align:center;">
+        <h3>Quick Links</h3>
+        <ul style="list-style:none; padding:0; margin:0;">
+          <li><a href="#hero" onclick="scrollToSection('hero')">Home</a></li>
+          <li><a href="#offer" onclick="scrollToSection('offer')">Offerings</a></li>
+          <li><a href="#features" onclick="scrollToSection('features')">Features</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-credit">&copy; 2023 - <span id="currentYear"></span> AutoLegal. All rights reserved.</div>
+  </footer>
+
+  <!-- ============================
+       SCRIPTS - Behavior & AJAX
+       ============================ -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+    /* =========================================================
+       Main frontend script — handles Google Sign-In, chat,
+       feature calls (simplify/summarize/risk/compliance), OCR,
+       and UI interactions. All DOM calls are guarded to avoid
+       "reading 'addEventListener' of null" errors.
+       ========================================================= */
+
+    // Replace with YOUR Google Client ID (from Google Cloud Console)
+    const GOOGLE_CLIENT_ID = "458527801830-lu08hpr2j2burpa9i15l1j7g832pfb3o.apps.googleusercontent.com";
+
+    // Small helper — safe element retrieval
+    function $(id) {
+      return document.getElementById(id);
+    }
+
+    // DOM ready guard
+    document.addEventListener('DOMContentLoaded', () => {
+      // Set footer year
+      const yearEl = $('currentYear');
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+      // Setup buttons and events safely (only if elements exist)
+      const btnGoogle = $('btnGoogle');
+      const modalClose = $('modalCloseBtn');
+      const loginModal = $('loginModal');
+      const btnGuest = $('btnGuest');
+      const registerBtn = $('btnRegister');
+      const loginForm = $('loginForm');
+
+      // Initialize google.accounts.id only if client id is replaced (prevents errors)
+      if (window.google && typeof window.google.accounts !== 'undefined') {
+        try {
+          window.google.accounts.id.initialize({
+            client_id: GOOGLE_CLIENT_ID,
+            callback: handleGoogleCredentialResponse,
+            auto_select: false,
+            cancel_on_tap_outside: true,
+          });
+        } catch (e) {
+          console.warn('Google Identity initialization failed: ', e);
+        }
+      } else {
+        console.warn('Google Identity library not available - sign-in disabled.');
+      }
+
+      // Attach handlers (guarded)
+      if (btnGoogle) {
+        btnGoogle.addEventListener('click', () => {
+          if (window.google && window.google.accounts) {
+            try {
+              window.google.accounts.id.prompt();
+            } catch (e) {
+              alert('Google prompt failed — check client id and console for details.');
+            }
+          } else {
+            alert('Google sign-in is not loaded. Check your internet connection or script tag.');
+          }
+        });
+      }
+
+      if (modalClose) {
+        modalClose.addEventListener('click', () => {
+          closeLoginModal();
+        });
+      }
+
+      if (btnGuest) {
+        btnGuest.addEventListener('click', () => {
+          closeLoginModal();
+          showToast('Signed in as guest — session not persisted.');
+        });
+      }
+
+      if (registerBtn) {
+        registerBtn.addEventListener('click', () => {
+          alert('Register flow not implemented — placeholder.');
+        });
+      }
+
+      if (loginForm) {
+        loginForm.addEventListener('submit', (ev) => {
+          ev.preventDefault();
+          // a simple local login placeholder — do not use for production
+          const user = $('username').value || 'user';
+          closeLoginModal();
+          showToast('Logged in as ' + user + ' (local placeholder)');
+        });
+      }
+
+      // Ensure other feature buttons exist before binding to avoid null errors
+      safeBind($('btnSimplify'), 'click', simplifyClause);
+      safeBind($('btnSummarize'), 'click', analyzeContract);
+      safeBind($('btnOCR'), 'click', doOCR);
+      safeBind($('btnRiskAnalyze'), 'click', performRiskAnalysis);
+      safeBind($('btnComplianceCheck'), 'click', checkCompliance);
+      safeBind($('btnGetNews'), 'click', fetchCustomNews);
+      safeBind($('chatSendBtn'), 'click', sendChatWidget);
+
+      // Initialize chat input enter key
+      const chatInput = $('chatInputWidget');
+      if (chatInput) {
+        chatInput.addEventListener('keydown', (e) => {
+          if (e.key === 'Enter' && !e.shiftKey) {
+            e.preventDefault();
+            sendChatWidget();
+          }
+        });
+      }
+
+      // Render initial chat welcome
+      renderChatMessages();
+    });
+
+    // Small safe event binder
+    function safeBind(el, event, fn) {
+      if (el && typeof fn === 'function') el.addEventListener(event, fn);
+    }
+
+    // UI helpers (toast-like)
+    function showToast(msg, timeout = 3000) {
+      // Simple non-blocking toast using an alert fallback
+      try {
+        const toast = document.createElement('div');
+        toast.textContent = msg;
+        toast.style.position = 'fixed';
+        toast.style.bottom = '90px';
+        toast.style.left = '50%';
+        toast.style.transform = 'translateX(-50%)';
+        toast.style.padding = '10px 14px';
+        toast.style.background = 'rgba(12,20,40,0.92)';
+        toast.style.color = 'white';
+        toast.style.borderRadius = '10px';
+        toast.style.zIndex = 999999;
+        document.body.appendChild(toast);
+        setTimeout(() => toast.remove(), timeout);
+      } catch (e) {
+        console.log('Toast: ', msg);
+      }
+    }
+
+    // =========================
+    // Google ID token callback
+    // =========================
+    function handleGoogleCredentialResponse(response) {
+      // response.credential contains the ID token
+      if (!response || !response.credential) {
+        alert('No credential returned by Google Sign-In');
+        return;
+      }
+
+      // Send token to backend for verification
+      fetch('/api/google-login', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ credential: response.credential }),
+      })
+      .then(r => r.json())
+      .then(data => {
+        if (data && data.success) {
+          showToast('Welcome back, ' + (data.user.name || data.user.email));
+          closeLoginModal();
+        } else {
+          alert('Google login failed: ' + (data.message || 'Unknown error'));
+        }
+      })
+      .catch(err => {
+        console.error('Google login error:', err);
+        alert('Google login error — see console.');
+      });
+    }
+
+    // =========================
+    // Modal controls
+    // =========================
+    function openLoginModal() {
+      const el = $('loginModal');
+      if (el) {
+        el.classList.add('active');
+        el.style.display = 'flex';
+        el.setAttribute('aria-hidden', 'false');
+      }
+    }
+    function closeLoginModal() {
+      const el = $('loginModal');
+      if (el) {
+        el.classList.remove('active');
+        el.style.display = 'none';
+        el.setAttribute('aria-hidden', 'true');
+      }
+    }
+
+    // =========================
+    // Chat logic (frontend)
+    // =========================
+    let chatHistory = [{ role: 'bot', text: 'Welcome! How can I assist you with legal matters today?' }];
+
+    function renderChatMessages() {
+      const list = $('chatMessages');
+      if (!list) return;
+      list.innerHTML = '';
+      chatHistory.forEach(msg => {
+        const row = document.createElement('div');
+        row.className = 'message-row ' + (msg.role || 'bot');
+
+        if (msg.role === 'bot') {
+          const avatar = document.createElement('div');
+          avatar.className = 'chat-avatar';
+          avatar.style.width = '42px';
+          avatar.style.height = '42px';
+          avatar.style.borderRadius = '50%';
+          avatar.style.background = 'linear-gradient(135deg,#6a11cb,#2575fc)';
+          avatar.style.display = 'flex';
+          avatar.style.alignItems = 'center';
+          avatar.style.justifyContent = 'center';
+          avatar.style.color = '#fff';
+          avatar.style.marginRight = '10px';
+          avatar.innerHTML = '<i class="fas fa-robot"></i>';
+          row.appendChild(avatar);
+        }
+
+        const bubble = document.createElement('div');
+        bubble.className = 'chat-bubble ' + (msg.role === 'user' ? 'user' : 'bot');
+        bubble.textContent = msg.text || '';
+        row.appendChild(bubble);
+
+        if (msg.role === 'user') row.style.justifyContent = 'flex-end';
+        list.appendChild(row);
+      });
+
+      list.scrollTop = list.scrollHeight;
+    }
+
+    async function sendChatWidget() {
+      const inputEl = $('chatInputWidget');
+      if (!inputEl) return;
+      const query = inputEl.value.trim();
+      if (!query) return;
+
+      chatHistory.push({ role: 'user', text: query });
+      renderChatMessages();
+      inputEl.value = '';
+
+      // show typing indicator
+      chatHistory.push({ role: 'bot', text: 'AI is typing...' });
+      renderChatMessages();
+
+      try {
+        const res = await fetch('/api/chat', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ query }),
+        });
+        const data = await res.json();
+        // remove typing indicator
+        chatHistory.pop();
+        chatHistory.push({ role: 'bot', text: data.response || 'No response from AI.' });
+        renderChatMessages();
+      } catch (err) {
+        console.error('Chat error:', err);
+        chatHistory.pop();
+        chatHistory.push({ role: 'bot', text: 'Error communicating with AI.' });
+        renderChatMessages();
+      }
+    }
+
+    function toggleChat() {
+      const widget = $('chatWidget');
+      const toggle = $('chatToggleButton');
+      if (!widget) return;
+      const active = widget.classList.toggle('active');
+      widget.style.pointerEvents = active ? 'auto' : 'none';
+      widget.style.opacity = active ? '1' : '0';
+      if (toggle) toggle.style.display = active ? 'none' : 'flex';
+      if (active) {
+        setTimeout(() => {
+          const input = $('chatInputWidget');
+          if (input) input.focus();
+        }, 180);
+      }
+    }
+
+    function openChatBot() {
+      const widget = $('chatWidget');
+      if (!widget) return;
+      if (!widget.classList.contains('active')) toggleChat();
+    }
+
+    // =========================
+    // AI feature helper: ask backend endpoints
+    // Common function for handling POST -> JSON results
+    // =========================
+    async function postJSON(url, payload) {
+      try {
+        const res = await fetch(url, {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload)
+        });
+        if (!res.ok) {
+          const txt = await res.text();
+          console.error('postJSON error payload', url, payload, 'status', res.status, txt);
+          return { error: 'Server error: ' + res.status + ' — ' + txt };
+        }
+        return await res.json();
+      } catch (e) {
+        console.error('postJSON network error:', e);
+        return { error: e.message || 'Network error' };
+      }
+    }
+
+    // =========================
+    // Clause Simplifier
+    // =========================
+    async function simplifyClause() {
+      const input = $('clauseInput');
+      const output = $('simplifiedClause');
+      if (!input || !output) return;
+      const text = input.value.trim();
+      if (!text) { output.textContent = 'Please enter a clause to simplify.'; return; }
+      output.textContent = 'Processing...';
+      const result = await postJSON('/api/simplify', { text });
+      if (result.error) {
+        output.textContent = 'Error: ' + result.error;
+      } else {
+        output.textContent = (result.simplified || result.response || JSON.stringify(result)).trim();
+      }
+    }
+
+    // =========================
+    // Contract Summarizer
+    // =========================
+    async function analyzeContract() {
+      const input = $('contractInput');
+      const output = $('contractSummary');
+      if (!input || !output) return;
+      const text = input.value.trim();
+      if (!text) { output.textContent = 'Please paste contract text.'; return; }
+      output.textContent = 'Processing...';
+      const result = await postJSON('/api/summarize', { text });
+      if (result.error) output.textContent = 'Error: ' + result.error;
+      else output.textContent = (result.summary || result.response || JSON.stringify(result)).trim();
+    }
+
+    // =========================
+    // Risk Analysis
+    // =========================
+    async function performRiskAnalysis() {
+      const input = $('riskInput');
+      const output = $('riskResult');
+      if (!input || !output) return;
+      const text = input.value.trim();
+      if (!text) { output.textContent = 'Please provide text for analysis.'; return; }
+      output.textContent = 'Analyzing...';
+      const result = await postJSON('/api/risk', { text });
+      if (result.error) output.textContent = 'Error: ' + result.error;
+      else output.textContent = (result.risks || result.response || JSON.stringify(result)).trim();
+    }
+
+    // =========================
+    // Compliance Checker
+    // =========================
+    async function checkCompliance() {
+      const input = $('complianceInput');
+      const output = $('complianceResult');
+      if (!input || !output) return;
+      const text = input.value.trim();
+      if (!text) { output.textContent = 'Enter text to check compliance.'; return; }
+      output.textContent = 'Checking compliance...';
+      const result = await postJSON('/api/compliance', { text });
+      if (result.error) output.textContent = 'Error: ' + result.error;
+      else output.textContent = (result.compliance || result.response || JSON.stringify(result)).trim();
+    }
+
+    // =========================
+    // News (Legal Updates)
+    // =========================
+    async function fetchCustomNews() {
+      const input = $('newsInput');
+      const output = $('newsResult');
+      if (!input || !output) return;
+      const topic = input.value.trim();
+      if (!topic) { output.textContent = 'Please enter a topic.'; return; }
+      output.textContent = 'Fetching updates...';
+      const result = await postJSON('/api/news', { topic });
+      if (result.error) output.textContent = 'Error: ' + result.error;
+      else {
+        if (result.updates && result.updates.length) output.textContent = result.updates.join('\\n\\n');
+        else output.textContent = 'No updates found for: ' + topic;
+      }
+    }
+
+    // =========================
+    // OCR (client sends base64 to backend)
+    // server must run pytesseract or return error text
+    // =========================
+    function doOCR() {
+      const fileInput = $('ocrFile');
+      const output = $('ocrResult');
+      if (!fileInput || !output) return;
+      if (fileInput.files.length === 0) { output.textContent = 'Please select an image file.'; return; }
+      const file = fileInput.files[0];
+      const reader = new FileReader();
+      output.textContent = 'Preparing image...';
+      reader.onload = async function() {
+        const base64 = reader.result.split(',')[1];
+        output.textContent = 'Sending to server for OCR...';
+        try {
+          const res = await postJSON('/api/ocr', { imageData: base64 });
+          if (res.error) output.textContent = 'Error: ' + res.error;
+          else output.textContent = (res.text || JSON.stringify(res)).trim();
+        } catch (e) {
+          output.textContent = 'OCR failed: ' + (e.message || e);
+        }
+      };
+      reader.onerror = function(e) {
+        output.textContent = 'Error reading file: ' + e;
+      };
+      reader.readAsDataURL(file);
+    }
+
+    // =========================
+    // small helpers and navigation
+    // =========================
+    function scrollToSection(id) {
+      const el = $(id);
+      if (el) el.scrollIntoView({ behavior: 'smooth' });
+    }
+
+    // bind simple helpers to avoid null reference
+    window.openChatBot = openChatBot;
+    window.toggleChat = toggleChat;
+    window.openLoginModal = openLoginModal;
+    window.closeLoginModal = closeLoginModal;
+    window.simplifyClause = simplifyClause;
+    window.analyzeContract = analyzeContract;
+    window.doOCR = doOCR;
+    window.performRiskAnalysis = performRiskAnalysis;
+    window.checkCompliance = checkCompliance;
+    window.fetchCustomNews = fetchCustomNews;
+    window.sendChatWidget = sendChatWidget;
+
+    // Defensive log to indicate script loaded
+    console.info('AutoLegal frontend scripts loaded.');
+
+    /* End of main JS */
+  </script>
+</body>
+</html>

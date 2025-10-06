@@ -1,0 +1,1023 @@
+law_type,original,simplified,article_no,meaning
+Contract Law,Failure to deliver goods on time,The seller must deliver goods on time,123,Delay in delivery can lead to breach of contract
+Contract Law,Non-payment by buyer,Buyer must pay as agreed,124,Non-payment allows seller to claim damages
+Contract Law,Incomplete contract terms,Contract must include all essential terms,125,Missing terms may invalidate contract
+Contract Law,Unauthorized contract amendment,Changes need both parties' consent,126,Changes without consent are void
+Contract Law,Delayed performance,Performance must be timely,127,Late performance may cause breach
+Contract Law,Breach of confidentiality,Keep agreed secrets,128,Violation can lead to legal action
+Contract Law,Force majeure events,Excused if natural disaster occurs,129,Unforeseen events can excuse obligations
+Contract Law,Termination clause missing,Specify conditions to end contract,130,Without clause, termination rights unclear
+Contract Law,Ambiguous payment terms,Clarify payment details,131,Unclear terms may lead to disputes
+Contract Law,Non-compete violations,Do not compete unlawfully,132,Violating non-compete can cause penalties
+Contract Law,Late delivery penalties,Penalties apply for late delivery,133,Seller may owe damages for delay
+Contract Law,Dispute resolution not defined,Include method to resolve disputes,134,Unclear method may delay resolution
+Contract Law,Intellectual property infringement,Respect IP rights,135,Violation can cause lawsuits
+Contract Law,Warranty not provided,Offer warranty as agreed,136,Lack of warranty may lead to claims
+Contract Law,Subcontracting without consent,Need approval to subcontract,137,Unauthorized subcontracting is invalid
+Contract Law,Assignment of rights unclear,Clarify if rights can be assigned,138,Ambiguity may cause disputes
+Criminal Law,Theft,Unlawful taking of property,378,Stealing someone’s property is illegal
+Criminal Law,Assault,Intentional physical harm,379,Harming another person can lead to imprisonment
+Criminal Law,Robbery,Theft with force or threat,380,Combines theft and violence
+Criminal Law,Murder,Unlawful killing of a person,381,Intentional killing is punishable
+Criminal Law,Attempted murder,Trying to kill someone,382,Even attempt can lead to imprisonment
+Criminal Law,Fraud,Deception for gain,383,Lying or cheating for money is illegal
+Criminal Law,Bribery,Offering or accepting money for influence,384,Illegal inducement of officials
+Criminal Law,Counterfeiting,Producing fake currency or documents,385,Illegal imitation of legal items
+Criminal Law,Kidnapping,Unlawful confinement or abduction,386,Seizing someone against will is crime
+Criminal Law,Sexual harassment,Unwelcome sexual advances,387,Creates unsafe environment, illegal
+Criminal Law,Arson,Deliberate burning of property,388,Property destruction by fire is punishable
+Criminal Law,Drug trafficking,Illegal distribution of drugs,389,Trading illegal substances is a crime
+Criminal Law,Stalking,Repeated unwanted attention,390,Harassment is punishable
+Criminal Law,Domestic violence,Abuse within home,391,Physical/mental harm to family member
+Criminal Law,Homicide,Unlawful killing,392,Illegal taking of life
+Criminal Law,Public nuisance,Disturbing public peace,393,Disruption of public order
+Criminal Law,Forgery,Faking documents for benefit,394,Illegal document creation
+Criminal Law,Embezzlement,Stealing funds from organization,395,Misappropriation of property
+Criminal Law,Obstruction of justice,Interfering with legal process,396,Blocking justice is illegal
+law_type,original,simplified,article_no,meaning
+Property Law,Illegal occupation of land,Occupying land without permission,201,Unauthorized use of property is illegal
+Property Law,Encroachment on neighbor's property,Building on others' land,202,Encroaching property is punishable
+Property Law,Property damage,Destroying property unlawfully,203,Damaging property can lead to claims
+Property Law,Illegal construction,Building without approvals,204,Construction without permit is illegal
+Property Law,Lease violation,Breaking rental agreement,205,Not following lease terms leads to penalties
+Property Law,Property inheritance disputes,Conflicts over inheritance,206,Disputes among heirs are resolved legally
+Property Law,Illegal sale of property,Selling property without ownership,207,Unauthorized sale is invalid
+Property Law,Boundary disputes,Disagreement on property lines,208,Neighbors may legally settle boundaries
+Property Law,Failure to pay property tax,Not paying taxes due,209,Leads to fines or seizure
+Property Law,Adverse possession,Claiming land after long possession,210,Can legally acquire property under conditions
+Property Law,Illegal subdivision of land,Dividing property unlawfully,211,Violates zoning laws
+Property Law,Encumbrances not cleared,Property with unpaid dues,212,Must clear debts before transfer
+Property Law,Co-ownership disputes,Disagreement among co-owners,213,Shared property conflicts resolved legally
+Property Law,Unauthorized transfer,Transferring without consent,214,Illegal transfer is void
+Property Law,Property fraud,Misrepresenting property details,215,Fraudulent property sale is illegal
+Property Law,Illegal mortgage,Mortgaging without consent,216,Unauthorized mortgage is invalid
+Corporate Law,Violation of corporate governance,Not following rules,301,Companies must follow governance
+Corporate Law,Insider trading,Trading using confidential info,302,Illegal profit using internal info
+Corporate Law,Non-payment of corporate tax,Tax not paid,303,Leads to fines or penalties
+Corporate Law,Fraudulent accounting,Manipulating books,304,Illegal financial misreporting
+Corporate Law,Breach of fiduciary duty,Not acting in company’s best interest,305,Directors may be liable
+Corporate Law,Unlawful mergers,Illegal corporate mergers,306,Mergers must follow legal approvals
+Corporate Law,Shareholder rights violation,Ignoring shareholder interests,307,Shareholders protected by law
+Corporate Law,Non-compliance with labor law,Ignoring labor regulations,308,Employees’ rights must be respected
+Corporate Law,Illegal dividend distribution,Paying dividends unlawfully,309,Violates company laws
+Corporate Law,Intellectual property infringement,Using IP illegally,310,Company must respect IP laws
+Corporate Law,Conflict of interest,Private benefit over company,311,Directors must avoid conflicts
+Corporate Law,Environmental violations,Ignoring environmental regulations,312,Leads to fines or sanctions
+Corporate Law,Data protection breaches,Not protecting corporate data,313,Companies must secure data
+Corporate Law,Anti-trust violations,Unfair competition,314,Illegal monopolistic practices
+Corporate Law,Bribery in corporate dealings,Corrupt practices,315,Illegal inducements punishable
+Corporate Law,Illegal loans to directors,Providing unlawful loans,316,Violates corporate regulations
+Family Law,Divorce without consent,Ending marriage unlawfully,401,Legal procedures must be followed
+Family Law,Child custody dispute,Disagreement over children,402,Court decides best interest of child
+Family Law,Domestic abuse,Abuse within family,403,Illegal and punishable
+Family Law,Alimony non-payment,Not paying court-ordered support,404,Leads to legal enforcement
+Family Law,Inheritance dispute,Conflict over property after death,405,Court decides rightful heirs
+Family Law,Adoption irregularities,Illegal adoption process,406,Must follow legal adoption procedures
+Family Law,Child labor within family,Exploiting children,407,Illegal and punishable
+Family Law,Marriage registration missing,Marriage not registered legally,408,Legal recognition required
+Family Law,Bigamy,Marrying multiple partners,409,Illegal under law
+Family Law,Parental rights violation,Ignoring parents’ rights,410,Parents’ rights protected
+Family Law,Family property disputes,Conflicts among family members,411,Court resolves disputes
+Family Law,Domestic violence restraining order,Protection from violence,412,Legal protection available
+Family Law,Child neglect,Failing to care for children,413,Illegal and punishable
+Family Law,Allegation of abuse,Reporting abuse claims,414,Court investigates abuse claims
+Family Law,Spousal maintenance,Financial support for spouse,415,Legal obligation for support
+Cyber Law,Hacking,Unauthorized access to systems,501,Illegal system access
+Cyber Law,Phishing,Fraudulent emails,502,Illegal attempt to steal info
+Cyber Law,Data theft,Stealing sensitive data,503,Illegal and punishable
+Cyber Law,Identity theft,Using someone’s identity,504,Illegal impersonation
+Cyber Law,Malware distribution,Spreading harmful software,505,Illegal act
+Cyber Law,Cyberstalking,Harassment online,506,Illegal harassment
+Cyber Law,Online fraud,Deception for gain online,507,Illegal activity
+Cyber Law,Social media impersonation,Faking profile,508,Illegal impersonation
+Cyber Law,Cyberbullying,Abusing online,509,Illegal harassment
+Cyber Law,Unauthorized transactions,Illegal online payments,510,Illegal act
+Cyber Law,Intellectual property violation online,Stealing digital IP,511,Illegal use of IP
+Cyber Law,Unauthorized data modification,Changing data illegally,512,Illegal alteration
+Cyber Law,Cyber terrorism,Threatening via internet,513,Illegal and punishable
+Cyber Law,Online defamation,Defaming reputation online,514,Illegal publishing
+Cyber Law,Illegal software piracy,Copying software illegally,515,Illegal copying
+law_type,original,simplified,article_no,meaning
+Contract Law,Non-performance of contract,Failing to fulfill contract obligations,116,Not performing contract duties is illegal
+Contract Law,Breach of confidentiality,Sharing private info unlawfully,117,Disclosing confidential info is illegal
+Contract Law,Unauthorized subcontracting,Hiring others without consent,118,Subcontracting needs approval
+Contract Law,Delayed delivery,Not delivering on time,119,Failure to deliver as agreed is breach
+Contract Law,Invalid consideration,No valid payment or exchange,120,Contract requires lawful consideration
+Contract Law,Fraudulent inducement,Tricked into contract,121,Deceptive practices make contract voidable
+Contract Law,Coercion in contract,Forced agreement,122,Consent must be free
+Contract Law,Unconscionable terms,Unfair contract conditions,123,Extremely unfair terms can be voided
+Contract Law,Illegality of object,Contract for illegal purpose,124,Illegal contracts are unenforceable
+Contract Law,Mutual mistake,Mistaken agreement,125,Both parties misunderstanding makes contract void
+Criminal Law,Attempted theft,Trying to steal but failing,126,Attempted crime is punishable
+Criminal Law,Assault,Physically attacking someone,127,Causing harm is illegal
+Criminal Law,Threatening behavior,Intimidation or threats,128,Threats are punishable
+Criminal Law,Illegal possession of weapons,Owning weapons unlawfully,129,Illegal weapons possession is punishable
+Criminal Law,Arson,Setting fire intentionally,130,Deliberate fire causing damage is illegal
+Criminal Law,Fraud,Deceiving for personal gain,131,Illegal misrepresentation
+Criminal Law,Drug trafficking,Illegal sale of drugs,132,Illegal distribution of controlled substances
+Criminal Law,Money laundering,Hiding illegal money origins,133,Illegal financial practice
+Criminal Law,Stalking,Following or harassing someone,134,Harassment by repeated behavior is illegal
+Criminal Law,Blackmail,Threatening for gain,135,Using threats to obtain benefit is illegal
+Property Law,Illegal logging,Cutting trees unlawfully,211,Illegal deforestation
+Property Law,Water rights violation,Unauthorized water use,212,Violating water access laws
+Property Law,Illegal mining,Mining without permission,213,Unauthorized extraction of resources
+Property Law,Encroaching on public land,Occupying public property,214,Illegal use of government land
+Property Law,Illegal fencing,Fencing land unlawfully,215,Encroachment is illegal
+Property Law,Failure to maintain property,Neglect of property upkeep,216,Owner responsible for property condition
+Property Law,Unauthorized parking,Parking without permission,217,Illegal use of space
+Property Law,Violation of zoning laws,Using land against zoning,218,Illegal land use
+Property Law,Illegal demolition,Destroying property without consent,219,Demolition must follow laws
+Property Law,Property tax evasion,Avoiding property taxes,220,Tax evasion is punishable
+Corporate Law,Violation of securities laws,Breaking trading rules,317,Illegal financial practices
+Corporate Law,Accounting fraud,Falsifying accounts,318,Illegal financial reporting
+Corporate Law,Unregistered company operations,Operating without registration,319,Company must be legally registered
+Corporate Law,Violation of export rules,Illegal export,320,Must follow export regulations
+Corporate Law,Unlawful acquisition,Illegal company takeover,321,Acquisitions must follow law
+Corporate Law,Non-disclosure of financials,Hiding financial info,322,Transparency required by law
+Corporate Law,Violation of anti-money laundering rules,Illegal money handling,323,AML laws must be followed
+Corporate Law,Bribery in procurement,Corrupt procurement process,324,Illegal inducements punishable
+Corporate Law,Improper share issuance,Issuing shares unlawfully,325,Must follow company law
+Corporate Law,Misrepresentation to investors,Lying to investors,326,Illegal misrepresentation
+Family Law,Parental kidnapping,Taking child without consent,416,Illegal removal of children
+Family Law,Illegal adoption,Adopting without following law,417,Illegal adoption is invalid
+Family Law,Domestic harassment,Abuse within home,418,Harassment is punishable
+Family Law,Violation of custody order,Ignoring court order,419,Court orders must be followed
+Family Law,Child exploitation,Using child for work unlawfully,420,Illegal exploitation of minors
+Family Law,Forced marriage,Marriage without consent,421,Illegal and void
+Family Law,Marital rape,Non-consensual sex in marriage,422,Criminal offence
+Family Law,Divorce interference,Obstructing legal divorce,423,Illegal interference
+Family Law,Allegation of parental neglect,Failing to care for child,424,Legal action possible
+Family Law,Violation of family court order,Ignoring orders,425,Court orders enforceable
+Cyber Law,Cyber trespassing,Unauthorized system entry,516,Illegal access to network
+Cyber Law,Website defacement,Hacking to change site,517,Illegal modification
+Cyber Law,Online harassment,Harassing digitally,518,Illegal activity
+Cyber Law,Illegal cryptocurrency trading,Unlicensed crypto trading,519,Must follow regulations
+Cyber Law,Unauthorized cloud access,Accessing cloud illegally,520,Illegal entry
+Cyber Law,Data breach notification failure,Not reporting breach,521,Violation of reporting law
+Cyber Law,Cyber espionage,Spying online illegally,522,Illegal surveillance
+Cyber Law,Email spoofing,Faking email address,523,Illegal deception
+Cyber Law,Phishing attack,Fraud via emails,524,Illegal attempt to gain info
+Cyber Law,Ransomware attack,Holding data hostage,525,Illegal cybercrime
+law_type,original,simplified,article_no,meaning
+Contract Law,Non-compete violation,Breaking contract to not compete,127,Illegal to breach non-compete clause
+Contract Law,Contract rescission,Canceling contract legally,128,Contract can be legally cancelled under conditions
+Contract Law,Impossibility of performance,Unable to perform contract,129,Cannot enforce impossible obligations
+Contract Law,Liquidated damages clause,Pre-agreed compensation,130,Damages agreed in advance enforceable
+Contract Law,Force majeure event,Unforeseen event releases liability,131,Contract may be suspended due to events beyond control
+Contract Law,Assignment without consent,Transferring rights illegally,132,Rights cannot be assigned without approval
+Contract Law,Frustration of contract,Contract made impossible,133,Cannot enforce contract frustrated by circumstances
+Contract Law,Indemnity clause,Protection against loss,134,Clause provides compensation for damages
+Contract Law,Conditional contract,Depends on certain events,135,Performance triggered by specific conditions
+Contract Law,Option contract,Right to perform in future,136,Allows party to perform contract later
+Criminal Law,Public intoxication,Being drunk in public,136,Illegal to be intoxicated in public spaces
+Criminal Law,Illegal gambling,Unauthorized betting,137,Unlawful gambling is punishable
+Criminal Law,Bribery,Offering illegal inducement,138,Illegal to give or receive bribes
+Criminal Law,Embezzlement,Stealing funds,139,Illegal diversion of funds
+Criminal Law,Counterfeiting,Faking currency or goods,140,Illegal replication of money/products
+Criminal Law,Illegal poaching,Hunting protected species,141,Violation of wildlife laws
+Criminal Law,Sexual harassment,Unwanted sexual behavior,142,Illegal in workplace and public
+Criminal Law,Identity theft,Stealing personal info,143,Illegal use of someone’s identity
+Criminal Law,Trespassing,Entering property illegally,144,Unauthorized entry punishable
+Criminal Law,Vandalism,Damaging property,145,Destruction of property is illegal
+Property Law,Illegal subletting,Subletting without consent,221,Property cannot be sublet without approval
+Property Law,Illegal occupancy,Occupying without right,222,Must have legal right to occupy property
+Property Law,Encroachment of neighbor,Using neighbor’s land,223,Violation of property boundaries
+Property Law,Violation of building code,Not following construction rules,224,Must comply with regulations
+Property Law,Illegal signage,Posting signs without permission,225,Unauthorized signs are illegal
+Property Law,Violation of heritage protection,Altering heritage sites,226,Illegal modification of protected property
+Property Law,Illegal construction,Building without permit,227,Construction must be permitted
+Property Law,Boundary dispute,Conflict over land limits,228,Dispute resolution required legally
+Property Law,Illegal rental,Unlicensed rental,229,Rental must follow legal procedures
+Property Law,Improper waste disposal,Throwing waste unlawfully,230,Illegal waste management
+Corporate Law,Conflict of interest,Undisclosed personal benefit,327,Illegal to act against company interest
+Corporate Law,Violation of labor laws,Illegal employment practices,328,Employment must follow regulations
+Corporate Law,Failure to file returns,Not submitting legal documents,329,Legal filings mandatory
+Corporate Law,Insider trading,Trading using confidential info,330,Illegal use of non-public info
+Corporate Law,Corporate espionage,Spying on competitors,331,Illegal corporate spying
+Corporate Law,Violation of intellectual property,Illegal use of IP,332,IP laws protect rights
+Corporate Law,Anti-trust violation,Unlawful market dominance,333,Competition laws must be followed
+Corporate Law,False advertising,Misleading promotion,334,Illegal marketing practice
+Corporate Law,Shareholder dispute,Conflict among owners,335,Legal resolution may be required
+Corporate Law,Corporate negligence,Failure to exercise duty,336,Illegal negligence causing harm
+Family Law,Violation of child support order,Not paying legally required support,426,Legal obligation to support children
+Family Law,Illegal annulment,Unlawful nullification of marriage,427,Annulment must follow law
+Family Law,Parental rights violation,Infringing custody or guardianship,428,Parenting rights protected by law
+Family Law,Forced separation,Illegal separation of family,429,Family unity protected
+Family Law,Violation of alimony order,Ignoring spousal support,430,Alimony must be paid as ordered
+Family Law,Domestic violence,Abuse in family,431,Illegal physical or emotional harm
+Family Law,Illegal guardianship,Assigning guardianship unlawfully,432,Guardianship must be legal
+Family Law,Violation of marriage registration,Unregistered marriage issues,433,Marriage must follow legal process
+Family Law,Illegal surrogacy,Surrogacy without compliance,434,Surrogacy must follow laws
+Family Law,Inheritance fraud,Illegal claim on property,435,Illegal inheritance claim punishable
+Cyber Law,Unauthorized software use,Using software illegally,526,Software licensing must be followed
+Cyber Law,Illegal data scraping,Extracting data unlawfully,527,Illegal to scrape protected data
+Cyber Law,Cyberbullying,Harassment online,528,Illegal online behavior
+Cyber Law,Identity cloning,Creating fake identity,529,Illegal digital impersonation
+Cyber Law,Malware distribution,Spreading harmful software,530,Illegal to distribute malware
+Cyber Law,Spyware installation,Installing tracking software illegally,531,Illegal surveillance software
+Cyber Law,Illegal online sale,Selling prohibited items online,532,Illegal online commerce
+Cyber Law,Violation of privacy laws,Infringing data privacy,533,Must comply with privacy regulations
+Cyber Law,Email hacking,Unauthorized access to email,534,Illegal access
+Cyber Law,Social engineering fraud,Deceiving to gain info,535,Illegal fraudulent act
+law_type,original,simplified,article_no,meaning
+Contract Law,Breach of warranty,Failure to honor guarantee,137,Party failed to meet guaranteed terms
+Contract Law,Unconscionable contract,Unfair and one-sided agreement,138,Contract terms are legally unfair
+Contract Law,Novation,Replacing old contract with new,139,Original contract replaced with new agreement
+Contract Law,Mutual mistake,Both parties wrong about fact,140,Contract invalid if both misunderstood
+Contract Law,Promissory estoppel,Preventing denial of promise,141,Promise enforceable if relied upon
+Contract Law,Quasi-contract,Obligation without contract,142,Legal obligation arises without formal contract
+Contract Law,Parol evidence rule,Limiting outside evidence,143,External evidence may not alter contract
+Contract Law,Specific performance,Enforcing exact contract terms,144,Court orders contract fulfillment
+Contract Law,Rescission for fraud,Canceling contract due to deception,145,Contract voidable if fraud occurred
+Contract Law,Option to renew,Right to extend contract,146,Contract may be renewed if allowed
+Criminal Law,Arson,Setting property on fire,146,Illegal destruction by fire
+Criminal Law,Assault,Threat or attempt to harm,147,Physical threat or harm punishable
+Criminal Law,Robbery,Taking property by force,148,Illegal theft using violence
+Criminal Law,Burglary,Breaking in to steal,149,Illegal entry to commit theft
+Criminal Law,Fraud,Deception for gain,150,Illegal misrepresentation for benefit
+Criminal Law,Homicide,Unlawful killing,151,Illegal causing of death
+Criminal Law,Stalking,Harassing someone persistently,152,Illegal repeated harassment
+Criminal Law,Drug trafficking,Illegal distribution of drugs,153,Illegal sale of controlled substances
+Criminal Law,Kidnapping,Illegal abduction,154,Unlawful taking of person
+Criminal Law,Extortion,Obtaining money by threat,155,Illegal coercion for benefit
+Property Law,Illegal lease,Unauthorized rental,231,Rental without permission illegal
+Property Law,Adverse possession,Gaining land by occupation,232,Occupying land can lead to ownership legally
+Property Law,Illegal eviction,Removing tenant unlawfully,233,Eviction must follow law
+Property Law,Violation of zoning laws,Not following land rules,234,Construction must comply with zoning
+Property Law,Illegal modification,Changing property illegally,235,Modification requires approval
+Property Law,Property tax evasion,Not paying legal taxes,236,Failure to pay property taxes illegal
+Property Law,Illegal signage,Unauthorized advertising,237,Signs require approval
+Property Law,Encumbrance without notice,Hidden claim on property,238,Property must be free from undisclosed claims
+Property Law,Illegal subdivision,Dividing land unlawfully,239,Subdivision requires permission
+Property Law,Failure to register,Not legally recording property,240,Registration mandatory for legal rights
+Corporate Law,Misrepresentation in prospectus,False info for investors,337,Illegal misleading of investors
+Corporate Law,Breach of fiduciary duty,Failing duty to company,338,Illegal neglect of company interest
+Corporate Law,Accounting fraud,Manipulating financial records,339,Illegal financial misstatement
+Corporate Law,Illegal dividend,Paying unapproved profit,340,Dividend must comply with rules
+Corporate Law,Share buyback violation,Illegal repurchase of shares,341,Must follow legal procedure
+Corporate Law,Corporate insolvency,Failure to meet debts,342,Company legally bankrupt
+Corporate Law,Violation of corporate charter,Breaching rules of incorporation,343,Must follow incorporation documents
+Corporate Law,Illegal merger,Merging without approval,344,Merger requires legal approval
+Corporate Law,Conflict in board decisions,Illegal board actions,345,Board must act legally
+Corporate Law,Fraudulent conveyance,Transferring assets illegally,346,Illegal asset transfer
+Family Law,Child abduction,Illegal removal of child,436,Violation of custody laws
+Family Law,Illegal adoption,Adoption without legal process,437,Adoption must follow law
+Family Law,Domestic abuse,Violence in home,438,Illegal abuse at home
+Family Law,Violation of custody order,Not following court order,439,Court orders must be obeyed
+Family Law,Marriage fraud,Deceptive marriage act,440,Illegal deception in marriage
+Family Law,Spousal abandonment,Leaving spouse unlawfully,441,Illegal abandonment of partner
+Family Law,Violation of visitation rights,Denial of access to children,442,Access rights protected by court
+Family Law,Parental alienation,Turning children against parent,443,Illegal manipulation against parent
+Family Law,Illegal dowry demand,Demanding dowry unlawfully,444,Dowry demands prohibited
+Family Law,Violation of guardianship,Acting without legal authority,445,Guardianship laws protect minors
+Cyber Law,Phishing,Deceptive emails to steal info,536,Illegal to trick victims for info
+Cyber Law,Ransomware attack,Blocking data for ransom,537,Illegal malware attack
+Cyber Law,Data breach,Unauthorized access to data,538,Illegal exposure of private info
+Cyber Law,Online harassment,Harassing people on internet,539,Illegal digital harassment
+Cyber Law,Cyber fraud,Illegal digital deception,540,Fraudulent online activity
+Cyber Law,Illegal streaming,Unauthorized content sharing,541,Violation of copyright
+Cyber Law,Password theft,Stealing login info,542,Illegal access to accounts
+Cyber Law,Illegal hacking,Breaking systems unlawfully,543,Unauthorized system intrusion
+Cyber Law,Digital impersonation,Pretending to be someone else,544,Illegal online identity use
+Cyber Law,Violation of digital contract,Breaking online agreements,545,Online contract legally binding
+law_type,original,simplified,article_no,meaning
+Contract Law,Force majeure,Unforeseen event excuses performance,147,Parties excused due to extraordinary events
+Contract Law,Impossibility of performance,Contract cannot be performed,148,Contract unenforceable if impossible
+Contract Law,Anticipatory breach,Future failure to perform,149,Party can claim breach before it happens
+Contract Law,Undue influence,Coerced agreement,150,Contract voidable if pressure applied
+Contract Law,Duress,Forced to enter contract,151,Contract invalid if forced
+Contract Law,Condition precedent,Requirement before obligation,152,Obligation arises only after event
+Contract Law,Condition subsequent,Event ending obligation,153,Obligation ends after event
+Contract Law,Injunction,Legal order to stop action,154,Court stops prohibited acts
+Contract Law,Liquidated damages,Pre-agreed compensation,155,Damage amount fixed in contract
+Contract Law,Implied terms,Terms assumed by law,156,Law imposes terms even if not written
+Criminal Law,Embezzlement,Stealing from employer,156,Illegal taking of funds
+Criminal Law,Perjury,Lying under oath,157,False statements in court illegal
+Criminal Law,Bribery,Giving/receiving illegal reward,158,Illegal corruption
+Criminal Law,Blackmail,Threat for money or favor,159,Illegal coercion
+Criminal Law,Terrorism,Violent acts for political aim,160,Illegal acts endangering society
+Criminal Law,Human trafficking,Illegal trade of people,161,Unlawful exploitation of humans
+Criminal Law,Money laundering,Hiding illegal money,162,Illegal concealment of funds
+Criminal Law,Sexual assault,Unwanted sexual act,163,Illegal sexual act
+Criminal Law,Stolen property possession,Keeping stolen items,164,Illegal possession of stolen goods
+Criminal Law,Identity theft,Using another's identity,165,Illegal use of personal info
+Property Law,Illegal easement,Unauthorized land use,241,Use of land without permission illegal
+Property Law,Boundary dispute,Conflict over land limits,242,Legal boundaries must be respected
+Property Law,Encroachment,Building on neighbor's land,243,Illegal occupation of land
+Property Law,Illegal sale,Unauthorized property sale,244,Sale without ownership is void
+Property Law,Failure to pay rent,Not paying legally due rent,245,Obligation to pay rent
+Property Law,Illegal mortgage,Unauthorized pledge of property,246,Mortgage without consent illegal
+Property Law,Illegal lien,Unlawful claim on property,247,Lien requires legal authority
+Property Law,Property inheritance violation,Ignoring legal succession,248,Must follow inheritance law
+Property Law,Illegal easement termination,Ending land use without notice,249,Termination requires legal process
+Property Law,Violation of property rights,Ignoring legal ownership,250,Ownership protected by law
+Corporate Law,Insider trading,Using confidential info for gain,347,Illegal stock manipulation
+Corporate Law,Illegal proxy voting,Falsifying shareholder votes,348,Illegal manipulation of votes
+Corporate Law,Accounting negligence,Failure in proper accounting,349,Illegal or negligent reporting
+Corporate Law,Corporate espionage,Stealing competitor info,350,Illegal corporate spying
+Corporate Law,Violation of labor law,Illegal employee treatment,351,Must comply with labor regulations
+Corporate Law,Illegal foreign investment,Not following approval,352,Investment must comply with law
+Corporate Law,Tax evasion,Avoiding corporate taxes,353,Illegal avoidance of tax
+Corporate Law,Non-disclosure violation,Failing to reveal info,354,Required info must be disclosed
+Corporate Law,Unlawful dismissal,Illegal firing of employee,355,Employee rights protected
+Corporate Law,Conflict of interest,Personal gain over company,356,Illegal prioritization of self over company
+Family Law,Illegal surrogacy,Unapproved surrogate arrangement,446,Surrogacy must follow law
+Family Law,Violation of adoption procedure,Skipping legal steps,447,Legal adoption process required
+Family Law,Illegal guardianship,Unauthorized custody of child,448,Guardianship must be legally appointed
+Family Law,Bigamy,Marrying while already married,449,Illegal multiple marriages
+Family Law,Domestic dispute,Illegal family conflicts,450,Violence within family illegal
+Family Law,Violation of maintenance order,Not paying required support,451,Court-mandated support must be paid
+Family Law,Illegal restraining order violation,Disobeying court order,452,Restraint orders are legally binding
+Family Law,Child labor,Employing minor illegally,453,Illegal work of children
+Family Law,Divorce by fraud,Misleading to get divorce,454,Illegal deception to obtain divorce
+Family Law,Parental rights violation,Ignoring parent's lawful rights,455,Parent rights protected
+Cyber Law,Cyberbullying,Harassment online,546,Illegal harassment on internet
+Cyber Law,Illegal data sale,Selling personal info without consent,547,Unauthorized sale of private data
+Cyber Law,Cyber stalking,Online persistent harassment,548,Illegal harassment online
+Cyber Law,Hacking for fun,Unauthorized system access,549,Illegal system intrusion
+Cyber Law,Malware distribution,Spreading malicious software,550,Illegal software distribution
+Cyber Law,Identity spoofing,Pretending to be someone else online,551,Illegal impersonation
+Cyber Law,Social engineering,Tricking people online,552,Illegal manipulation for info
+Cyber Law,Denial of Service attack,Overloading systems illegally,553,Illegal system attack
+Cyber Law,Cyber extortion,Threatening online for gain,554,Illegal digital coercion
+Cyber Law,Violation of e-signature law,Illegal use of digital signature,555,Digital signature laws must be followed
+law_type,original,simplified,article_no,meaning
+Contract Law,Frustration of contract,Contract impossible due to unforeseen events,157,Contract discharged if performance impossible
+Contract Law,Severable contract,Parts of contract enforceable separately,158,Enforceable in parts if divisible
+Contract Law,Option contract,Right to buy/sell later,159,Right without obligation until exercised
+Contract Law,Quantum meruit,Payment for work done,160,Payment for services even without contract
+Contract Law,Novation,Replacing contract with new one,161,Old contract replaced legally
+Contract Law,Accord and satisfaction,Dispute resolved by agreement,162,Settlement of debt by agreement
+Contract Law,Breach of warranty,Minor contract violation,163,Compensation for non-material breach
+Contract Law,Breach of condition,Major contract violation,164,Allows contract termination
+Contract Law,Repudiation,Refusal to perform,165,Party may treat contract as ended
+Contract Law,Estoppel,Preventing denial of fact,166,Cannot deny facts relied upon
+Criminal Law,Assault,Threat or use of force,166,Illegal threat or physical attack
+Criminal Law,Battery,Actual physical harm,167,Illegal physical contact
+Criminal Law,Kidnapping,Unlawful taking of person,168,Illegal detention of a person
+Criminal Law,Robbery,Theft with violence,169,Illegal taking by force
+Criminal Law,Arson,Intentional fire setting,170,Illegal burning of property
+Criminal Law,Fraud,Deception for gain,171,Illegal trick to obtain benefit
+Criminal Law,Drug trafficking,Illegal drugs trade,172,Illegal sale or transport of drugs
+Criminal Law,Smuggling,Illegal import/export,173,Unlawful transportation of goods
+Criminal Law,Cybercrime,Illegal computer activity,174,Crimes via computers
+Criminal Law,Hate crime,Crime motivated by bias,175,Illegal acts due to prejudice
+Property Law,Adverse possession,Gaining property by long use,251,Ownership by continuous possession
+Property Law,Easement by prescription,Right of way through use,252,Legal use acquired over time
+Property Law,Co-ownership,Joint property ownership,253,Shared ownership legal rights
+Property Law,Tenancy agreement,Rental contract,254,Legal rental obligations
+Property Law,Leasehold rights,Rent for fixed term,255,Temporary ownership rights
+Property Law,Freehold ownership,Complete ownership,256,Full legal control over property
+Property Law,Mortgage foreclosure,Lender claims property,257,Lender enforces repayment
+Property Law,Right of redemption,Recover property after default,258,Owner can reclaim by paying debt
+Property Law,Eminent domain,Government property acquisition,259,Government can acquire property legally
+Property Law,Zoning violation,Illegal land use,260,Land use must follow law
+Corporate Law,Corporate veil,Protection from personal liability,357,Owner not liable for corporate debts
+Corporate Law,Shareholder derivative suit,Lawsuit on behalf of company,358,Shareholders sue for company rights
+Corporate Law,Proxy contest,Competing votes for control,359,Challenge to control board via votes
+Corporate Law,Merger approval,Legal process for mergers,360,Merger must follow law
+Corporate Law,Hostile takeover,Acquiring without consent,361,Acquisition must respect rules
+Corporate Law,Corporate dissolution,Closing a company legally,362,Company ends legally
+Corporate Law,Dividends,Profit distribution,363,Shareholders receive profits
+Corporate Law,Stock issuance,Selling company shares,364,Company can issue shares legally
+Corporate Law,Stock buyback,Company repurchases shares,365,Company buys back shares legally
+Corporate Law,Annual report,Required disclosure document,366,Company must report yearly
+Family Law,Child custody dispute,Conflict over child care,456,Legal determination of care
+Family Law,Parental alienation,Preventing contact with parent,457,Illegal interference with parent-child relationship
+Family Law,Spousal support,Alimony,458,Legal obligation to pay support
+Family Law,Division of property,Splitting assets legally,459,Assets divided as per law
+Family Law,Domestic violence,Abuse in family,460,Illegal abuse of family member
+Family Law,Legal separation,Court-approved separation,461,Formal separation recognized
+Family Law,Child support,Financial support for child,462,Legal obligation to pay child support
+Family Law,Adoption fraud,Illegal adoption act,463,Must follow legal procedure
+Family Law,Marriage registration,Official recording of marriage,464,Marriage recognized by law
+Family Law,Marriage annulment,Declaring marriage void,465,Marriage treated as never existed
+Cyber Law,Phishing,Fraudulent online request,556,Illegal attempt to get sensitive info
+Cyber Law,Ransomware,Malicious software for ransom,557,Illegal software locking data
+Cyber Law,Data breach,Unauthorized access to data,558,Illegal exposure of private info
+Cyber Law,Illegal online gambling,Unlicensed gambling,559,Online gambling must follow law
+Cyber Law,Online defamation,False online statements,560,Illegal harm to reputation
+Cyber Law,Child online protection violation,Illegal exposure to minors,561,Children must be protected online
+Cyber Law,Cyber terrorism,Using computers for terror,562,Illegal cyber acts for terror
+Cyber Law,Illegal cryptocurrency use,Unlawful digital currency activity,563,Must follow crypto regulations
+Cyber Law,Social media misuse,Violating platform laws,564,Illegal actions on social media
+Cyber Law,Illegal online contract,Invalid digital agreement,565,Must meet legal standards for online contracts
+law_type,original,simplified,article_no,meaning
+Contract Law,Impossibility of performance,Contract cannot be completed due to impossibility,167,Contract discharged if performance impossible
+Contract Law,Force majeure,Unforeseeable events relieving obligations,168,Contract excused under extraordinary events
+Contract Law,Time is of the essence,Strict deadlines must be met,169,Failure to perform on time breaches contract
+Contract Law,Anticipatory breach,Breach before performance due date,170,Allows claim before actual breach
+Contract Law,Promissory estoppel,Preventing retraction of promise,171,Party bound by promise relied upon
+Contract Law,Liquidated damages,Pre-agreed compensation,172,Set damages for breach
+Contract Law,Penalty clause,Excessive agreed damages,173,Unenforceable if punitive
+Contract Law,Implied terms,Terms assumed in contract,174,Legally assumed unless excluded
+Contract Law,Express terms,Explicitly written terms,175,Clearly stated obligations
+Contract Law,Collateral contract,Secondary supporting contract,176,Secondary promise supporting main contract
+Criminal Law,Extortion,Obtaining property by threat,176,Illegal use of threats for gain
+Criminal Law,Bribery,Illegal payment to influence,177,Unlawful offering or receiving benefits
+Criminal Law,Embezzlement,Misappropriation of funds,178,Illegal taking of funds entrusted
+Criminal Law,Perjury,Lying under oath,179,Illegal false statements in court
+Criminal Law,Obstruction of justice,Interfering with legal process,180,Illegal obstruction of law enforcement
+Criminal Law,Trespass,Entering property unlawfully,181,Illegal entry on land or property
+Criminal Law,Stalking,Repeated harassment,182,Illegal harassment or surveillance
+Criminal Law,Harassment,Intentional distress causing actions,183,Illegal actions causing distress
+Criminal Law,Identity theft,Using someone’s identity illegally,184,Illegal use of personal information
+Criminal Law,Money laundering,Hiding illegal income,185,Making illegal money appear legal
+Property Law,Encumbrance,Legal claim on property,261,Property burdened by legal claim
+Property Law,Restrictive covenant,Limitation on property use,262,Property usage restricted by law
+Property Law,Joint tenancy,Ownership with survivorship rights,263,Ownership passes to surviving owner
+Property Law,Tenancy in common,Shared ownership without survivorship,264,Ownership divided among owners
+Property Law,Fixture,Attached property items,265,Part of property legally
+Property Law,Lease assignment,Transferring lease to another,266,Lease obligations transferred
+Property Law,Sublease,Renting to third party,267,Temporary lease transfer
+Property Law,License,Permission to use property,268,Legal right to use property
+Property Law,Easement,Right to use another’s property,269,Right of way or access
+Property Law,Restrictive zoning,Property use limits,270,Legal restriction on property
+Corporate Law,Corporate governance,Rules managing company,367,Legal management obligations
+Corporate Law,Board of directors,Company decision-makers,368,Legal responsibility of directors
+Corporate Law,Shareholder rights,Rights of investors,369,Shareholders can vote and claim
+Corporate Law,Corporate social responsibility,Company ethical obligations,370,Obligation to society
+Corporate Law,Initial public offering,Company shares sold publicly,371,Legal process to sell shares
+Corporate Law,Private placement,Selling shares privately,372,Non-public share sale
+Corporate Law,Debt financing,Loans to company,373,Borrowing money legally
+Corporate Law,Equity financing,Selling shares for funds,374,Fundraising via ownership shares
+Corporate Law,Corporate compliance,Following corporate laws,375,Obligation to comply legally
+Corporate Law,Corporate liability,Responsibility for actions,376,Company accountable for acts
+Family Law,Legal guardianship,Assigned caretakers,466,Legal adult responsible for minor
+Family Law,Child emancipation,Minor legally independent,467,Minor legally self-responsible
+Family Law,Pre-nuptial agreement,Marriage contract beforehand,468,Agreed terms before marriage
+Family Law,Post-nuptial agreement,Marriage contract after marriage,469,Agreed terms after marriage
+Family Law,Parental consent,Approval for child acts,470,Legal requirement for minor actions
+Family Law,Visitation rights,Non-custodial parent access,471,Parent access granted legally
+Family Law,Adoption consent,Legal permission to adopt,472,Must meet legal adoption requirements
+Family Law,Child abduction,Illegal removal of child,473,Violation of custody laws
+Family Law,Alimony modification,Changing support payments,474,Support payments adjusted legally
+Family Law,Family mediation,Court-ordered conflict resolution,475,Dispute resolved outside court
+Cyber Law,Cyberbullying,Online harassment,566,Illegal harassment using online platforms
+Cyber Law,Malware distribution,Spreading harmful software,567,Illegal propagation of malware
+Cyber Law,Hacking,Unauthorized computer access,568,Illegal access to systems
+Cyber Law,Illegal file sharing,Sharing protected content illegally,569,Violation of copyright
+Cyber Law,Online piracy,Unauthorized media distribution,570,Illegal copying and distribution
+Cyber Law,Cyber stalking,Online repeated harassment,571,Illegal persistent online monitoring
+Cyber Law,Social engineering,Tricking for confidential info,572,Illegal manipulation for information
+Cyber Law,Spyware,Software secretly gathering data,573,Illegal monitoring software
+Cyber Law,Botnet,Network of compromised computers,574,Illegal computer network for attacks
+Cyber Law,DoS attack,Disrupting services online,575,Illegal denial of service attack
+law_type,original,simplified,article_no,meaning
+Contract Law,Frustration of purpose,Contract no longer serves intended purpose,176,Contract discharged if purpose impossible
+Contract Law,Novation,Replacing old contract with new,177,New contract replaces original
+Contract Law,Rescission,Canceling contract,178,Contract legally terminated
+Contract Law,Specific performance,Court orders contract fulfillment,179,Enforces exact performance
+Contract Law,Quantum meruit,Payment for work done,180,Compensation for partial performance
+Contract Law,Breach of warranty,Failure of guaranteed fact,181,Violation of promised fact
+Contract Law,Indemnity,Compensation for loss,182,Paying for damage or loss
+Contract Law,Guarantee,Promise to pay another’s debt,183,Secondary obligation
+Contract Law,Novus actus interveniens,New intervening act,184,New act breaks liability chain
+Contract Law,Severability,Contract parts independent,185,Invalid clause doesn't void whole
+Criminal Law,Homicide,Unlawful killing,186,Illegal causing of death
+Criminal Law,Assault,Threat or attempt of harm,187,Illegal attack or threat
+Criminal Law,Battery,Physical harm inflicted,188,Illegal physical contact
+Criminal Law,Kidnapping,Illegal abduction,189,Unlawful taking of person
+Criminal Law,Sexual assault,Non-consensual sexual act,190,Illegal sexual act
+Criminal Law,Robbery,Taking property by force,191,Theft using violence
+Criminal Law,Burglary,Illegal entry to commit crime,192,Entering with intent to commit crime
+Criminal Law,Arson,Intentional fire damage,193,Illegal burning of property
+Criminal Law,Fraud,Deception for gain,194,Illegal deceit for benefit
+Criminal Law,Extortion,Threats to obtain property,195,Illegal coercion for gain
+Property Law,Easement by necessity,Right needed to access property,271,Access necessary for land use
+Property Law,Easement by prescription,Long-term use right,272,Right acquired through long use
+Property Law,Adverse possession,Occupying land to claim ownership,273,Ownership by possession
+Property Law,Freehold,Permanent property ownership,274,Ownership without time limit
+Property Law,Leasehold,Temporary property ownership,275,Ownership for set term
+Property Law,Co-ownership,Multiple owners,276,Shared legal ownership
+Property Law,Conveyance,Transfer of property,277,Legal property transfer
+Property Law,Quiet title,Legal claim removal,278,Remove ownership disputes
+Property Law,Partition,Dividing property among owners,279,Ownership divided legally
+Property Law,Encroachment,Illegal intrusion on property,280,Violation of property boundaries
+Corporate Law,Merger,Combining two companies,377,Two companies legally unite
+Corporate Law,Acquisition,Buying another company,378,Legal company purchase
+Corporate Law,Hostile takeover,Company acquired without consent,379,Forced company acquisition
+Corporate Law,Share buyback,Company buys its own shares,380,Company reduces share number
+Corporate Law,Dividend,Profit distribution to shareholders,381,Shareholder receives profits
+Corporate Law,Stock option,Right to buy shares later,382,Right to buy company stock
+Corporate Law,Corporate veil,Protection from company liability,383,Limits personal liability
+Corporate Law,Limited liability,Shareholders not personally liable,384,Personal assets protected
+Corporate Law,Insolvency,Company unable to pay debts,385,Company financially failing
+Corporate Law,Bankruptcy,Legal declaration of insolvency,386,Debt relief by court
+Family Law,Annulment,Marriage declared invalid,476,Marriage legally nullified
+Family Law,Divorce,Dissolution of marriage,477,Marriage legally ended
+Family Law,Separation,Living apart legally,478,Legal recognition of living apart
+Family Law,Child support,Financial support for child,479,Legal obligation to pay
+Family Law,Custody,Child legal guardianship,480,Parent legally responsible
+Family Law,Adoption,Legal parenthood for child,481,Child becomes legal child of new parent
+Family Law,Surrogacy agreement,Contract for surrogate parent,482,Legal rules for surrogacy
+Family Law,Domestic violence,Abuse within family,483,Illegal family violence
+Family Law,Protection order,Court restraining order,484,Legal protection from abuse
+Family Law,Parental alienation,Parent undermining child relationship,485,Illegal interference with parent-child bond
+Cyber Law,Phishing,Fraudulent communication for info,576,Illegal trick for sensitive info
+Cyber Law,Ransomware,Software demanding ransom,577,Illegal software extortion
+Cyber Law,Data breach,Unauthorized access to data,578,Illegal exposure of data
+Cyber Law,Privacy violation,Infringing personal data rights,579,Illegal use of private info
+Cyber Law,Deepfake,Manipulated media for deception,580,Illegal media impersonation
+Cyber Law,SQL injection,Database hacking attack,581,Illegal code injection
+Cyber Law,Cyber espionage,Spying online illegally,582,Illegal intelligence gathering
+Cyber Law,Distributed denial of service,Online service disruption,583,Illegal attack on network
+Cyber Law,Network intrusion,Unauthorized network access,584,Illegal access to systems
+Cyber Law,Credential stuffing,Using stolen credentials,585,Illegal account access
+law_type,original,simplified,article_no,meaning
+Contract Law,Impossibility,Contract cannot be performed,186,Performance impossible excuses obligation
+Contract Law,Force majeure,Unforeseeable event excuses duty,187,Event beyond control excuses contract
+Contract Law,Unconscionability,Unfair contract terms,188,Terms so unfair they are voidable
+Contract Law,Parol evidence rule,Written contract governs,189,Oral evidence cannot change written terms
+Contract Law,Condition precedent,Event must occur first,190,Contract depends on prior event
+Contract Law,Condition subsequent,Event ends obligation,191,Contract ends if event occurs
+Contract Law,Option contract,Right to purchase in future,192,Right to buy or sell later
+Contract Law,Consideration,Something of value exchanged,193,Required for valid contract
+Contract Law,Promissory estoppel,Reliance on promise enforced,194,Promise enforceable if relied upon
+Contract Law,Duress,Contract under threat,195,Threats make contract voidable
+Criminal Law,Attempted murder,Trying to unlawfully kill,196,Crime even if victim survives
+Criminal Law,Conspiracy,Agreement to commit crime,197,Illegal planning of crime
+Criminal Law,Bribery,Offering something for influence,198,Illegal payment for favor
+Criminal Law,Embezzlement,Stealing entrusted funds,199,Misappropriating money illegally
+Criminal Law,Perjury,Lying under oath,200,Illegal false testimony
+Criminal Law,Obstruction of justice,Interfering with law process,201,Illegal interference with justice
+Criminal Law,Treason,Betrayal of country,202,Crime against state
+Criminal Law,Insider trading,Trading on confidential info,203,Illegal stock advantage
+Criminal Law,Money laundering,Hiding illegal funds,204,Illegal money concealment
+Criminal Law,Stalking,Repeated harassment,205,Illegal pursuit or harassment
+Property Law,Eminent domain,Government takes property,281,State can acquire property with compensation
+Property Law,Fixture,Attached property part of land,282,Item legally part of property
+Property Law,Lien,Legal claim on property,283,Right to hold property until debt paid
+Property Law,Mortgage,Loan secured by property,284,Property used as collateral
+Property Law,Deed,Document proving ownership,285,Legal evidence of property ownership
+Property Law,Title search,Check ownership history,286,Verify legal property ownership
+Property Law,Zoning,Land use regulations,287,Legal use restrictions for property
+Property Law,Encumbrance,Claim on property by others,288,Limits on property rights
+Property Law,Tenancy in common,Shared ownership,289,Each owner has distinct share
+Property Law,Joint tenancy,Shared ownership with rights of survivorship,290,Ownership passes to surviving owner
+Corporate Law,Corporate governance,Rules for company management,387,Legal company management standards
+Corporate Law,Proxy voting,Vote on behalf of shareholder,388,Shareholder votes via representative
+Corporate Law,Bylaws,Internal company rules,389,Regulations governing company
+Corporate Law,Articles of incorporation,Company formation document,390,Official company registration
+Corporate Law,Shareholder agreement,Contract among shareholders,391,Defines rights and obligations
+Corporate Law,Preferred stock,Priority over common stock,392,Stock with preferential rights
+Corporate Law,Common stock,Standard ownership shares,393,Basic company ownership
+Corporate Law,Convertible bond,Bond convertible to stock,394,Debt converts into equity
+Corporate Law,Debenture,Unsecured loan certificate,395,Loan without collateral
+Corporate Law,Going concern,Company expected to operate,396,Business assumed to continue
+Family Law,Legal separation,Marriage formally separated,486,Official recognition of separation
+Family Law,Alimony,Spousal financial support,487,Financial support to spouse
+Family Law,Child visitation,Access rights for parent,488,Parent-right to visit child
+Family Law,Guardianship,Legal guardian appointed,489,Parenting rights legally assigned
+Family Law,Adultery,Marital infidelity,490,Illegal or grounds for divorce
+Family Law,Prenuptial agreement,Contract before marriage,491,Agreed terms for assets before marriage
+Family Law,Postnuptial agreement,Contract after marriage,492,Agreed terms for assets after marriage
+Family Law,Domestic partnership,Couple recognized without marriage,493,Legal rights similar to marriage
+Family Law,Surrogate parent,Parent providing birth,494,Legal arrangement for child birth
+Family Law,Child emancipation,Child legally independent,495,Minor becomes legal adult
+Cyber Law,Cyberbullying,Online harassment,586,Illegal online harassment
+Cyber Law,Identity theft,Stealing personal information,587,Illegal impersonation
+Cyber Law,Cyberstalking,Repeated online harassment,588,Illegal online pursuit
+Cyber Law,Malware,Software designed to harm,589,Harmful program
+Cyber Law,Spyware,Software tracking user,590,Illegal data collection
+Cyber Law,Adware,Advertising software,591,Annoying but legal in some contexts
+Cyber Law,Keylogger,Records keystrokes,592,Illegal monitoring tool
+Cyber Law,Pharming,Redirecting website traffic,593,Illegal traffic diversion
+Cyber Law,Social engineering,Manipulating people for info,594,Illegal deception
+Cyber Law,Man-in-the-middle attack,Intercepting communication,595,Illegal eavesdropping
+law_type,original,simplified,article_no,meaning
+Contract Law,Novation,Replacing old contract with new,196,New contract replaces old obligations
+Contract Law,Accord and satisfaction,Agreement to settle dispute,197,Dispute resolved by new terms
+Contract Law,Mutual mistake,Both parties wrong about fact,198,Mistaken fact voids contract
+Contract Law,Unilateral mistake,One party wrong about fact,199,One-sided error may void contract
+Contract Law,Frustration,Contract impossible due to unforeseen event,200,Event makes performance impossible
+Criminal Law,Hate crime,Crime motivated by bias,206,Illegal act driven by prejudice
+Criminal Law,Assault,Threat or attempt of harm,207,Intentional threat of injury
+Criminal Law,Battery,Physical harm to another,208,Actual intentional physical harm
+Criminal Law,Kidnapping,Unlawful abduction,209,Illegal taking of person
+Criminal Law,Robbery,Theft with force,210,Stealing using threat or violence
+Criminal Law,Arson,Deliberate fire damage,211,Intentional burning of property
+Criminal Law,Fraud,Deception for gain,212,Illegal deception for benefit
+Criminal Law,Extortion,Obtaining by threats,213,Illegal coercion for gain
+Criminal Law,Harassment,Repeated unwanted behavior,214,Illegal troubling of another
+Criminal Law,Terrorism,Violent acts for political aims,215,Illegal acts causing fear
+Criminal Law,Drug trafficking,Illegal drug distribution,216,Unlawful selling or transporting drugs
+Property Law,Easement,Right to use another's land,291,Legal access over property
+Property Law,Encroachment,Illegal extension on another's property,292,Unauthorized intrusion
+Property Law,Adverse possession,Gaining property by long use,293,Property ownership by continuous use
+Property Law,Restrictive covenant,Limit on property use,294,Contractual land use restriction
+Property Law,Property tax,Tax on ownership,295,Legal obligation to pay tax on property
+Property Law,Real estate agent,Intermediary for sale,296,Legal representative for property transaction
+Property Law,Lease,Temporary property rental,297,Right to use property temporarily
+Property Law,Sublease,Renting leased property,298,Leased property rented further
+Property Law,Tenancy agreement,Rental contract,299,Legal rental contract
+Property Law,Security deposit,Advance payment for lease,300,Payment held for damages
+Corporate Law,Stock option,Right to buy stock,397,Employee can buy shares
+Corporate Law,Dividend,Profit distribution,398,Payment to shareholders
+Corporate Law,Merger,Company combination,399,Two companies legally combine
+Corporate Law,Acquisition,Company purchase,400,One company buys another
+Corporate Law,Hostile takeover,Acquisition without consent,401,Purchase against target management
+Corporate Law,Business license,Legal permit to operate,402,Official permission to run business
+Corporate Law,Intellectual property,Ownership of creations,403,Legal protection for ideas
+Corporate Law,Patent,Exclusive invention right,404,Protection for inventor
+Corporate Law,Trademark,Brand protection,405,Legal protection of brand name/logo
+Corporate Law,Copyright,Right over creative work,406,Protection of artistic work
+Family Law,Annulment,Marriage declared void,496,Marriage legally nullified
+Family Law,Divorce,Legal end of marriage,497,Official termination of marriage
+Family Law,Custody,Legal care of child,498,Parent or guardian responsibility
+Family Law,Visitation rights,Access to child,499,Parent allowed to visit
+Family Law,Adoption,Legal parent assignment,500,Child legally assigned to new parent
+Family Law,Foster care,Temporary child care,501,State assigned temporary guardianship
+Family Law,Domestic violence,Abuse within family,502,Illegal harm to family member
+Family Law,Child support,Financial support for child,503,Parent must provide funds
+Family Law,Parental rights,Legal rights over child,504,Control and responsibility over minor
+Family Law,Emancipation,Child becomes adult legally,505,Minor gains legal independence
+Cyber Law,Data breach,Unauthorized data access,596,Illegal access to confidential info
+Cyber Law,Phishing,Deceptive attempt to get info,597,Fraudulent info request
+Cyber Law,Ransomware,Malware demanding payment,598,Hacker holds data hostage
+Cyber Law,DDoS attack,Overload system attack,599,Network attack to disable service
+Cyber Law,Cyber espionage,Online spying,600,Illegal information gathering
+Cyber Law,Deepfake,Manipulated video or audio,601,Falsified media content
+Cyber Law,Cryptojacking,Illegal crypto mining,602,Unauthorized use of resources
+Cyber Law,Cyber terrorism,Digital attack for political aims,603,Illegal online violence
+Cyber Law,Spam,Unwanted messages,604,Unsolicited communication
+Cyber Law,Hacking,Unauthorized system access,605,Illegal computer access
+law_type,original,simplified,article_no,meaning
+Contract Law,Impossibility,Contract cannot be performed,201,Performance is impossible due to external factors
+Contract Law,Condition precedent,Event must occur first,202,Contract starts only after a condition
+Contract Law,Condition subsequent,Event terminates contract,203,Contract ends if a condition occurs
+Contract Law,Promissory estoppel,Prevent unfair withdrawal,204,Party cannot renege on promise causing loss
+Contract Law,Liquidated damages,Pre-agreed compensation,205,Specified damages for breach
+Contract Law,Penalty clause,Punitive damages clause,206,Clause imposing penalty for breach
+Criminal Law,Embezzlement,Stealing entrusted funds,217,Illegal misappropriation of money
+Criminal Law,Bribery,Offering or taking bribe,218,Illegal exchange of favors or money
+Criminal Law,Perjury,Lying under oath,219,False statement legally punishable
+Criminal Law,Obstruction of justice,Hindering legal process,220,Illegal interference with law enforcement
+Criminal Law,Stalking,Repeated following or harassment,221,Illegal unwanted attention
+Criminal Law,Identity theft,Using someone’s identity,222,Illegal impersonation
+Criminal Law,Public intoxication,Being drunk in public,223,Illegal public drunkenness
+Criminal Law,Vandalism,Property destruction,224,Illegal property damage
+Criminal Law,Trespassing,Unauthorized entry,225,Illegal presence on property
+Criminal Law,Homicide,Killing another person,226,Unlawful taking of life
+Property Law,Title deed,Legal ownership document,301,Proof of property ownership
+Property Law,Mortgage,Loan against property,302,Property pledged for loan
+Property Law,Foreclosure,Lender seizes property,303,Lender takes property due to default
+Property Law,Joint tenancy,Shared property ownership,304,Property co-owned equally
+Property Law,Tenant rights,Rights of renter,305,Legal protections for tenants
+Property Law,Landlord obligations,Duties of property owner,306,Legal responsibilities of owner
+Property Law,Deed of trust,Third-party property management,307,Trustee holds property for lender
+Property Law,Right of way,Access through land,308,Legal passage over another’s land
+Property Law,Property lien,Claim for debt on property,309,Legal claim due to unpaid debt
+Property Law,Co-ownership,Shared property rights,310,Multiple owners share property
+Corporate Law,Corporate veil,Protection of owners,407,Owners shielded from liability
+Corporate Law,Limited liability,Owner responsibility limited,408,Owners liable only up to investment
+Corporate Law,Shareholder agreement,Shareholder rights contract,409,Contract defining ownership rights
+Corporate Law,Articles of incorporation,Company founding document,410,Legal formation document
+Corporate Law,Bylaws,Company internal rules,411,Rules governing corporate operations
+Corporate Law,Board of directors,Company decision makers,412,Group managing company
+Corporate Law,Proxy voting,Vote by representative,413,Voting through authorized person
+Corporate Law,Quorum,Minimum participants for meeting,414,Required attendance to validate decisions
+Corporate Law,Merger agreement,Contract for company merger,415,Legal agreement to merge companies
+Corporate Law,Takeover bid,Offer to buy company,416,Proposal to acquire company
+Family Law,Spousal support,Financial help after divorce,506,Legal support from former spouse
+Family Law,Separation agreement,Contract for separation,507,Legal agreement defining separation terms
+Family Law,Alimony,Periodic spouse payment,508,Financial support after divorce
+Family Law,Child emancipation,Minor becomes adult,509,Legal independence of minor
+Family Law,Guardianship,Legal care of minor,510,Official responsibility over child
+Family Law,Parental consent,Parent approval requirement,511,Permission needed from parents
+Family Law,Joint custody,Shared child care,512,Both parents share custody
+Family Law,Visitation schedule,Time allocation for visits,513,Legal timetable for parent visits
+Family Law,Domestic partnership,Legal recognition of couple,514,Rights for unmarried couple
+Family Law,Prenuptial agreement,Marriage financial contract,515,Contract defining property rights before marriage
+Cyber Law,Malware,Malicious software,606,Software intended to damage system
+Cyber Law,Rogue software,Unauthorized program,607,Illegal or harmful program
+Cyber Law,Spyware,Software spying on user,608,Program collecting information secretly
+Cyber Law,Adware,Software showing ads,609,Program displaying unsolicited ads
+Cyber Law,Keylogger,Program recording keystrokes,610,Software tracking typed info
+Cyber Law,Cyberbullying,Online harassment,611,Illegal online intimidation
+Cyber Law,Digital signature,Electronic signature,612,Legally recognized electronic authentication
+Cyber Law,Encryption,Data protection technique,613,Securing data through coding
+Cyber Law,Firewall,Network protection system,614,System protecting network access
+Cyber Law,VPN,Private network connection,615,Secure remote connection
+law_type,original,simplified,article_no,meaning
+Contract Law,Force majeure,Unforeseen event excusing performance,207,Contract obligations excused by extraordinary events
+Contract Law,Frustration,Contract impossible due to change,208,Contract terminated due to unforeseen change
+Contract Law,Novation,Replacing old contract,209,New contract replaces existing obligations
+Contract Law,Accord and satisfaction,Agreement to settle,210,Settling dispute with new agreement
+Contract Law,Breach of contract,Failure to perform,211,Non-fulfillment of contract terms
+Contract Law,Repudiation,Refusal to perform,212,Party rejects obligations
+Criminal Law,Arson,Intentional fire,227,Deliberate property burning
+Criminal Law,Assault,Threat or attempt to harm,228,Physical threat or harm
+Criminal Law,Battery,Physical harm to person,229,Intentional touching causing injury
+Criminal Law,Kidnapping,Unlawful abduction,230,Illegal taking of a person
+Criminal Law,Fraud,Deception for gain,231,Illegal deception for benefit
+Criminal Law,Extortion,Obtaining by threat,232,Illegal coercion for benefit
+Criminal Law,Smuggling,Illegal transport of goods,233,Transporting contraband illegally
+Criminal Law,Counterfeiting,Fake goods or currency,234,Illegal imitation of items
+Criminal Law,Treason,Betrayal of state,235,Crime against country
+Criminal Law,Sedition,Inciting rebellion,236,Illegal incitement against authority
+Property Law,Adverse possession,Claim by occupation,311,Acquiring property through long possession
+Property Law,Easement,Rights to use land,312,Legal access over another’s land
+Property Law,Encumbrance,Claim on property,313,Legal burden or lien on property
+Property Law,Lease agreement,Rental contract,314,Contract for renting property
+Property Law,Sublease,Secondary rental,315,Lease granted by tenant
+Property Law,License,Permission to use property,316,Legal right to use land or property
+Property Law,Deed restriction,Property use limitation,317,Limitations placed on property
+Property Law,Conveyance,Transfer of property,318,Legal transfer of ownership
+Property Law,Partition,Division of property,319,Splitting co-owned property
+Property Law,Eminent domain,Government property acquisition,320,Government takes property with compensation
+Corporate Law,Dividend,Profit distribution to shareholders,417,Share of profits paid to owners
+Corporate Law,Initial public offering,Company shares sold,418,First sale of company stock to public
+Corporate Law,Stock options,Employee share rights,419,Right to buy company shares
+Corporate Law,Corporate governance,Management system,420,Rules for running company
+Corporate Law,Merger,Company combination,421,Two companies combine
+Corporate Law,Acquisition,Company purchase,422,Company bought by another
+Corporate Law,Spin-off,Company split,423,Creating a separate company from existing
+Corporate Law,Joint venture,Partnership between companies,424,Companies share business project
+Corporate Law,Proxy,Voting representation,425,Authorizing someone to vote on behalf
+Corporate Law,Hostile takeover,Unfriendly acquisition,426,Acquisition without company consent
+Family Law,Annulment,Marriage declared invalid,516,Marriage legally voided
+Family Law,Separation,Living apart legally,517,Legal separation without divorce
+Family Law,Adoption,Legal parenthood transfer,518,Legal recognition of child by new parents
+Family Law,Foster care,Temporary child care,519,Temporary guardianship of child
+Family Law,Domestic violence,Abuse within home,520,Illegal abuse in family
+Family Law,Custody,Child care responsibility,521,Legal right to care for child
+Family Law,Child support,Financial aid for child,522,Payments for child maintenance
+Family Law,Divorce,Legal marriage termination,523,Official end of marriage
+Family Law,Marriage license,Marriage legal permit,524,Official approval for marriage
+Family Law,Prenuptial agreement,Pre-marriage contract,525,Contract defining rights before marriage
+Cyber Law,Phishing,Deceptive emails or messages,616,Fraudulent messages to steal info
+Cyber Law,Hacking,Unauthorized system access,617,Illegal access to computers
+Cyber Law,Ransomware,Malware demanding payment,618,Software encrypting files for ransom
+Cyber Law,Data breach,Unauthorized data access,619,Illegal access to private information
+Cyber Law,Cyber espionage,Online spying,620,Illegal digital surveillance
+Cyber Law,Cyber theft,Stealing digital info,621,Illegal theft of digital assets
+Cyber Law,Cyber harassment,Online bullying,622,Abuse or intimidation online
+Cyber Law,Denial of service attack,Network disruption,623,Overloading system to disrupt service
+Cyber Law,SQL injection,Database attack,624,Malicious database queries
+Cyber Law,Crypto fraud,Illegal cryptocurrency schemes,625,Fraud using digital currency
+law_type,original,simplified,article_no,meaning
+Contract Law,Impossibility of performance,Contract cannot be performed,213,Contract cannot be fulfilled due to unforeseen events
+Contract Law,Condition precedent,Event must happen first,214,Obligation arises only after event occurs
+Contract Law,Condition subsequent,Event cancels obligation,215,Obligation ends if event occurs
+Contract Law,Consideration,Something of value exchanged,216,Exchange of value in contract
+Contract Law,Intention to create legal relations,Serious contractual intent,217,Parties intend legally binding agreement
+Contract Law,Capacity to contract,Ability to enter contract,218,Parties legally able to contract
+Criminal Law,Theft,Stealing property,237,Unlawful taking of property
+Criminal Law,Burglary,Illegal entry with intent,238,Entering property to commit crime
+Criminal Law,Robbery,Theft with violence,239,Stealing using force or threat
+Criminal Law,Murder,Intentional killing,240,Deliberate unlawful killing
+Criminal Law,Manslaughter,Unintentional killing,241,Killing without intent to harm
+Criminal Law,Sexual assault,Non-consensual sexual act,242,Illegal sexual activity without consent
+Criminal Law,Bribery,Offering something for influence,243,Illegal payment to influence decision
+Criminal Law,Embezzlement,Misappropriation of funds,244,Illegal use of entrusted money
+Criminal Law,Perjury,Lying under oath,245,False statement in legal proceeding
+Criminal Law,Obstruction of justice,Interfering with law,246,Hindering legal process
+Property Law,Joint tenancy,Shared ownership with rights,321,Equal ownership with survivorship
+Property Law,Tenant in common,Shared ownership without rights,322,Separate shares of ownership
+Property Law,Condominium,Individual ownership in building,323,Ownership of unit with shared areas
+Property Law,Cooperative,Ownership through corporation,324,Shareholders control property corporation
+Property Law,Real property,Land and buildings,325,Ownership of land and structures
+Property Law,Personal property,Movable items,326,Ownership of moveable assets
+Property Law,Fixtures,Attached property items,327,Items attached to land considered part
+Property Law,Freehold,Indefinite ownership,328,Ownership without time limit
+Property Law,Leasehold,Fixed term ownership,329,Ownership limited by lease term
+Property Law,Easement by necessity,Access required for use,330,Legal right to access land for use
+Corporate Law,Corporate liability,Company legal responsibility,427,Company accountable for actions
+Corporate Law,Limited liability,Shareholder risk limited,428,Investors not fully liable
+Corporate Law,Corporate veil,Company separate from owners,429,Company treated as separate legal entity
+Corporate Law,Directors’ duties,Responsibilities of directors,430,Legal obligations of company directors
+Corporate Law,Shareholder rights,Rights of owners,431,Entitlements of shareholders
+Corporate Law,Corporate charter,Founding document,432,Document defining company rules
+Corporate Law,Articles of association,Company rules document,433,Internal governance rules
+Corporate Law,Bylaws,Internal regulations,434,Company operational rules
+Corporate Law,Annual general meeting,Shareholder meeting,435,Regular company meeting for decisions
+Corporate Law,Quorum,Minimum participants required,436,Minimum number of members for meeting
+Family Law,Alimony,Financial support after divorce,526,Payments for spouse post-divorce
+Family Law,Visitation,Right to see child,527,Non-custodial parent visits child
+Family Law,Guardianship,Legal child care assignment,528,Authority to care for child
+Family Law,Paternity,Legal fatherhood,529,Recognition of biological father
+Family Law,Adultery,Spouse cheating,530,Extramarital sexual relationship
+Family Law,Child neglect,Failure to care,531,Child not properly cared for
+Family Law,Child abuse,Physical or emotional harm,532,Harming a child
+Family Law,Domestic partnership,Unmarried legal relationship,533,Legal recognition of partnership
+Family Law,Separation agreement,Dividing property and responsibilities,534,Contract settling separation terms
+Family Law,Legal adoption,Formal parental transfer,535,Official legal adoption process
+Cyber Law,Cyber stalking,Repeated online harassment,626,Persistent online harassment
+Cyber Law,Identity theft,Stealing personal information,627,Illegal use of personal data
+Cyber Law,Online piracy,Illegal distribution,628,Unauthorized sharing of digital content
+Cyber Law,Cyber bullying,Harassment via internet,629,Online intimidation or bullying
+Cyber Law,Pharming,Fake websites to steal info,630,Redirecting users to malicious sites
+Cyber Law,Cyber forgery,Digital document forgery,631,Creating fake electronic documents
+Cyber Law,Malware,Malicious software,632,Harmful software installed on devices
+Cyber Law,Spyware,Software that spies,633,Collects user data without consent
+Cyber Law,Adware,Software showing ads,634,Unwanted advertising software
+Cyber Law,Botnet,Network of infected computers,635,Group of infected devices controlled remotely
+law_type,original,simplified,article_no,meaning
+Contract Law,Frustration of contract,Contract ends due to unforeseen events,219,Contract discharged due to impossibility
+Contract Law,Specific performance,Court orders to fulfill contract,220,Legal enforcement to complete contract
+Contract Law,Rescission,Contract cancelled,221,Parties released from obligations
+Contract Law,Repudiation,Breach indicating refusal,222,One party refuses performance
+Contract Law,Injunction,Court order to stop act,223,Legal order to prevent action
+Contract Law,Liquidated damages,Pre-agreed compensation,224,Predetermined compensation for breach
+Criminal Law,Assault,Threat or attempt to harm,247,Attempt to inflict injury
+Criminal Law,Battery,Actual physical harm,248,Unlawful physical contact
+Criminal Law,Kidnapping,Unlawful abduction,249,Seizing and carrying away person
+Criminal Law,Arson,Deliberate fire,250,Intentional burning of property
+Criminal Law,Extortion,Threat to gain property,251,Obtaining property by threat
+Criminal Law,Fraud,Deception for gain,252,Tricking someone for benefit
+Criminal Law,Money laundering,Illegal money cleaning,253,Hiding origin of illegal funds
+Criminal Law,Terrorism,Violence for political aim,254,Acts causing fear for political purpose
+Criminal Law,Human trafficking,Illegal trade of humans,255,Trading humans for exploitation
+Criminal Law,Drug trafficking,Illegal drug trade,256,Distribution or sale of illicit drugs
+Property Law,Easement by prescription,Right by long use,331,Access rights gained by continuous use
+Property Law,Restrictive covenant,Limitations on land use,332,Agreements restricting property use
+Property Law,Right of way,Legal path across land,333,Right to pass through another’s property
+Property Law,Encroachment,Illegal intrusion,334,Building or using land unlawfully
+Property Law,Adverse possession,Ownership by continuous use,335,Acquiring property by long-term use
+Property Law,Lease agreement,Contract for tenancy,336,Agreement defining tenant terms
+Property Law,Sublease,Tenant rents to another,337,Tenant leasing property to another
+Property Law,License to use,Permission to use property,338,Right to use property without ownership
+Property Law,Mortgage,Loan against property,339,Property used as security for loan
+Property Law,Foreclosure,Lender takes property,340,Lender seizes property after default
+Corporate Law,Merger,Companies combine,437,Two or more companies unite
+Corporate Law,Acquisition,One company buys another,438,Purchase of one company by another
+Corporate Law,Takeover,Company controlled by another,439,Gaining control of a company
+Corporate Law,Hostile takeover,Unwanted acquisition,440,Acquisition against management wishes
+Corporate Law,Divestment,Selling assets or units,441,Company sells part of business
+Corporate Law,Spin-off,Company creates separate entity,442,Division becomes independent
+Corporate Law,IPO,Initial public offering,443,Selling company shares to public
+Corporate Law,Stock buyback,Company repurchases shares,444,Company buys its own shares
+Corporate Law,Debenture,Debt instrument,445,Long-term company borrowing
+Corporate Law,Bond,Fixed income instrument,446,Company-issued debt with interest
+Family Law,Prenuptial agreement,Pre-marriage contract,536,Agreed terms before marriage
+Family Law,Postnuptial agreement,After marriage contract,537,Agreement made after marriage
+Family Law,Separation order,Legal separation directive,538,Court grants separation
+Family Law,Child custody,Legal child guardianship,539,Parent responsible for child
+Family Law,Child support,Financial support for child,540,Payments for child’s expenses
+Family Law,Parental rights,Parent legal authority,541,Legal rights of parents
+Family Law,Visitation schedule,Times for visiting child,542,Arranged parent visits
+Family Law,Adoption consent,Agreement for adoption,543,Legal approval required
+Family Law,Foster care,Temporary child care,544,Child placed in care temporarily
+Family Law,Emancipation,Minor becomes independent,545,Minor gains legal independence
+Cyber Law,Hacking,Unauthorized computer access,636,Breaking into computer systems
+Cyber Law,Cyber espionage,Spying via computer,637,Using computer to steal info
+Cyber Law,Denial of Service attack,Overloading servers,638,Disrupting network services
+Cyber Law,Cyber trespass,Unauthorized system use,639,Illegal access to computer system
+Cyber Law,Cyber harassment,Online abuse,640,Repeated online attacks or threats
+Cyber Law,Data breach,Unauthorized data access,641,Exposure of confidential info
+Cyber Law,Encryption violation,Breaking encrypted data,642,Illegal access to encrypted info
+Cyber Law,Digital signature fraud,Forged electronic signature,643,Fake signing of documents
+Cyber Law,Cyber defamation,Online false statements,644,Harming reputation via internet
+Cyber Law,Phishing,Tricking for information,645,Fraudulent attempt to get info
+law_type,original,simplified,article_no,meaning
+Contract Law,Implied terms,Terms assumed by law,225,Contract terms not written but enforced
+Contract Law,Condition precedent,Event must occur first,226,Contract obligation triggered by event
+Contract Law,Condition subsequent,Event cancels obligation,227,Contract ends if event occurs
+Contract Law,Force majeure,Unforeseen event excuse,228,Excuses performance due to extraordinary events
+Contract Law,Mutual mistake,Both parties misunderstand,229,Both parties wrong about fact
+Contract Law,Unilateral mistake,One party misjudges,230,One party’s error affecting contract
+Contract Law,Novation,Replace contract with new,231,Substituting new contract for old
+Contract Law,Accord and satisfaction,Settlement agreement,232,Discharge by new agreement
+Contract Law,Promissory estoppel,Enforce promise without contract,233,Promise enforced without formal contract
+Contract Law,Quantum meruit,Payment for work done,234,Reasonable payment for services
+Criminal Law,Assassination,Targeted killing,257,Planned murder of a person
+Criminal Law,Hate crime,Crime motivated by bias,258,Offense driven by prejudice
+Criminal Law,Stalking,Repeated harassment,259,Persistent unwanted following
+Criminal Law,Robbery,Theft with force,260,Stealing using threat or force
+Criminal Law,Burglary,Illegal entry to steal,261,Entering property to commit theft
+Criminal Law,Embezzlement,Stealing entrusted funds,262,Misappropriating money or property
+Criminal Law,Bribery,Payment for influence,263,Offering or accepting bribe
+Criminal Law,Perjury,Lying under oath,264,False statement in court
+Criminal Law,Obstruction of justice,Interfering with law,265,Preventing law enforcement
+Criminal Law,Cyber stalking,Online harassment,266,Harassment using digital platforms
+Property Law,Joint tenancy,Shared property ownership,341,Equal ownership with right of survivorship
+Property Law,Tenancy in common,Shared ownership,342,Owners have separate shares
+Property Law,Life estate,Property for lifetime,343,Right to use property during lifetime
+Property Law,Fee simple absolute,Complete ownership,344,Full ownership without conditions
+Property Law,Leasehold estate,Right to lease property,345,Tenancy under lease
+Property Law,Real covenant,Land use restriction,346,Binding property promise
+Property Law,Profit a prendre,Right to take resources,347,Right to take natural resources
+Property Law,Co-ownership,Shared ownership,348,Multiple owners of property
+Property Law,Trust,Property held by trustee,349,Legal arrangement for holding property
+Property Law,Equitable lien,Claim for payment,350,Right to claim property as security
+Corporate Law,Proxy voting,Vote by representative,447,Authorizing someone to vote on behalf
+Corporate Law,Shareholder agreement,Shareholder rules,448,Agreement governing company shares
+Corporate Law,Corporate veil,Separate legal entity,449,Company’s liability separate from owners
+Corporate Law,Director duties,Legal responsibilities of directors,450,Obligations of board members
+Corporate Law,Fiduciary duty,Obligation to act in interest,451,Legal duty to prioritize company interests
+Corporate Law,Minority rights,Protection for small shareholders,452,Rights protecting small shareholders
+Corporate Law,Dividend,Profit distribution,453,Payment to shareholders
+Corporate Law,Reserves,Retained profits,454,Funds kept in company
+Corporate Law,Articles of association,Company rules,455,Internal governance documents
+Corporate Law,Memorandum of association,Company objectives,456,Legal document stating company purpose
+Family Law,Annulment,Marriage declared void,546,Legal invalidation of marriage
+Family Law,Domestic violence,Abuse at home,547,Physical or emotional abuse in family
+Family Law,Alimony,Spousal support,548,Payments to former spouse
+Family Law,Guardianship,Legal custodian,549,Responsibility for minor or incapacitated
+Family Law,Marital property,Property acquired in marriage,550,Property division rules
+Family Law,Community property,Shared marital property,551,Joint ownership in marriage
+Family Law,Separation agreement,Terms during separation,552,Written agreement for separated spouses
+Family Law,Parental alienation,Influencing child against parent,553,Manipulating child to reject parent
+Family Law,Legal adoption,Official adoption,554,Granting legal parental rights
+Family Law,Petition for custody,Court request for custody,555,Formal request to assign child custody
+Cyber Law,Malware,Malicious software,646,Software designed to damage systems
+Cyber Law,Ransomware,Malware demanding payment,647,Malicious software demanding money
+Cyber Law,Spyware,Software spying user,648,Software secretly monitoring activity
+Cyber Law,Identity theft,Stealing personal identity,649,Fraudulently using someone’s identity
+Cyber Law,Online fraud,Deceptive online act,650,Scamming through internet
+Cyber Law,Data mining,Analyzing data illegally,651,Extracting sensitive info without consent
+Cyber Law,Digital piracy,Illegal copying digital content,652,Unauthorized reproduction of content
+Cyber Law,Cyberbullying,Online harassment,653,Harassment using digital channels
+Cyber Law,Internet trolling,Provoking online,654,Deliberate provocation online
+Cyber Law,Pharming,Fake website redirection,655,Redirecting to fraudulent website
+law_type,original,simplified,article_no,meaning
+Contract Law,Consideration,Exchange of value,235,Something of value exchanged in contract
+Contract Law,Breach of contract,Failure to perform,236,Not fulfilling contractual obligations
+Contract Law,Specific performance,Court enforces contract,237,Court orders fulfillment of contract
+Contract Law,Injunction,Court restrains action,238,Court prohibits certain action
+Contract Law,Duress,Forced consent,239,Agreement made under threat
+Contract Law,Undue influence,Excessive persuasion,240,Contract signed under unfair pressure
+Contract Law,Rescission,Cancellation of contract,241,Contract legally canceled
+Contract Law,Frustration,Impossible performance,242,Contract cannot be performed due to unforeseen events
+Contract Law,Letter of intent,Preliminary agreement,243,Intent before formal contract
+Contract Law,Non-compete clause,Restrict competition,244,Clause preventing competition after contract
+Criminal Law,Homicide,Killing of person,267,Intentional or unintentional killing
+Criminal Law,Attempted murder,Unsuccessful killing attempt,268,Failed attempt to kill
+Criminal Law,Assault,Physical attack,269,Act of causing bodily harm
+Criminal Law,Battery,Physical contact causing harm,270,Unlawful physical contact
+Criminal Law,Kidnapping,Abduction,271,Unlawful taking of a person
+Criminal Law,Extortion,Threat for money,272,Obtaining by threat or force
+Criminal Law,Arson,Deliberate fire,273,Intentional setting of fire
+Criminal Law,Fraud,Deception for gain,274,Illegal deception for personal benefit
+Criminal Law,Forgery,Fake document,275,Creating or using false documents
+Criminal Law,Larceny,Theft of property,276,Taking property unlawfully
+Property Law,Easement,Right to use land,351,Right to use someone else’s property
+Property Law,Encumbrance,Claim on property,352,Restriction or claim affecting property
+Property Law,Lease,Property rental,353,Contract granting temporary use
+Property Law,Mortgage,Loan on property,354,Property used as security for loan
+Property Law,Deed,Legal document,355,Written legal document for property
+Property Law,Title,Ownership proof,356,Legal proof of ownership
+Property Law,Foreclosure,Lender repossession,357,Lender takes property due to default
+Property Law,Eviction,Removing tenant,358,Legal removal of tenant
+Property Law,Zoning,Land use regulation,359,Rules governing land use
+Property Law,Subdivision,Dividing land,360,Separating land into plots
+Corporate Law,Merger,Company combination,457,Two companies combine into one
+Corporate Law,Acquisition,Company purchase,458,Company bought by another
+Corporate Law,Takeover,Company control,459,Obtaining control over company
+Corporate Law,Joint venture,Business partnership,460,Two companies form temporary partnership
+Corporate Law,Share buyback,Company repurchases shares,461,Company buys back own shares
+Corporate Law,Insolvency,Unable to pay debts,462,Company cannot meet financial obligations
+Corporate Law,Bankruptcy,Legal insolvency,463,Legal declaration of inability to pay
+Corporate Law,Debenture,Loan certificate,464,Debt instrument issued by company
+Corporate Law,Equity,Share ownership,465,Ownership interest in company
+Corporate Law,IPO,Initial public offering,466,Company offers shares to public
+Family Law,Child support,Financial support for child,556,Payments to support child’s needs
+Family Law,Visitation rights,Right to see child,557,Parent’s right to access child
+Family Law,Divorce,Legal end of marriage,558,Official termination of marriage
+Family Law,Separation,Living apart,559,Married couple living separately
+Family Law,Prenuptial agreement,Marriage contract,560,Agreement before marriage
+Family Law,Domestic partnership,Non-married cohabitation,561,Legal recognition of couple
+Family Law,Adoption,Legal parenthood,562,Child legally becomes part of family
+Family Law,Foster care,Temporary guardianship,563,Temporary care of child by guardian
+Family Law,Paternity,Legal fatherhood,564,Establishing legal father
+Family Law,Child custody,Responsibility for child,565,Legal care and decision-making for child
+Cyber Law,Phishing,Deceptive emails,656,Fraudulent emails to steal info
+Cyber Law,Keylogger,Monitoring software,657,Software recording keystrokes
+Cyber Law,DDoS,Distributed attack,658,Overloading system to disrupt service
+Cyber Law,Hacker,Unauthorized access,659,Person breaking into computer systems
+Cyber Law,Data breach,Unauthorized data access,660,Illegal access to private data
+Cyber Law,Cyber espionage,Spying online,661,Stealing info from systems
+Cyber Law,Cyber terrorism,Digital terrorism,662,Using digital means to threaten
+Cyber Law,Cryptojacking,Unauthorized mining,663,Using device to mine cryptocurrency
+Cyber Law,Online impersonation,Faking identity,664,Pretending to be someone online
+Cyber Law,Digital signature,Electronic verification,665,Electronic document verification
+Contract Law,Exclusion clause,Limit liability,245,Clause limiting responsibility
+Contract Law,Severability,Independent clauses,246,Contract parts treated separately
+Contract Law,Assignment,Transfer rights,247,Transferring contractual rights
+Contract Law,Novation,Replace contract,248,Substituting new contract
+Contract Law,Indemnity,Protection against loss,249,Compensation for loss or damage
+Contract Law,Warranty,Promise about quality,250,Assurance of product/service
+Contract Law,Guarantee,Secondary promise,251,Third-party promise for obligation
+Contract Law,Restitution,Return of benefit,252,Returning something gained unjustly
+Contract Law,Estoppel,Prevent denial,253,Stop party from denying statement
+Contract Law,Liquidated damages,Pre-agreed damages,254,Fixed compensation for breach
+Criminal Law,Hate speech,Offensive speech,277,Speech inciting violence or discrimination
+Criminal Law,Smuggling,Illegal transport,278,Illegal movement of goods
+Criminal Law,Money laundering,Converting illegal money,279,Cleaning illegal funds
+Criminal Law,Organized crime,Structured illegal activity,280,Crime by organized group
+Criminal Law,Trafficking,Illegal trade,281,Illegal trade of goods/people
+Criminal Law,Terrorism,Violent threat,282,Use of violence to intimidate
+Criminal Law,Extortionate credit,Unlawful lending,283,Illegal high-interest lending
+Criminal Law,Blackmail,Threat for gain,284,Threatening to reveal info
+Criminal Law,Racketeering,Illegal business,285,Engaging in fraudulent business
+Criminal Law,Cybercrime,Crime online,286,Illegal acts using internet
+Property Law,Eminent domain,Government seizure,361,Government takes private property
+Property Law,Adverse possession,Occupying land,362,Acquiring ownership by use
+Property Law,Encroachment,Property intrusion,363,Unauthorized intrusion on land
+Property Law,Right of way,Access through land,364,Legal path across property
+Property Law,License,Permission to use,365,Legal authorization
+Property Law,Property tax,Tax on land,366,Taxes on property ownership
+Property Law,Zoning variance,Land use exception,367,Exception to zoning rules
+Property Law,Lease renewal,Extend tenancy,368,Extending lease contract
+Property Law,Sublease,Renting lease,369,Tenant rents to another,370,Inheritance,Property transfer on death,Property passes to heirs
