@@ -157,10 +157,9 @@ class LegalDatabase:
             logger.error(f"Critical error loading legal database: {e}")
             self.df = pd.DataFrame()
 
-    def search_legal_query(self, query: str, threshold: float = 0.5) -> Optional[Dict]:
+    def search_legal_query(self, query: str, threshold: float = 0.7) -> Optional[Dict]:
         """
-        Search for legal information in the database
-        Returns the best match only if similarity is above threshold
+        Search for legal information in the database with improved accuracy
         """
         if self.df is None or self.df.empty:
             return None
@@ -168,20 +167,20 @@ class LegalDatabase:
         try:
             query_lower = query.lower().strip()
 
-            # If query is very short or generic, don't use database
-            if len(query_lower.split()) < 3:
+            # Skip if query doesn't contain legal section numbers
+            if not re.search(r'section\s+\d+|article\s+\d+|sec\.?\s*\d+|art\.?\s*\d+', query_lower):
                 return None
 
-            # Skip common conversational queries
-            conversational_words = ['hello', 'hi', 'hey', 'thank', 'thanks', 'ok', 'okay', 'yes', 'no', 'please']
-            if any(word in query_lower for word in conversational_words):
+            # Skip conversational and general queries
+            general_words = ['hello', 'hi', 'thank', 'please', 'what is', 'explain', 'how to']
+            if any(word in query_lower for word in general_words):
                 return None
 
             best_match = None
             best_score = 0
 
             for _, row in self.df.iterrows():
-                score = self._calculate_similarity(query_lower, row)
+                score = self._calculate_improved_similarity(query_lower, row)
                 if score > best_score and score > threshold:
                     best_score = score
                     best_match = {
@@ -194,45 +193,44 @@ class LegalDatabase:
                         'source': 'database'
                     }
 
-            # Only return if we have a strong match
-            if best_match and best_match['confidence'] > 0.6:
-                logger.info(f"Strong database match found with confidence {best_match['confidence']}")
+            # Only return very strong matches
+            if best_match and best_match['confidence'] > 0.8:
+                logger.info(
+                    f"Strong database match: {best_match['article_no']} with confidence {best_match['confidence']}")
                 return best_match
-            else:
-                logger.info(f"No strong database match found for: {query} (best score: {best_score})")
-                return None
+
+            return None
 
         except Exception as e:
             logger.error(f"Error searching legal database: {e}")
             return None
 
-    def _calculate_similarity(self, query: str, row) -> float:
-        """Calculate similarity score between query and database entry"""
+    def _calculate_improved_similarity(self, query: str, row) -> float:
+        """Improved similarity calculation focusing on section numbers"""
         try:
-            # Combine relevant text from all columns for matching
-            relevant_text = ""
-            for col in ['law_type', 'original', 'simplified', 'article_no', 'meaning']:
-                if col in row and row[col] and str(row[col]).strip():
-                    relevant_text += " " + str(row[col]).lower()
+            article_no = str(row.get('article_no', '')).lower()
 
-            # Simple word overlap scoring
+            # Exact section number match gets highest score
+            if re.search(r'\d+', query):
+                query_sections = re.findall(r'\d+', query)
+                row_sections = re.findall(r'\d+', article_no)
+
+                if query_sections and row_sections and query_sections[0] == row_sections[0]:
+                    return 0.9  # High score for exact section match
+
+            # Word-based similarity for other cases
             query_words = set(re.findall(r'\w+', query))
-            text_words = set(re.findall(r'\w+', relevant_text))
+            row_text = f"{str(row.get('law_type', '')).lower()} {article_no}"
+            row_words = set(re.findall(r'\w+', row_text))
 
             if not query_words:
                 return 0
 
-            overlap = len(query_words.intersection(text_words))
-            base_score = overlap / len(query_words)
-
-            # Boost score if query contains law section numbers
-            if re.search(r'\d+', query) and str(row.get('article_no', '')) in query:
-                base_score += 0.3
-
-            return min(base_score, 1.0)  # Cap at 1.0
+            overlap = len(query_words.intersection(row_words))
+            return overlap / len(query_words)
 
         except Exception as e:
-            logger.error(f"Error calculating similarity: {e}")
+            logger.error(f"Error calculating improved similarity: {e}")
             return 0
 
     def get_law_by_section(self, section: str) -> Optional[Dict]:
@@ -376,145 +374,229 @@ def get_fallback_response(prompt):
         return "⚠️ AI service is temporarily busy. Please try again in a few moments."
 
 
-def get_fallback_chat_response(query):
-    """Provide intelligent fallback responses for chat"""
+def analyze_query_type(query):
+    """Analyze what type of legal query this is"""
     query_lower = query.lower()
 
-    if any(word in query_lower for word in ['hello', 'hi', 'hey']):
-        return "Hello! I'm AutoLegal AI, your legal assistant. How can I help you with Indian legal matters today?"
+    # Law section queries (e.g., "Section 10", "Article 14")
+    section_patterns = [
+        r'section\s+\d+',
+        r'article\s+\d+',
+        r'sec\.?\s*\d+',
+        r'art\.?\s*\d+',
+        r'\b\d+\s*of\s*[A-Z]',
+        r'ipc\s+section\s+\d+',
+        r'crpc\s+section\s+\d+'
+    ]
 
-    elif any(word in query_lower for word in ['thank', 'thanks']):
-        return "You're welcome! If you have any other legal questions, feel free to ask."
+    for pattern in section_patterns:
+        if re.search(pattern, query_lower):
+            return "law_section"
 
-    elif any(word in query_lower for word in ['name', 'who are you']):
-        return "I'm AutoLegal AI, an AI legal assistant specialized in Indian law. I can help with legal explanations, document analysis, compliance checks, and more!"
+    # Criminal law queries
+    criminal_keywords = ['theft', 'murder', 'robbery', 'assault', 'fraud', 'cheating', 'criminal', 'ipc', 'penal code']
+    if any(keyword in query_lower for keyword in criminal_keywords):
+        return "criminal_law"
 
-    elif len(query.split()) < 3:
-        return "Could you please provide more details about your legal question? This will help me give you a more accurate and helpful response."
+    # Contract law queries
+    contract_keywords = ['contract', 'agreement', 'offer', 'acceptance', 'consideration', 'breach']
+    if any(keyword in query_lower for keyword in contract_keywords):
+        return "contract_law"
 
+    # Constitutional law queries
+    constitutional_keywords = ['constitution', 'fundamental rights', 'article 14', 'article 19', 'article 21']
+    if any(keyword in query_lower for keyword in constitutional_keywords):
+        return "constitutional_law"
+
+    return "general"
+
+
+def get_intelligent_fallback(query, query_type):
+    """Provide intelligent fallback responses"""
+    query_lower = query.lower()
+
+    # Criminal law fallbacks
+    if query_type == "criminal_law":
+        if 'theft' in query_lower:
+            return """**Theft under Indian Penal Code**
+
+**Definition (Section 378 IPC):**
+Theft involves dishonestly taking movable property out of someone's possession without their consent, with the intention to permanently deprive them of it.
+
+**Key Elements:**
+1. **Dishonest intention** - Intent to cause wrongful gain or loss
+2. **Movable property** - Physical property that can be moved
+3. **Taking without consent** - Without the owner's permission
+4. **Out of possession** - Removing from owner's control
+
+**Punishment (Section 379 IPC):**
+- Imprisonment up to 3 years, or fine, or both
+
+**Note:** This is a basic overview. For detailed case-specific advice, consult a criminal lawyer."""
+
+    # Contract law fallbacks
+    elif query_type == "contract_law":
+        return f"""**Indian Contract Act, 1872**
+
+I understand you're asking about contract law. The Indian Contract Act, 1872 governs contracts in India.
+
+**Essential Elements of Valid Contract:**
+1. Offer and acceptance
+2. Lawful consideration
+3. Capacity to contract
+4. Free consent
+5. Lawful object
+
+**Please provide more specific details about your contract law query for a detailed response.**"""
+
+    # General fallback
     else:
         return f"""I understand you're asking about: "{query}"
 
-As a legal AI assistant, I can help you with:
+As a legal AI assistant specializing in Indian law, I can help with:
 
-• **Legal Explanations**: Understanding laws, rights, and legal concepts
-• **Document Analysis**: Reviewing contracts, clauses, and legal documents  
-• **Compliance Guidance**: Indian regulatory requirements
-• **Risk Assessment**: Identifying potential legal risks
-• **Procedure Guidance**: Legal processes and steps
+• **Criminal Law**: IPC offenses, procedures, rights
+• **Contract Law**: Agreements, obligations, remedies  
+• **Constitutional Law**: Fundamental rights, legal framework
+• **Property Law**: Ownership, transfer, disputes
+• **Family Law**: Marriage, divorce, inheritance
 
-Please provide more specific details about your legal query, and I'll do my best to assist you!"""
+Please provide more specific details about your legal question for a comprehensive answer."""
 
 
-def generate_chat_response(query):
-    """Generate varied responses based on query type"""
+def generate_chat_response(query, query_type):
+    """Generate appropriate responses based on query type"""
     query_lower = query.lower()
 
-    # Detect query type and use appropriate prompt
-    if any(word in query_lower for word in ['what is', 'explain', 'define', 'meaning of']):
-        prompt = f"""As a legal expert, explain this legal concept in simple terms:
+    # Criminal law specific prompts
+    if query_type == "criminal_law":
+        if 'theft' in query_lower:
+            prompt = f"""Explain the legal concept of theft under Indian law:
 
 Question: {query}
 
-Provide a clear, comprehensive explanation with:
-- Simple definition first
-- Real-world examples if applicable
-- Relevant Indian laws/sections
+Cover these aspects:
+1. Definition of theft under Indian Penal Code (Section 378)
+2. Essential ingredients of theft
+3. Punishment for theft (Section 379)
+4. Difference between theft, robbery, and dacoity
+5. Real-world examples
+
+Provide a comprehensive explanation with references to specific IPC sections."""
+
+        elif any(word in query_lower for word in ['murder', 'homicide']):
+            prompt = f"""Explain murder under Indian Penal Code:
+
+Question: {query}
+
+Discuss:
+1. Definition of murder (Section 300 IPC)
+2. Difference between murder and culpable homicide
+3. Punishment for murder (Section 302)
+4. Exceptions and mitigating circumstances
+5. Recent legal developments"""
+
+        else:
+            prompt = f"""As a criminal law expert, answer this question about Indian criminal law:
+
+Question: {query}
+
+Provide a detailed explanation covering:
+- Relevant IPC sections
+- Legal definitions and elements
+- Punishments and procedures
+- Important case laws if applicable
 - Practical implications
 
-Format your response in a conversational but professional tone."""
+Focus on accuracy and clarity."""
 
-    elif any(word in query_lower for word in ['how to', 'procedure', 'process', 'steps']):
-        prompt = f"""Provide step-by-step guidance for this legal process:
-
-Question: {query}
-
-Break it down into clear steps with:
-- Numbered steps for the process
-- Required documents if any
-- Timeline expectations
-- Common challenges to avoid
-
-Keep it practical and actionable."""
-
-    elif any(word in query_lower for word in ['difference between', 'compare', 'vs']):
-        prompt = f"""Compare and contrast these legal concepts:
+    # Contract law specific prompts
+    elif query_type == "contract_law":
+        prompt = f"""As a contract law expert, answer this question about Indian contract law:
 
 Question: {query}
 
-Provide a clear comparison with:
-- Key differences in a table-like format (without markdown)
-- Similarities between them
-- When each applies
-- Practical implications
+Cover relevant aspects of:
+- Indian Contract Act, 1872 provisions
+- Essential elements of valid contract
+- Rights and obligations of parties
+- Breach and remedies
+- Important judicial interpretations
 
-Use clear headings and spacing."""
+Provide practical examples where helpful."""
 
-    elif any(word in query_lower for word in ['rights', 'entitled', 'legal rights']):
-        prompt = f"""Explain the legal rights related to:
-
-Question: {query}
-
-Cover:
-- Specific rights under Indian law
-- Legal basis (acts/sections)
-- How to exercise these rights
-- Remedies if violated
-- Recent developments if any"""
-
-    elif any(word in query_lower for word in ['contract', 'agreement', 'clause']):
-        prompt = f"""Analyze this contract-related question:
+    # Constitutional law specific prompts
+    elif query_type == "constitutional_law":
+        prompt = f"""As a constitutional law expert, answer this question:
 
 Question: {query}
 
-Provide insights on:
-- Key contract principles
-- Indian Contract Act provisions
-- Common pitfalls to avoid
-- Best practices
-- Enforcement aspects"""
+Discuss:
+- Relevant constitutional provisions
+- Fundamental rights aspects
+- Judicial interpretations
+- Landmark Supreme Court cases
+- Current constitutional position
 
-    elif any(word in query_lower for word in ['case', 'court', 'judgment', 'supreme court']):
-        prompt = f"""Discuss this legal case/judgment question:
+Cite specific articles and case laws."""
 
-Question: {query}
-
-Include:
-- Relevant case laws if applicable
-- Legal principles established
-- Current legal position
-- Practical impact"""
-
+    # General legal questions
     else:
-        # General legal question
-        prompt = f"""You are AutoLegal AI, a professional legal assistant specializing in Indian law.
+        if any(word in query_lower for word in ['what is', 'explain', 'define']):
+            prompt = f"""Explain this legal concept in comprehensive detail:
 
 Question: {query}
 
-Provide a helpful, comprehensive answer that:
-- Addresses the specific question asked
-- Cites relevant Indian laws and sections when applicable
-- Provides practical advice
-- Uses clear, understandable language
-- Is well-structured with proper spacing
+Provide:
+1. Clear definition and legal basis
+2. Relevant Indian laws and sections
+3. Key elements and requirements
+4. Practical implications
+5. Examples for clarity
 
-If the question is not legal-related, politely explain that you specialize in legal matters and suggest rephrasing.
+Structure your response with clear headings and proper spacing."""
 
-Answer:"""
+        elif any(word in query_lower for word in ['how to', 'procedure']):
+            prompt = f"""Provide step-by-step legal procedure:
+
+Question: {query}
+
+Break down into clear steps:
+1. Preliminary requirements
+2. Documentation needed
+3. Legal process timeline
+4. Authorities involved
+5. Expected outcomes
+6. Common challenges
+
+Make it practical and actionable."""
+
+        else:
+            prompt = f"""You are AutoLegal AI, a professional legal assistant for Indian law.
+
+Question: {query}
+
+Provide a comprehensive, well-researched answer that:
+- Directly addresses the question
+- Cites relevant Indian laws and sections
+- Provides practical legal advice
+- Uses clear, professional language
+- Is well-structured with proper formatting
+
+If this is not a legal question, politely redirect to legal topics."""
 
     try:
         response = ask_gemini(prompt, timeout=25)
 
-        # Ensure response is not empty or generic
-        if not response or response.strip() in ["", "⚠️ Gemini AI service is not available.",
-                                                "⚠️ Gemini returned no response."]:
-            return get_fallback_chat_response(query)
+        # Ensure response is meaningful
+        if not response or any(generic in response for generic in ["⚠️", "not available", "no response"]):
+            return get_intelligent_fallback(query, query_type)
 
         return response
 
     except Exception as e:
         logger.error(f"Chat response generation failed: {e}")
-        return get_fallback_chat_response(query)
+        return get_intelligent_fallback(query, query_type)
 
 
 # OCR.Space API function with better timeout handling
@@ -808,13 +890,16 @@ def chat():
     if not query:
         return jsonify({"response": "Please enter a question."}), 400
 
-    # Step 1: Try database lookup first with higher threshold
-    legal_db = get_legal_database()
-    db_result = legal_db.search_legal_query(query, threshold=0.5)  # Increased threshold
+    # Step 1: Analyze query type first
+    query_type = analyze_query_type(query)
 
-    if db_result and db_result['confidence'] > 0.6:  # Higher confidence required
-        # Only use database for very clear matches
-        response_text = f"""📚 **Legal Information Found**
+    # Step 2: Only use database for specific law section queries
+    if query_type == "law_section":
+        legal_db = get_legal_database()
+        db_result = legal_db.search_legal_query(query, threshold=0.7)  # Very high threshold
+
+        if db_result and db_result['confidence'] > 0.8:  # Only use for very clear matches
+            response_text = f"""📚 **Legal Information Found**
 
 **{db_result['law_type']} - {db_result['article_no']}**
 
@@ -827,15 +912,15 @@ def chat():
 **Legal Meaning:**
 {db_result['meaning']}
 
-*Source: Legal Database (Confidence: {db_result['confidence']})*"""
+*Source: Legal Database*"""
 
-        return jsonify({
-            "response": response_text,
-            "source": "database"
-        })
+            return jsonify({
+                "response": response_text,
+                "source": "database"
+            })
 
-    # Step 2: Use Gemini for all other queries with varied prompts
-    response_text = generate_chat_response(query)
+    # Step 3: Use Gemini for all other queries
+    response_text = generate_chat_response(query, query_type)
     return jsonify({
         "response": response_text,
         "source": "ai"
