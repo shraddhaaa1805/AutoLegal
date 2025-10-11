@@ -1,1023 +1,299 @@
 law_type,original,simplified,article_no,meaning
-Contract Law,Failure to deliver goods on time,The seller must deliver goods on time,123,Delay in delivery can lead to breach of contract
-Contract Law,Non-payment by buyer,Buyer must pay as agreed,124,Non-payment allows seller to claim damages
-Contract Law,Incomplete contract terms,Contract must include all essential terms,125,Missing terms may invalidate contract
-Contract Law,Unauthorized contract amendment,Changes need both parties' consent,126,Changes without consent are void
-Contract Law,Delayed performance,Performance must be timely,127,Late performance may cause breach
-Contract Law,Breach of confidentiality,Keep agreed secrets,128,Violation can lead to legal action
-Contract Law,Force majeure events,Excused if natural disaster occurs,129,Unforeseen events can excuse obligations
-Contract Law,Termination clause missing,Specify conditions to end contract,130,Without clause, termination rights unclear
-Contract Law,Ambiguous payment terms,Clarify payment details,131,Unclear terms may lead to disputes
-Contract Law,Non-compete violations,Do not compete unlawfully,132,Violating non-compete can cause penalties
-Contract Law,Late delivery penalties,Penalties apply for late delivery,133,Seller may owe damages for delay
-Contract Law,Dispute resolution not defined,Include method to resolve disputes,134,Unclear method may delay resolution
-Contract Law,Intellectual property infringement,Respect IP rights,135,Violation can cause lawsuits
-Contract Law,Warranty not provided,Offer warranty as agreed,136,Lack of warranty may lead to claims
-Contract Law,Subcontracting without consent,Need approval to subcontract,137,Unauthorized subcontracting is invalid
-Contract Law,Assignment of rights unclear,Clarify if rights can be assigned,138,Ambiguity may cause disputes
-Criminal Law,Theft,Unlawful taking of property,378,Stealing someone’s property is illegal
-Criminal Law,Assault,Intentional physical harm,379,Harming another person can lead to imprisonment
-Criminal Law,Robbery,Theft with force or threat,380,Combines theft and violence
-Criminal Law,Murder,Unlawful killing of a person,381,Intentional killing is punishable
-Criminal Law,Attempted murder,Trying to kill someone,382,Even attempt can lead to imprisonment
-Criminal Law,Fraud,Deception for gain,383,Lying or cheating for money is illegal
-Criminal Law,Bribery,Offering or accepting money for influence,384,Illegal inducement of officials
-Criminal Law,Counterfeiting,Producing fake currency or documents,385,Illegal imitation of legal items
-Criminal Law,Kidnapping,Unlawful confinement or abduction,386,Seizing someone against will is crime
-Criminal Law,Sexual harassment,Unwelcome sexual advances,387,Creates unsafe environment, illegal
-Criminal Law,Arson,Deliberate burning of property,388,Property destruction by fire is punishable
-Criminal Law,Drug trafficking,Illegal distribution of drugs,389,Trading illegal substances is a crime
-Criminal Law,Stalking,Repeated unwanted attention,390,Harassment is punishable
-Criminal Law,Domestic violence,Abuse within home,391,Physical/mental harm to family member
-Criminal Law,Homicide,Unlawful killing,392,Illegal taking of life
-Criminal Law,Public nuisance,Disturbing public peace,393,Disruption of public order
-Criminal Law,Forgery,Faking documents for benefit,394,Illegal document creation
-Criminal Law,Embezzlement,Stealing funds from organization,395,Misappropriation of property
-Criminal Law,Obstruction of justice,Interfering with legal process,396,Blocking justice is illegal
-law_type,original,simplified,article_no,meaning
-Property Law,Illegal occupation of land,Occupying land without permission,201,Unauthorized use of property is illegal
-Property Law,Encroachment on neighbor's property,Building on others' land,202,Encroaching property is punishable
-Property Law,Property damage,Destroying property unlawfully,203,Damaging property can lead to claims
-Property Law,Illegal construction,Building without approvals,204,Construction without permit is illegal
-Property Law,Lease violation,Breaking rental agreement,205,Not following lease terms leads to penalties
-Property Law,Property inheritance disputes,Conflicts over inheritance,206,Disputes among heirs are resolved legally
-Property Law,Illegal sale of property,Selling property without ownership,207,Unauthorized sale is invalid
-Property Law,Boundary disputes,Disagreement on property lines,208,Neighbors may legally settle boundaries
-Property Law,Failure to pay property tax,Not paying taxes due,209,Leads to fines or seizure
-Property Law,Adverse possession,Claiming land after long possession,210,Can legally acquire property under conditions
-Property Law,Illegal subdivision of land,Dividing property unlawfully,211,Violates zoning laws
-Property Law,Encumbrances not cleared,Property with unpaid dues,212,Must clear debts before transfer
-Property Law,Co-ownership disputes,Disagreement among co-owners,213,Shared property conflicts resolved legally
-Property Law,Unauthorized transfer,Transferring without consent,214,Illegal transfer is void
-Property Law,Property fraud,Misrepresenting property details,215,Fraudulent property sale is illegal
-Property Law,Illegal mortgage,Mortgaging without consent,216,Unauthorized mortgage is invalid
-Corporate Law,Violation of corporate governance,Not following rules,301,Companies must follow governance
-Corporate Law,Insider trading,Trading using confidential info,302,Illegal profit using internal info
-Corporate Law,Non-payment of corporate tax,Tax not paid,303,Leads to fines or penalties
-Corporate Law,Fraudulent accounting,Manipulating books,304,Illegal financial misreporting
-Corporate Law,Breach of fiduciary duty,Not acting in company’s best interest,305,Directors may be liable
-Corporate Law,Unlawful mergers,Illegal corporate mergers,306,Mergers must follow legal approvals
-Corporate Law,Shareholder rights violation,Ignoring shareholder interests,307,Shareholders protected by law
-Corporate Law,Non-compliance with labor law,Ignoring labor regulations,308,Employees’ rights must be respected
-Corporate Law,Illegal dividend distribution,Paying dividends unlawfully,309,Violates company laws
-Corporate Law,Intellectual property infringement,Using IP illegally,310,Company must respect IP laws
-Corporate Law,Conflict of interest,Private benefit over company,311,Directors must avoid conflicts
-Corporate Law,Environmental violations,Ignoring environmental regulations,312,Leads to fines or sanctions
-Corporate Law,Data protection breaches,Not protecting corporate data,313,Companies must secure data
-Corporate Law,Anti-trust violations,Unfair competition,314,Illegal monopolistic practices
-Corporate Law,Bribery in corporate dealings,Corrupt practices,315,Illegal inducements punishable
-Corporate Law,Illegal loans to directors,Providing unlawful loans,316,Violates corporate regulations
-Family Law,Divorce without consent,Ending marriage unlawfully,401,Legal procedures must be followed
-Family Law,Child custody dispute,Disagreement over children,402,Court decides best interest of child
-Family Law,Domestic abuse,Abuse within family,403,Illegal and punishable
-Family Law,Alimony non-payment,Not paying court-ordered support,404,Leads to legal enforcement
-Family Law,Inheritance dispute,Conflict over property after death,405,Court decides rightful heirs
-Family Law,Adoption irregularities,Illegal adoption process,406,Must follow legal adoption procedures
-Family Law,Child labor within family,Exploiting children,407,Illegal and punishable
-Family Law,Marriage registration missing,Marriage not registered legally,408,Legal recognition required
-Family Law,Bigamy,Marrying multiple partners,409,Illegal under law
-Family Law,Parental rights violation,Ignoring parents’ rights,410,Parents’ rights protected
-Family Law,Family property disputes,Conflicts among family members,411,Court resolves disputes
-Family Law,Domestic violence restraining order,Protection from violence,412,Legal protection available
-Family Law,Child neglect,Failing to care for children,413,Illegal and punishable
-Family Law,Allegation of abuse,Reporting abuse claims,414,Court investigates abuse claims
-Family Law,Spousal maintenance,Financial support for spouse,415,Legal obligation for support
-Cyber Law,Hacking,Unauthorized access to systems,501,Illegal system access
-Cyber Law,Phishing,Fraudulent emails,502,Illegal attempt to steal info
-Cyber Law,Data theft,Stealing sensitive data,503,Illegal and punishable
-Cyber Law,Identity theft,Using someone’s identity,504,Illegal impersonation
-Cyber Law,Malware distribution,Spreading harmful software,505,Illegal act
-Cyber Law,Cyberstalking,Harassment online,506,Illegal harassment
-Cyber Law,Online fraud,Deception for gain online,507,Illegal activity
-Cyber Law,Social media impersonation,Faking profile,508,Illegal impersonation
-Cyber Law,Cyberbullying,Abusing online,509,Illegal harassment
-Cyber Law,Unauthorized transactions,Illegal online payments,510,Illegal act
-Cyber Law,Intellectual property violation online,Stealing digital IP,511,Illegal use of IP
-Cyber Law,Unauthorized data modification,Changing data illegally,512,Illegal alteration
-Cyber Law,Cyber terrorism,Threatening via internet,513,Illegal and punishable
-Cyber Law,Online defamation,Defaming reputation online,514,Illegal publishing
-Cyber Law,Illegal software piracy,Copying software illegally,515,Illegal copying
-law_type,original,simplified,article_no,meaning
-Contract Law,Non-performance of contract,Failing to fulfill contract obligations,116,Not performing contract duties is illegal
-Contract Law,Breach of confidentiality,Sharing private info unlawfully,117,Disclosing confidential info is illegal
-Contract Law,Unauthorized subcontracting,Hiring others without consent,118,Subcontracting needs approval
-Contract Law,Delayed delivery,Not delivering on time,119,Failure to deliver as agreed is breach
-Contract Law,Invalid consideration,No valid payment or exchange,120,Contract requires lawful consideration
-Contract Law,Fraudulent inducement,Tricked into contract,121,Deceptive practices make contract voidable
-Contract Law,Coercion in contract,Forced agreement,122,Consent must be free
-Contract Law,Unconscionable terms,Unfair contract conditions,123,Extremely unfair terms can be voided
-Contract Law,Illegality of object,Contract for illegal purpose,124,Illegal contracts are unenforceable
-Contract Law,Mutual mistake,Mistaken agreement,125,Both parties misunderstanding makes contract void
-Criminal Law,Attempted theft,Trying to steal but failing,126,Attempted crime is punishable
-Criminal Law,Assault,Physically attacking someone,127,Causing harm is illegal
-Criminal Law,Threatening behavior,Intimidation or threats,128,Threats are punishable
-Criminal Law,Illegal possession of weapons,Owning weapons unlawfully,129,Illegal weapons possession is punishable
-Criminal Law,Arson,Setting fire intentionally,130,Deliberate fire causing damage is illegal
-Criminal Law,Fraud,Deceiving for personal gain,131,Illegal misrepresentation
-Criminal Law,Drug trafficking,Illegal sale of drugs,132,Illegal distribution of controlled substances
-Criminal Law,Money laundering,Hiding illegal money origins,133,Illegal financial practice
-Criminal Law,Stalking,Following or harassing someone,134,Harassment by repeated behavior is illegal
-Criminal Law,Blackmail,Threatening for gain,135,Using threats to obtain benefit is illegal
-Property Law,Illegal logging,Cutting trees unlawfully,211,Illegal deforestation
-Property Law,Water rights violation,Unauthorized water use,212,Violating water access laws
-Property Law,Illegal mining,Mining without permission,213,Unauthorized extraction of resources
-Property Law,Encroaching on public land,Occupying public property,214,Illegal use of government land
-Property Law,Illegal fencing,Fencing land unlawfully,215,Encroachment is illegal
-Property Law,Failure to maintain property,Neglect of property upkeep,216,Owner responsible for property condition
-Property Law,Unauthorized parking,Parking without permission,217,Illegal use of space
-Property Law,Violation of zoning laws,Using land against zoning,218,Illegal land use
-Property Law,Illegal demolition,Destroying property without consent,219,Demolition must follow laws
-Property Law,Property tax evasion,Avoiding property taxes,220,Tax evasion is punishable
-Corporate Law,Violation of securities laws,Breaking trading rules,317,Illegal financial practices
-Corporate Law,Accounting fraud,Falsifying accounts,318,Illegal financial reporting
-Corporate Law,Unregistered company operations,Operating without registration,319,Company must be legally registered
-Corporate Law,Violation of export rules,Illegal export,320,Must follow export regulations
-Corporate Law,Unlawful acquisition,Illegal company takeover,321,Acquisitions must follow law
-Corporate Law,Non-disclosure of financials,Hiding financial info,322,Transparency required by law
-Corporate Law,Violation of anti-money laundering rules,Illegal money handling,323,AML laws must be followed
-Corporate Law,Bribery in procurement,Corrupt procurement process,324,Illegal inducements punishable
-Corporate Law,Improper share issuance,Issuing shares unlawfully,325,Must follow company law
-Corporate Law,Misrepresentation to investors,Lying to investors,326,Illegal misrepresentation
-Family Law,Parental kidnapping,Taking child without consent,416,Illegal removal of children
-Family Law,Illegal adoption,Adopting without following law,417,Illegal adoption is invalid
-Family Law,Domestic harassment,Abuse within home,418,Harassment is punishable
-Family Law,Violation of custody order,Ignoring court order,419,Court orders must be followed
-Family Law,Child exploitation,Using child for work unlawfully,420,Illegal exploitation of minors
-Family Law,Forced marriage,Marriage without consent,421,Illegal and void
-Family Law,Marital rape,Non-consensual sex in marriage,422,Criminal offence
-Family Law,Divorce interference,Obstructing legal divorce,423,Illegal interference
-Family Law,Allegation of parental neglect,Failing to care for child,424,Legal action possible
-Family Law,Violation of family court order,Ignoring orders,425,Court orders enforceable
-Cyber Law,Cyber trespassing,Unauthorized system entry,516,Illegal access to network
-Cyber Law,Website defacement,Hacking to change site,517,Illegal modification
-Cyber Law,Online harassment,Harassing digitally,518,Illegal activity
-Cyber Law,Illegal cryptocurrency trading,Unlicensed crypto trading,519,Must follow regulations
-Cyber Law,Unauthorized cloud access,Accessing cloud illegally,520,Illegal entry
-Cyber Law,Data breach notification failure,Not reporting breach,521,Violation of reporting law
-Cyber Law,Cyber espionage,Spying online illegally,522,Illegal surveillance
-Cyber Law,Email spoofing,Faking email address,523,Illegal deception
-Cyber Law,Phishing attack,Fraud via emails,524,Illegal attempt to gain info
-Cyber Law,Ransomware attack,Holding data hostage,525,Illegal cybercrime
-law_type,original,simplified,article_no,meaning
-Contract Law,Non-compete violation,Breaking contract to not compete,127,Illegal to breach non-compete clause
-Contract Law,Contract rescission,Canceling contract legally,128,Contract can be legally cancelled under conditions
-Contract Law,Impossibility of performance,Unable to perform contract,129,Cannot enforce impossible obligations
-Contract Law,Liquidated damages clause,Pre-agreed compensation,130,Damages agreed in advance enforceable
-Contract Law,Force majeure event,Unforeseen event releases liability,131,Contract may be suspended due to events beyond control
-Contract Law,Assignment without consent,Transferring rights illegally,132,Rights cannot be assigned without approval
-Contract Law,Frustration of contract,Contract made impossible,133,Cannot enforce contract frustrated by circumstances
-Contract Law,Indemnity clause,Protection against loss,134,Clause provides compensation for damages
-Contract Law,Conditional contract,Depends on certain events,135,Performance triggered by specific conditions
-Contract Law,Option contract,Right to perform in future,136,Allows party to perform contract later
-Criminal Law,Public intoxication,Being drunk in public,136,Illegal to be intoxicated in public spaces
-Criminal Law,Illegal gambling,Unauthorized betting,137,Unlawful gambling is punishable
-Criminal Law,Bribery,Offering illegal inducement,138,Illegal to give or receive bribes
-Criminal Law,Embezzlement,Stealing funds,139,Illegal diversion of funds
-Criminal Law,Counterfeiting,Faking currency or goods,140,Illegal replication of money/products
-Criminal Law,Illegal poaching,Hunting protected species,141,Violation of wildlife laws
-Criminal Law,Sexual harassment,Unwanted sexual behavior,142,Illegal in workplace and public
-Criminal Law,Identity theft,Stealing personal info,143,Illegal use of someone’s identity
-Criminal Law,Trespassing,Entering property illegally,144,Unauthorized entry punishable
-Criminal Law,Vandalism,Damaging property,145,Destruction of property is illegal
-Property Law,Illegal subletting,Subletting without consent,221,Property cannot be sublet without approval
-Property Law,Illegal occupancy,Occupying without right,222,Must have legal right to occupy property
-Property Law,Encroachment of neighbor,Using neighbor’s land,223,Violation of property boundaries
-Property Law,Violation of building code,Not following construction rules,224,Must comply with regulations
-Property Law,Illegal signage,Posting signs without permission,225,Unauthorized signs are illegal
-Property Law,Violation of heritage protection,Altering heritage sites,226,Illegal modification of protected property
-Property Law,Illegal construction,Building without permit,227,Construction must be permitted
-Property Law,Boundary dispute,Conflict over land limits,228,Dispute resolution required legally
-Property Law,Illegal rental,Unlicensed rental,229,Rental must follow legal procedures
-Property Law,Improper waste disposal,Throwing waste unlawfully,230,Illegal waste management
-Corporate Law,Conflict of interest,Undisclosed personal benefit,327,Illegal to act against company interest
-Corporate Law,Violation of labor laws,Illegal employment practices,328,Employment must follow regulations
-Corporate Law,Failure to file returns,Not submitting legal documents,329,Legal filings mandatory
-Corporate Law,Insider trading,Trading using confidential info,330,Illegal use of non-public info
-Corporate Law,Corporate espionage,Spying on competitors,331,Illegal corporate spying
-Corporate Law,Violation of intellectual property,Illegal use of IP,332,IP laws protect rights
-Corporate Law,Anti-trust violation,Unlawful market dominance,333,Competition laws must be followed
-Corporate Law,False advertising,Misleading promotion,334,Illegal marketing practice
-Corporate Law,Shareholder dispute,Conflict among owners,335,Legal resolution may be required
-Corporate Law,Corporate negligence,Failure to exercise duty,336,Illegal negligence causing harm
-Family Law,Violation of child support order,Not paying legally required support,426,Legal obligation to support children
-Family Law,Illegal annulment,Unlawful nullification of marriage,427,Annulment must follow law
-Family Law,Parental rights violation,Infringing custody or guardianship,428,Parenting rights protected by law
-Family Law,Forced separation,Illegal separation of family,429,Family unity protected
-Family Law,Violation of alimony order,Ignoring spousal support,430,Alimony must be paid as ordered
-Family Law,Domestic violence,Abuse in family,431,Illegal physical or emotional harm
-Family Law,Illegal guardianship,Assigning guardianship unlawfully,432,Guardianship must be legal
-Family Law,Violation of marriage registration,Unregistered marriage issues,433,Marriage must follow legal process
-Family Law,Illegal surrogacy,Surrogacy without compliance,434,Surrogacy must follow laws
-Family Law,Inheritance fraud,Illegal claim on property,435,Illegal inheritance claim punishable
-Cyber Law,Unauthorized software use,Using software illegally,526,Software licensing must be followed
-Cyber Law,Illegal data scraping,Extracting data unlawfully,527,Illegal to scrape protected data
-Cyber Law,Cyberbullying,Harassment online,528,Illegal online behavior
-Cyber Law,Identity cloning,Creating fake identity,529,Illegal digital impersonation
-Cyber Law,Malware distribution,Spreading harmful software,530,Illegal to distribute malware
-Cyber Law,Spyware installation,Installing tracking software illegally,531,Illegal surveillance software
-Cyber Law,Illegal online sale,Selling prohibited items online,532,Illegal online commerce
-Cyber Law,Violation of privacy laws,Infringing data privacy,533,Must comply with privacy regulations
-Cyber Law,Email hacking,Unauthorized access to email,534,Illegal access
-Cyber Law,Social engineering fraud,Deceiving to gain info,535,Illegal fraudulent act
-law_type,original,simplified,article_no,meaning
-Contract Law,Breach of warranty,Failure to honor guarantee,137,Party failed to meet guaranteed terms
-Contract Law,Unconscionable contract,Unfair and one-sided agreement,138,Contract terms are legally unfair
-Contract Law,Novation,Replacing old contract with new,139,Original contract replaced with new agreement
-Contract Law,Mutual mistake,Both parties wrong about fact,140,Contract invalid if both misunderstood
-Contract Law,Promissory estoppel,Preventing denial of promise,141,Promise enforceable if relied upon
-Contract Law,Quasi-contract,Obligation without contract,142,Legal obligation arises without formal contract
-Contract Law,Parol evidence rule,Limiting outside evidence,143,External evidence may not alter contract
-Contract Law,Specific performance,Enforcing exact contract terms,144,Court orders contract fulfillment
-Contract Law,Rescission for fraud,Canceling contract due to deception,145,Contract voidable if fraud occurred
-Contract Law,Option to renew,Right to extend contract,146,Contract may be renewed if allowed
-Criminal Law,Arson,Setting property on fire,146,Illegal destruction by fire
-Criminal Law,Assault,Threat or attempt to harm,147,Physical threat or harm punishable
-Criminal Law,Robbery,Taking property by force,148,Illegal theft using violence
-Criminal Law,Burglary,Breaking in to steal,149,Illegal entry to commit theft
-Criminal Law,Fraud,Deception for gain,150,Illegal misrepresentation for benefit
-Criminal Law,Homicide,Unlawful killing,151,Illegal causing of death
-Criminal Law,Stalking,Harassing someone persistently,152,Illegal repeated harassment
-Criminal Law,Drug trafficking,Illegal distribution of drugs,153,Illegal sale of controlled substances
-Criminal Law,Kidnapping,Illegal abduction,154,Unlawful taking of person
-Criminal Law,Extortion,Obtaining money by threat,155,Illegal coercion for benefit
-Property Law,Illegal lease,Unauthorized rental,231,Rental without permission illegal
-Property Law,Adverse possession,Gaining land by occupation,232,Occupying land can lead to ownership legally
-Property Law,Illegal eviction,Removing tenant unlawfully,233,Eviction must follow law
-Property Law,Violation of zoning laws,Not following land rules,234,Construction must comply with zoning
-Property Law,Illegal modification,Changing property illegally,235,Modification requires approval
-Property Law,Property tax evasion,Not paying legal taxes,236,Failure to pay property taxes illegal
-Property Law,Illegal signage,Unauthorized advertising,237,Signs require approval
-Property Law,Encumbrance without notice,Hidden claim on property,238,Property must be free from undisclosed claims
-Property Law,Illegal subdivision,Dividing land unlawfully,239,Subdivision requires permission
-Property Law,Failure to register,Not legally recording property,240,Registration mandatory for legal rights
-Corporate Law,Misrepresentation in prospectus,False info for investors,337,Illegal misleading of investors
-Corporate Law,Breach of fiduciary duty,Failing duty to company,338,Illegal neglect of company interest
-Corporate Law,Accounting fraud,Manipulating financial records,339,Illegal financial misstatement
-Corporate Law,Illegal dividend,Paying unapproved profit,340,Dividend must comply with rules
-Corporate Law,Share buyback violation,Illegal repurchase of shares,341,Must follow legal procedure
-Corporate Law,Corporate insolvency,Failure to meet debts,342,Company legally bankrupt
-Corporate Law,Violation of corporate charter,Breaching rules of incorporation,343,Must follow incorporation documents
-Corporate Law,Illegal merger,Merging without approval,344,Merger requires legal approval
-Corporate Law,Conflict in board decisions,Illegal board actions,345,Board must act legally
-Corporate Law,Fraudulent conveyance,Transferring assets illegally,346,Illegal asset transfer
-Family Law,Child abduction,Illegal removal of child,436,Violation of custody laws
-Family Law,Illegal adoption,Adoption without legal process,437,Adoption must follow law
-Family Law,Domestic abuse,Violence in home,438,Illegal abuse at home
-Family Law,Violation of custody order,Not following court order,439,Court orders must be obeyed
-Family Law,Marriage fraud,Deceptive marriage act,440,Illegal deception in marriage
-Family Law,Spousal abandonment,Leaving spouse unlawfully,441,Illegal abandonment of partner
-Family Law,Violation of visitation rights,Denial of access to children,442,Access rights protected by court
-Family Law,Parental alienation,Turning children against parent,443,Illegal manipulation against parent
-Family Law,Illegal dowry demand,Demanding dowry unlawfully,444,Dowry demands prohibited
-Family Law,Violation of guardianship,Acting without legal authority,445,Guardianship laws protect minors
-Cyber Law,Phishing,Deceptive emails to steal info,536,Illegal to trick victims for info
-Cyber Law,Ransomware attack,Blocking data for ransom,537,Illegal malware attack
-Cyber Law,Data breach,Unauthorized access to data,538,Illegal exposure of private info
-Cyber Law,Online harassment,Harassing people on internet,539,Illegal digital harassment
-Cyber Law,Cyber fraud,Illegal digital deception,540,Fraudulent online activity
-Cyber Law,Illegal streaming,Unauthorized content sharing,541,Violation of copyright
-Cyber Law,Password theft,Stealing login info,542,Illegal access to accounts
-Cyber Law,Illegal hacking,Breaking systems unlawfully,543,Unauthorized system intrusion
-Cyber Law,Digital impersonation,Pretending to be someone else,544,Illegal online identity use
-Cyber Law,Violation of digital contract,Breaking online agreements,545,Online contract legally binding
-law_type,original,simplified,article_no,meaning
-Contract Law,Force majeure,Unforeseen event excuses performance,147,Parties excused due to extraordinary events
-Contract Law,Impossibility of performance,Contract cannot be performed,148,Contract unenforceable if impossible
-Contract Law,Anticipatory breach,Future failure to perform,149,Party can claim breach before it happens
-Contract Law,Undue influence,Coerced agreement,150,Contract voidable if pressure applied
-Contract Law,Duress,Forced to enter contract,151,Contract invalid if forced
-Contract Law,Condition precedent,Requirement before obligation,152,Obligation arises only after event
-Contract Law,Condition subsequent,Event ending obligation,153,Obligation ends after event
-Contract Law,Injunction,Legal order to stop action,154,Court stops prohibited acts
-Contract Law,Liquidated damages,Pre-agreed compensation,155,Damage amount fixed in contract
-Contract Law,Implied terms,Terms assumed by law,156,Law imposes terms even if not written
-Criminal Law,Embezzlement,Stealing from employer,156,Illegal taking of funds
-Criminal Law,Perjury,Lying under oath,157,False statements in court illegal
-Criminal Law,Bribery,Giving/receiving illegal reward,158,Illegal corruption
-Criminal Law,Blackmail,Threat for money or favor,159,Illegal coercion
-Criminal Law,Terrorism,Violent acts for political aim,160,Illegal acts endangering society
-Criminal Law,Human trafficking,Illegal trade of people,161,Unlawful exploitation of humans
-Criminal Law,Money laundering,Hiding illegal money,162,Illegal concealment of funds
-Criminal Law,Sexual assault,Unwanted sexual act,163,Illegal sexual act
-Criminal Law,Stolen property possession,Keeping stolen items,164,Illegal possession of stolen goods
-Criminal Law,Identity theft,Using another's identity,165,Illegal use of personal info
-Property Law,Illegal easement,Unauthorized land use,241,Use of land without permission illegal
-Property Law,Boundary dispute,Conflict over land limits,242,Legal boundaries must be respected
-Property Law,Encroachment,Building on neighbor's land,243,Illegal occupation of land
-Property Law,Illegal sale,Unauthorized property sale,244,Sale without ownership is void
-Property Law,Failure to pay rent,Not paying legally due rent,245,Obligation to pay rent
-Property Law,Illegal mortgage,Unauthorized pledge of property,246,Mortgage without consent illegal
-Property Law,Illegal lien,Unlawful claim on property,247,Lien requires legal authority
-Property Law,Property inheritance violation,Ignoring legal succession,248,Must follow inheritance law
-Property Law,Illegal easement termination,Ending land use without notice,249,Termination requires legal process
-Property Law,Violation of property rights,Ignoring legal ownership,250,Ownership protected by law
-Corporate Law,Insider trading,Using confidential info for gain,347,Illegal stock manipulation
-Corporate Law,Illegal proxy voting,Falsifying shareholder votes,348,Illegal manipulation of votes
-Corporate Law,Accounting negligence,Failure in proper accounting,349,Illegal or negligent reporting
-Corporate Law,Corporate espionage,Stealing competitor info,350,Illegal corporate spying
-Corporate Law,Violation of labor law,Illegal employee treatment,351,Must comply with labor regulations
-Corporate Law,Illegal foreign investment,Not following approval,352,Investment must comply with law
-Corporate Law,Tax evasion,Avoiding corporate taxes,353,Illegal avoidance of tax
-Corporate Law,Non-disclosure violation,Failing to reveal info,354,Required info must be disclosed
-Corporate Law,Unlawful dismissal,Illegal firing of employee,355,Employee rights protected
-Corporate Law,Conflict of interest,Personal gain over company,356,Illegal prioritization of self over company
-Family Law,Illegal surrogacy,Unapproved surrogate arrangement,446,Surrogacy must follow law
-Family Law,Violation of adoption procedure,Skipping legal steps,447,Legal adoption process required
-Family Law,Illegal guardianship,Unauthorized custody of child,448,Guardianship must be legally appointed
-Family Law,Bigamy,Marrying while already married,449,Illegal multiple marriages
-Family Law,Domestic dispute,Illegal family conflicts,450,Violence within family illegal
-Family Law,Violation of maintenance order,Not paying required support,451,Court-mandated support must be paid
-Family Law,Illegal restraining order violation,Disobeying court order,452,Restraint orders are legally binding
-Family Law,Child labor,Employing minor illegally,453,Illegal work of children
-Family Law,Divorce by fraud,Misleading to get divorce,454,Illegal deception to obtain divorce
-Family Law,Parental rights violation,Ignoring parent's lawful rights,455,Parent rights protected
-Cyber Law,Cyberbullying,Harassment online,546,Illegal harassment on internet
-Cyber Law,Illegal data sale,Selling personal info without consent,547,Unauthorized sale of private data
-Cyber Law,Cyber stalking,Online persistent harassment,548,Illegal harassment online
-Cyber Law,Hacking for fun,Unauthorized system access,549,Illegal system intrusion
-Cyber Law,Malware distribution,Spreading malicious software,550,Illegal software distribution
-Cyber Law,Identity spoofing,Pretending to be someone else online,551,Illegal impersonation
-Cyber Law,Social engineering,Tricking people online,552,Illegal manipulation for info
-Cyber Law,Denial of Service attack,Overloading systems illegally,553,Illegal system attack
-Cyber Law,Cyber extortion,Threatening online for gain,554,Illegal digital coercion
-Cyber Law,Violation of e-signature law,Illegal use of digital signature,555,Digital signature laws must be followed
-law_type,original,simplified,article_no,meaning
-Contract Law,Frustration of contract,Contract impossible due to unforeseen events,157,Contract discharged if performance impossible
-Contract Law,Severable contract,Parts of contract enforceable separately,158,Enforceable in parts if divisible
-Contract Law,Option contract,Right to buy/sell later,159,Right without obligation until exercised
-Contract Law,Quantum meruit,Payment for work done,160,Payment for services even without contract
-Contract Law,Novation,Replacing contract with new one,161,Old contract replaced legally
-Contract Law,Accord and satisfaction,Dispute resolved by agreement,162,Settlement of debt by agreement
-Contract Law,Breach of warranty,Minor contract violation,163,Compensation for non-material breach
-Contract Law,Breach of condition,Major contract violation,164,Allows contract termination
-Contract Law,Repudiation,Refusal to perform,165,Party may treat contract as ended
-Contract Law,Estoppel,Preventing denial of fact,166,Cannot deny facts relied upon
-Criminal Law,Assault,Threat or use of force,166,Illegal threat or physical attack
-Criminal Law,Battery,Actual physical harm,167,Illegal physical contact
-Criminal Law,Kidnapping,Unlawful taking of person,168,Illegal detention of a person
-Criminal Law,Robbery,Theft with violence,169,Illegal taking by force
-Criminal Law,Arson,Intentional fire setting,170,Illegal burning of property
-Criminal Law,Fraud,Deception for gain,171,Illegal trick to obtain benefit
-Criminal Law,Drug trafficking,Illegal drugs trade,172,Illegal sale or transport of drugs
-Criminal Law,Smuggling,Illegal import/export,173,Unlawful transportation of goods
-Criminal Law,Cybercrime,Illegal computer activity,174,Crimes via computers
-Criminal Law,Hate crime,Crime motivated by bias,175,Illegal acts due to prejudice
-Property Law,Adverse possession,Gaining property by long use,251,Ownership by continuous possession
-Property Law,Easement by prescription,Right of way through use,252,Legal use acquired over time
-Property Law,Co-ownership,Joint property ownership,253,Shared ownership legal rights
-Property Law,Tenancy agreement,Rental contract,254,Legal rental obligations
-Property Law,Leasehold rights,Rent for fixed term,255,Temporary ownership rights
-Property Law,Freehold ownership,Complete ownership,256,Full legal control over property
-Property Law,Mortgage foreclosure,Lender claims property,257,Lender enforces repayment
-Property Law,Right of redemption,Recover property after default,258,Owner can reclaim by paying debt
-Property Law,Eminent domain,Government property acquisition,259,Government can acquire property legally
-Property Law,Zoning violation,Illegal land use,260,Land use must follow law
-Corporate Law,Corporate veil,Protection from personal liability,357,Owner not liable for corporate debts
-Corporate Law,Shareholder derivative suit,Lawsuit on behalf of company,358,Shareholders sue for company rights
-Corporate Law,Proxy contest,Competing votes for control,359,Challenge to control board via votes
-Corporate Law,Merger approval,Legal process for mergers,360,Merger must follow law
-Corporate Law,Hostile takeover,Acquiring without consent,361,Acquisition must respect rules
-Corporate Law,Corporate dissolution,Closing a company legally,362,Company ends legally
-Corporate Law,Dividends,Profit distribution,363,Shareholders receive profits
-Corporate Law,Stock issuance,Selling company shares,364,Company can issue shares legally
-Corporate Law,Stock buyback,Company repurchases shares,365,Company buys back shares legally
-Corporate Law,Annual report,Required disclosure document,366,Company must report yearly
-Family Law,Child custody dispute,Conflict over child care,456,Legal determination of care
-Family Law,Parental alienation,Preventing contact with parent,457,Illegal interference with parent-child relationship
-Family Law,Spousal support,Alimony,458,Legal obligation to pay support
-Family Law,Division of property,Splitting assets legally,459,Assets divided as per law
-Family Law,Domestic violence,Abuse in family,460,Illegal abuse of family member
-Family Law,Legal separation,Court-approved separation,461,Formal separation recognized
-Family Law,Child support,Financial support for child,462,Legal obligation to pay child support
-Family Law,Adoption fraud,Illegal adoption act,463,Must follow legal procedure
-Family Law,Marriage registration,Official recording of marriage,464,Marriage recognized by law
-Family Law,Marriage annulment,Declaring marriage void,465,Marriage treated as never existed
-Cyber Law,Phishing,Fraudulent online request,556,Illegal attempt to get sensitive info
-Cyber Law,Ransomware,Malicious software for ransom,557,Illegal software locking data
-Cyber Law,Data breach,Unauthorized access to data,558,Illegal exposure of private info
-Cyber Law,Illegal online gambling,Unlicensed gambling,559,Online gambling must follow law
-Cyber Law,Online defamation,False online statements,560,Illegal harm to reputation
-Cyber Law,Child online protection violation,Illegal exposure to minors,561,Children must be protected online
-Cyber Law,Cyber terrorism,Using computers for terror,562,Illegal cyber acts for terror
-Cyber Law,Illegal cryptocurrency use,Unlawful digital currency activity,563,Must follow crypto regulations
-Cyber Law,Social media misuse,Violating platform laws,564,Illegal actions on social media
-Cyber Law,Illegal online contract,Invalid digital agreement,565,Must meet legal standards for online contracts
-law_type,original,simplified,article_no,meaning
-Contract Law,Impossibility of performance,Contract cannot be completed due to impossibility,167,Contract discharged if performance impossible
-Contract Law,Force majeure,Unforeseeable events relieving obligations,168,Contract excused under extraordinary events
-Contract Law,Time is of the essence,Strict deadlines must be met,169,Failure to perform on time breaches contract
-Contract Law,Anticipatory breach,Breach before performance due date,170,Allows claim before actual breach
-Contract Law,Promissory estoppel,Preventing retraction of promise,171,Party bound by promise relied upon
-Contract Law,Liquidated damages,Pre-agreed compensation,172,Set damages for breach
-Contract Law,Penalty clause,Excessive agreed damages,173,Unenforceable if punitive
-Contract Law,Implied terms,Terms assumed in contract,174,Legally assumed unless excluded
-Contract Law,Express terms,Explicitly written terms,175,Clearly stated obligations
-Contract Law,Collateral contract,Secondary supporting contract,176,Secondary promise supporting main contract
-Criminal Law,Extortion,Obtaining property by threat,176,Illegal use of threats for gain
-Criminal Law,Bribery,Illegal payment to influence,177,Unlawful offering or receiving benefits
-Criminal Law,Embezzlement,Misappropriation of funds,178,Illegal taking of funds entrusted
-Criminal Law,Perjury,Lying under oath,179,Illegal false statements in court
-Criminal Law,Obstruction of justice,Interfering with legal process,180,Illegal obstruction of law enforcement
-Criminal Law,Trespass,Entering property unlawfully,181,Illegal entry on land or property
-Criminal Law,Stalking,Repeated harassment,182,Illegal harassment or surveillance
-Criminal Law,Harassment,Intentional distress causing actions,183,Illegal actions causing distress
-Criminal Law,Identity theft,Using someone’s identity illegally,184,Illegal use of personal information
-Criminal Law,Money laundering,Hiding illegal income,185,Making illegal money appear legal
-Property Law,Encumbrance,Legal claim on property,261,Property burdened by legal claim
-Property Law,Restrictive covenant,Limitation on property use,262,Property usage restricted by law
-Property Law,Joint tenancy,Ownership with survivorship rights,263,Ownership passes to surviving owner
-Property Law,Tenancy in common,Shared ownership without survivorship,264,Ownership divided among owners
-Property Law,Fixture,Attached property items,265,Part of property legally
-Property Law,Lease assignment,Transferring lease to another,266,Lease obligations transferred
-Property Law,Sublease,Renting to third party,267,Temporary lease transfer
-Property Law,License,Permission to use property,268,Legal right to use property
-Property Law,Easement,Right to use another’s property,269,Right of way or access
-Property Law,Restrictive zoning,Property use limits,270,Legal restriction on property
-Corporate Law,Corporate governance,Rules managing company,367,Legal management obligations
-Corporate Law,Board of directors,Company decision-makers,368,Legal responsibility of directors
-Corporate Law,Shareholder rights,Rights of investors,369,Shareholders can vote and claim
-Corporate Law,Corporate social responsibility,Company ethical obligations,370,Obligation to society
-Corporate Law,Initial public offering,Company shares sold publicly,371,Legal process to sell shares
-Corporate Law,Private placement,Selling shares privately,372,Non-public share sale
-Corporate Law,Debt financing,Loans to company,373,Borrowing money legally
-Corporate Law,Equity financing,Selling shares for funds,374,Fundraising via ownership shares
-Corporate Law,Corporate compliance,Following corporate laws,375,Obligation to comply legally
-Corporate Law,Corporate liability,Responsibility for actions,376,Company accountable for acts
-Family Law,Legal guardianship,Assigned caretakers,466,Legal adult responsible for minor
-Family Law,Child emancipation,Minor legally independent,467,Minor legally self-responsible
-Family Law,Pre-nuptial agreement,Marriage contract beforehand,468,Agreed terms before marriage
-Family Law,Post-nuptial agreement,Marriage contract after marriage,469,Agreed terms after marriage
-Family Law,Parental consent,Approval for child acts,470,Legal requirement for minor actions
-Family Law,Visitation rights,Non-custodial parent access,471,Parent access granted legally
-Family Law,Adoption consent,Legal permission to adopt,472,Must meet legal adoption requirements
-Family Law,Child abduction,Illegal removal of child,473,Violation of custody laws
-Family Law,Alimony modification,Changing support payments,474,Support payments adjusted legally
-Family Law,Family mediation,Court-ordered conflict resolution,475,Dispute resolved outside court
-Cyber Law,Cyberbullying,Online harassment,566,Illegal harassment using online platforms
-Cyber Law,Malware distribution,Spreading harmful software,567,Illegal propagation of malware
-Cyber Law,Hacking,Unauthorized computer access,568,Illegal access to systems
-Cyber Law,Illegal file sharing,Sharing protected content illegally,569,Violation of copyright
-Cyber Law,Online piracy,Unauthorized media distribution,570,Illegal copying and distribution
-Cyber Law,Cyber stalking,Online repeated harassment,571,Illegal persistent online monitoring
-Cyber Law,Social engineering,Tricking for confidential info,572,Illegal manipulation for information
-Cyber Law,Spyware,Software secretly gathering data,573,Illegal monitoring software
-Cyber Law,Botnet,Network of compromised computers,574,Illegal computer network for attacks
-Cyber Law,DoS attack,Disrupting services online,575,Illegal denial of service attack
-law_type,original,simplified,article_no,meaning
-Contract Law,Frustration of purpose,Contract no longer serves intended purpose,176,Contract discharged if purpose impossible
-Contract Law,Novation,Replacing old contract with new,177,New contract replaces original
-Contract Law,Rescission,Canceling contract,178,Contract legally terminated
-Contract Law,Specific performance,Court orders contract fulfillment,179,Enforces exact performance
-Contract Law,Quantum meruit,Payment for work done,180,Compensation for partial performance
-Contract Law,Breach of warranty,Failure of guaranteed fact,181,Violation of promised fact
-Contract Law,Indemnity,Compensation for loss,182,Paying for damage or loss
-Contract Law,Guarantee,Promise to pay another’s debt,183,Secondary obligation
-Contract Law,Novus actus interveniens,New intervening act,184,New act breaks liability chain
-Contract Law,Severability,Contract parts independent,185,Invalid clause doesn't void whole
-Criminal Law,Homicide,Unlawful killing,186,Illegal causing of death
-Criminal Law,Assault,Threat or attempt of harm,187,Illegal attack or threat
-Criminal Law,Battery,Physical harm inflicted,188,Illegal physical contact
-Criminal Law,Kidnapping,Illegal abduction,189,Unlawful taking of person
-Criminal Law,Sexual assault,Non-consensual sexual act,190,Illegal sexual act
-Criminal Law,Robbery,Taking property by force,191,Theft using violence
-Criminal Law,Burglary,Illegal entry to commit crime,192,Entering with intent to commit crime
-Criminal Law,Arson,Intentional fire damage,193,Illegal burning of property
-Criminal Law,Fraud,Deception for gain,194,Illegal deceit for benefit
-Criminal Law,Extortion,Threats to obtain property,195,Illegal coercion for gain
-Property Law,Easement by necessity,Right needed to access property,271,Access necessary for land use
-Property Law,Easement by prescription,Long-term use right,272,Right acquired through long use
-Property Law,Adverse possession,Occupying land to claim ownership,273,Ownership by possession
-Property Law,Freehold,Permanent property ownership,274,Ownership without time limit
-Property Law,Leasehold,Temporary property ownership,275,Ownership for set term
-Property Law,Co-ownership,Multiple owners,276,Shared legal ownership
-Property Law,Conveyance,Transfer of property,277,Legal property transfer
-Property Law,Quiet title,Legal claim removal,278,Remove ownership disputes
-Property Law,Partition,Dividing property among owners,279,Ownership divided legally
-Property Law,Encroachment,Illegal intrusion on property,280,Violation of property boundaries
-Corporate Law,Merger,Combining two companies,377,Two companies legally unite
-Corporate Law,Acquisition,Buying another company,378,Legal company purchase
-Corporate Law,Hostile takeover,Company acquired without consent,379,Forced company acquisition
-Corporate Law,Share buyback,Company buys its own shares,380,Company reduces share number
-Corporate Law,Dividend,Profit distribution to shareholders,381,Shareholder receives profits
-Corporate Law,Stock option,Right to buy shares later,382,Right to buy company stock
-Corporate Law,Corporate veil,Protection from company liability,383,Limits personal liability
-Corporate Law,Limited liability,Shareholders not personally liable,384,Personal assets protected
-Corporate Law,Insolvency,Company unable to pay debts,385,Company financially failing
-Corporate Law,Bankruptcy,Legal declaration of insolvency,386,Debt relief by court
-Family Law,Annulment,Marriage declared invalid,476,Marriage legally nullified
-Family Law,Divorce,Dissolution of marriage,477,Marriage legally ended
-Family Law,Separation,Living apart legally,478,Legal recognition of living apart
-Family Law,Child support,Financial support for child,479,Legal obligation to pay
-Family Law,Custody,Child legal guardianship,480,Parent legally responsible
-Family Law,Adoption,Legal parenthood for child,481,Child becomes legal child of new parent
-Family Law,Surrogacy agreement,Contract for surrogate parent,482,Legal rules for surrogacy
-Family Law,Domestic violence,Abuse within family,483,Illegal family violence
-Family Law,Protection order,Court restraining order,484,Legal protection from abuse
-Family Law,Parental alienation,Parent undermining child relationship,485,Illegal interference with parent-child bond
-Cyber Law,Phishing,Fraudulent communication for info,576,Illegal trick for sensitive info
-Cyber Law,Ransomware,Software demanding ransom,577,Illegal software extortion
-Cyber Law,Data breach,Unauthorized access to data,578,Illegal exposure of data
-Cyber Law,Privacy violation,Infringing personal data rights,579,Illegal use of private info
-Cyber Law,Deepfake,Manipulated media for deception,580,Illegal media impersonation
-Cyber Law,SQL injection,Database hacking attack,581,Illegal code injection
-Cyber Law,Cyber espionage,Spying online illegally,582,Illegal intelligence gathering
-Cyber Law,Distributed denial of service,Online service disruption,583,Illegal attack on network
-Cyber Law,Network intrusion,Unauthorized network access,584,Illegal access to systems
-Cyber Law,Credential stuffing,Using stolen credentials,585,Illegal account access
-law_type,original,simplified,article_no,meaning
-Contract Law,Impossibility,Contract cannot be performed,186,Performance impossible excuses obligation
-Contract Law,Force majeure,Unforeseeable event excuses duty,187,Event beyond control excuses contract
-Contract Law,Unconscionability,Unfair contract terms,188,Terms so unfair they are voidable
-Contract Law,Parol evidence rule,Written contract governs,189,Oral evidence cannot change written terms
-Contract Law,Condition precedent,Event must occur first,190,Contract depends on prior event
-Contract Law,Condition subsequent,Event ends obligation,191,Contract ends if event occurs
-Contract Law,Option contract,Right to purchase in future,192,Right to buy or sell later
-Contract Law,Consideration,Something of value exchanged,193,Required for valid contract
-Contract Law,Promissory estoppel,Reliance on promise enforced,194,Promise enforceable if relied upon
-Contract Law,Duress,Contract under threat,195,Threats make contract voidable
-Criminal Law,Attempted murder,Trying to unlawfully kill,196,Crime even if victim survives
-Criminal Law,Conspiracy,Agreement to commit crime,197,Illegal planning of crime
-Criminal Law,Bribery,Offering something for influence,198,Illegal payment for favor
-Criminal Law,Embezzlement,Stealing entrusted funds,199,Misappropriating money illegally
-Criminal Law,Perjury,Lying under oath,200,Illegal false testimony
-Criminal Law,Obstruction of justice,Interfering with law process,201,Illegal interference with justice
-Criminal Law,Treason,Betrayal of country,202,Crime against state
-Criminal Law,Insider trading,Trading on confidential info,203,Illegal stock advantage
-Criminal Law,Money laundering,Hiding illegal funds,204,Illegal money concealment
-Criminal Law,Stalking,Repeated harassment,205,Illegal pursuit or harassment
-Property Law,Eminent domain,Government takes property,281,State can acquire property with compensation
-Property Law,Fixture,Attached property part of land,282,Item legally part of property
-Property Law,Lien,Legal claim on property,283,Right to hold property until debt paid
-Property Law,Mortgage,Loan secured by property,284,Property used as collateral
-Property Law,Deed,Document proving ownership,285,Legal evidence of property ownership
-Property Law,Title search,Check ownership history,286,Verify legal property ownership
-Property Law,Zoning,Land use regulations,287,Legal use restrictions for property
-Property Law,Encumbrance,Claim on property by others,288,Limits on property rights
-Property Law,Tenancy in common,Shared ownership,289,Each owner has distinct share
-Property Law,Joint tenancy,Shared ownership with rights of survivorship,290,Ownership passes to surviving owner
-Corporate Law,Corporate governance,Rules for company management,387,Legal company management standards
-Corporate Law,Proxy voting,Vote on behalf of shareholder,388,Shareholder votes via representative
-Corporate Law,Bylaws,Internal company rules,389,Regulations governing company
-Corporate Law,Articles of incorporation,Company formation document,390,Official company registration
-Corporate Law,Shareholder agreement,Contract among shareholders,391,Defines rights and obligations
-Corporate Law,Preferred stock,Priority over common stock,392,Stock with preferential rights
-Corporate Law,Common stock,Standard ownership shares,393,Basic company ownership
-Corporate Law,Convertible bond,Bond convertible to stock,394,Debt converts into equity
-Corporate Law,Debenture,Unsecured loan certificate,395,Loan without collateral
-Corporate Law,Going concern,Company expected to operate,396,Business assumed to continue
-Family Law,Legal separation,Marriage formally separated,486,Official recognition of separation
-Family Law,Alimony,Spousal financial support,487,Financial support to spouse
-Family Law,Child visitation,Access rights for parent,488,Parent-right to visit child
-Family Law,Guardianship,Legal guardian appointed,489,Parenting rights legally assigned
-Family Law,Adultery,Marital infidelity,490,Illegal or grounds for divorce
-Family Law,Prenuptial agreement,Contract before marriage,491,Agreed terms for assets before marriage
-Family Law,Postnuptial agreement,Contract after marriage,492,Agreed terms for assets after marriage
-Family Law,Domestic partnership,Couple recognized without marriage,493,Legal rights similar to marriage
-Family Law,Surrogate parent,Parent providing birth,494,Legal arrangement for child birth
-Family Law,Child emancipation,Child legally independent,495,Minor becomes legal adult
-Cyber Law,Cyberbullying,Online harassment,586,Illegal online harassment
-Cyber Law,Identity theft,Stealing personal information,587,Illegal impersonation
-Cyber Law,Cyberstalking,Repeated online harassment,588,Illegal online pursuit
-Cyber Law,Malware,Software designed to harm,589,Harmful program
-Cyber Law,Spyware,Software tracking user,590,Illegal data collection
-Cyber Law,Adware,Advertising software,591,Annoying but legal in some contexts
-Cyber Law,Keylogger,Records keystrokes,592,Illegal monitoring tool
-Cyber Law,Pharming,Redirecting website traffic,593,Illegal traffic diversion
-Cyber Law,Social engineering,Manipulating people for info,594,Illegal deception
-Cyber Law,Man-in-the-middle attack,Intercepting communication,595,Illegal eavesdropping
-law_type,original,simplified,article_no,meaning
-Contract Law,Novation,Replacing old contract with new,196,New contract replaces old obligations
-Contract Law,Accord and satisfaction,Agreement to settle dispute,197,Dispute resolved by new terms
-Contract Law,Mutual mistake,Both parties wrong about fact,198,Mistaken fact voids contract
-Contract Law,Unilateral mistake,One party wrong about fact,199,One-sided error may void contract
-Contract Law,Frustration,Contract impossible due to unforeseen event,200,Event makes performance impossible
-Criminal Law,Hate crime,Crime motivated by bias,206,Illegal act driven by prejudice
-Criminal Law,Assault,Threat or attempt of harm,207,Intentional threat of injury
-Criminal Law,Battery,Physical harm to another,208,Actual intentional physical harm
-Criminal Law,Kidnapping,Unlawful abduction,209,Illegal taking of person
-Criminal Law,Robbery,Theft with force,210,Stealing using threat or violence
-Criminal Law,Arson,Deliberate fire damage,211,Intentional burning of property
-Criminal Law,Fraud,Deception for gain,212,Illegal deception for benefit
-Criminal Law,Extortion,Obtaining by threats,213,Illegal coercion for gain
-Criminal Law,Harassment,Repeated unwanted behavior,214,Illegal troubling of another
-Criminal Law,Terrorism,Violent acts for political aims,215,Illegal acts causing fear
-Criminal Law,Drug trafficking,Illegal drug distribution,216,Unlawful selling or transporting drugs
-Property Law,Easement,Right to use another's land,291,Legal access over property
-Property Law,Encroachment,Illegal extension on another's property,292,Unauthorized intrusion
-Property Law,Adverse possession,Gaining property by long use,293,Property ownership by continuous use
-Property Law,Restrictive covenant,Limit on property use,294,Contractual land use restriction
-Property Law,Property tax,Tax on ownership,295,Legal obligation to pay tax on property
-Property Law,Real estate agent,Intermediary for sale,296,Legal representative for property transaction
-Property Law,Lease,Temporary property rental,297,Right to use property temporarily
-Property Law,Sublease,Renting leased property,298,Leased property rented further
-Property Law,Tenancy agreement,Rental contract,299,Legal rental contract
-Property Law,Security deposit,Advance payment for lease,300,Payment held for damages
-Corporate Law,Stock option,Right to buy stock,397,Employee can buy shares
-Corporate Law,Dividend,Profit distribution,398,Payment to shareholders
-Corporate Law,Merger,Company combination,399,Two companies legally combine
-Corporate Law,Acquisition,Company purchase,400,One company buys another
-Corporate Law,Hostile takeover,Acquisition without consent,401,Purchase against target management
-Corporate Law,Business license,Legal permit to operate,402,Official permission to run business
-Corporate Law,Intellectual property,Ownership of creations,403,Legal protection for ideas
-Corporate Law,Patent,Exclusive invention right,404,Protection for inventor
-Corporate Law,Trademark,Brand protection,405,Legal protection of brand name/logo
-Corporate Law,Copyright,Right over creative work,406,Protection of artistic work
-Family Law,Annulment,Marriage declared void,496,Marriage legally nullified
-Family Law,Divorce,Legal end of marriage,497,Official termination of marriage
-Family Law,Custody,Legal care of child,498,Parent or guardian responsibility
-Family Law,Visitation rights,Access to child,499,Parent allowed to visit
-Family Law,Adoption,Legal parent assignment,500,Child legally assigned to new parent
-Family Law,Foster care,Temporary child care,501,State assigned temporary guardianship
-Family Law,Domestic violence,Abuse within family,502,Illegal harm to family member
-Family Law,Child support,Financial support for child,503,Parent must provide funds
-Family Law,Parental rights,Legal rights over child,504,Control and responsibility over minor
-Family Law,Emancipation,Child becomes adult legally,505,Minor gains legal independence
-Cyber Law,Data breach,Unauthorized data access,596,Illegal access to confidential info
-Cyber Law,Phishing,Deceptive attempt to get info,597,Fraudulent info request
-Cyber Law,Ransomware,Malware demanding payment,598,Hacker holds data hostage
-Cyber Law,DDoS attack,Overload system attack,599,Network attack to disable service
-Cyber Law,Cyber espionage,Online spying,600,Illegal information gathering
-Cyber Law,Deepfake,Manipulated video or audio,601,Falsified media content
-Cyber Law,Cryptojacking,Illegal crypto mining,602,Unauthorized use of resources
-Cyber Law,Cyber terrorism,Digital attack for political aims,603,Illegal online violence
-Cyber Law,Spam,Unwanted messages,604,Unsolicited communication
-Cyber Law,Hacking,Unauthorized system access,605,Illegal computer access
-law_type,original,simplified,article_no,meaning
-Contract Law,Impossibility,Contract cannot be performed,201,Performance is impossible due to external factors
-Contract Law,Condition precedent,Event must occur first,202,Contract starts only after a condition
-Contract Law,Condition subsequent,Event terminates contract,203,Contract ends if a condition occurs
-Contract Law,Promissory estoppel,Prevent unfair withdrawal,204,Party cannot renege on promise causing loss
-Contract Law,Liquidated damages,Pre-agreed compensation,205,Specified damages for breach
-Contract Law,Penalty clause,Punitive damages clause,206,Clause imposing penalty for breach
-Criminal Law,Embezzlement,Stealing entrusted funds,217,Illegal misappropriation of money
-Criminal Law,Bribery,Offering or taking bribe,218,Illegal exchange of favors or money
-Criminal Law,Perjury,Lying under oath,219,False statement legally punishable
-Criminal Law,Obstruction of justice,Hindering legal process,220,Illegal interference with law enforcement
-Criminal Law,Stalking,Repeated following or harassment,221,Illegal unwanted attention
-Criminal Law,Identity theft,Using someone’s identity,222,Illegal impersonation
-Criminal Law,Public intoxication,Being drunk in public,223,Illegal public drunkenness
-Criminal Law,Vandalism,Property destruction,224,Illegal property damage
-Criminal Law,Trespassing,Unauthorized entry,225,Illegal presence on property
-Criminal Law,Homicide,Killing another person,226,Unlawful taking of life
-Property Law,Title deed,Legal ownership document,301,Proof of property ownership
-Property Law,Mortgage,Loan against property,302,Property pledged for loan
-Property Law,Foreclosure,Lender seizes property,303,Lender takes property due to default
-Property Law,Joint tenancy,Shared property ownership,304,Property co-owned equally
-Property Law,Tenant rights,Rights of renter,305,Legal protections for tenants
-Property Law,Landlord obligations,Duties of property owner,306,Legal responsibilities of owner
-Property Law,Deed of trust,Third-party property management,307,Trustee holds property for lender
-Property Law,Right of way,Access through land,308,Legal passage over another’s land
-Property Law,Property lien,Claim for debt on property,309,Legal claim due to unpaid debt
-Property Law,Co-ownership,Shared property rights,310,Multiple owners share property
-Corporate Law,Corporate veil,Protection of owners,407,Owners shielded from liability
-Corporate Law,Limited liability,Owner responsibility limited,408,Owners liable only up to investment
-Corporate Law,Shareholder agreement,Shareholder rights contract,409,Contract defining ownership rights
-Corporate Law,Articles of incorporation,Company founding document,410,Legal formation document
-Corporate Law,Bylaws,Company internal rules,411,Rules governing corporate operations
-Corporate Law,Board of directors,Company decision makers,412,Group managing company
-Corporate Law,Proxy voting,Vote by representative,413,Voting through authorized person
-Corporate Law,Quorum,Minimum participants for meeting,414,Required attendance to validate decisions
-Corporate Law,Merger agreement,Contract for company merger,415,Legal agreement to merge companies
-Corporate Law,Takeover bid,Offer to buy company,416,Proposal to acquire company
-Family Law,Spousal support,Financial help after divorce,506,Legal support from former spouse
-Family Law,Separation agreement,Contract for separation,507,Legal agreement defining separation terms
-Family Law,Alimony,Periodic spouse payment,508,Financial support after divorce
-Family Law,Child emancipation,Minor becomes adult,509,Legal independence of minor
-Family Law,Guardianship,Legal care of minor,510,Official responsibility over child
-Family Law,Parental consent,Parent approval requirement,511,Permission needed from parents
-Family Law,Joint custody,Shared child care,512,Both parents share custody
-Family Law,Visitation schedule,Time allocation for visits,513,Legal timetable for parent visits
-Family Law,Domestic partnership,Legal recognition of couple,514,Rights for unmarried couple
-Family Law,Prenuptial agreement,Marriage financial contract,515,Contract defining property rights before marriage
-Cyber Law,Malware,Malicious software,606,Software intended to damage system
-Cyber Law,Rogue software,Unauthorized program,607,Illegal or harmful program
-Cyber Law,Spyware,Software spying on user,608,Program collecting information secretly
-Cyber Law,Adware,Software showing ads,609,Program displaying unsolicited ads
-Cyber Law,Keylogger,Program recording keystrokes,610,Software tracking typed info
-Cyber Law,Cyberbullying,Online harassment,611,Illegal online intimidation
-Cyber Law,Digital signature,Electronic signature,612,Legally recognized electronic authentication
-Cyber Law,Encryption,Data protection technique,613,Securing data through coding
-Cyber Law,Firewall,Network protection system,614,System protecting network access
-Cyber Law,VPN,Private network connection,615,Secure remote connection
-law_type,original,simplified,article_no,meaning
-Contract Law,Force majeure,Unforeseen event excusing performance,207,Contract obligations excused by extraordinary events
-Contract Law,Frustration,Contract impossible due to change,208,Contract terminated due to unforeseen change
-Contract Law,Novation,Replacing old contract,209,New contract replaces existing obligations
-Contract Law,Accord and satisfaction,Agreement to settle,210,Settling dispute with new agreement
-Contract Law,Breach of contract,Failure to perform,211,Non-fulfillment of contract terms
-Contract Law,Repudiation,Refusal to perform,212,Party rejects obligations
-Criminal Law,Arson,Intentional fire,227,Deliberate property burning
-Criminal Law,Assault,Threat or attempt to harm,228,Physical threat or harm
-Criminal Law,Battery,Physical harm to person,229,Intentional touching causing injury
-Criminal Law,Kidnapping,Unlawful abduction,230,Illegal taking of a person
-Criminal Law,Fraud,Deception for gain,231,Illegal deception for benefit
-Criminal Law,Extortion,Obtaining by threat,232,Illegal coercion for benefit
-Criminal Law,Smuggling,Illegal transport of goods,233,Transporting contraband illegally
-Criminal Law,Counterfeiting,Fake goods or currency,234,Illegal imitation of items
-Criminal Law,Treason,Betrayal of state,235,Crime against country
-Criminal Law,Sedition,Inciting rebellion,236,Illegal incitement against authority
-Property Law,Adverse possession,Claim by occupation,311,Acquiring property through long possession
-Property Law,Easement,Rights to use land,312,Legal access over another’s land
-Property Law,Encumbrance,Claim on property,313,Legal burden or lien on property
-Property Law,Lease agreement,Rental contract,314,Contract for renting property
-Property Law,Sublease,Secondary rental,315,Lease granted by tenant
-Property Law,License,Permission to use property,316,Legal right to use land or property
-Property Law,Deed restriction,Property use limitation,317,Limitations placed on property
-Property Law,Conveyance,Transfer of property,318,Legal transfer of ownership
-Property Law,Partition,Division of property,319,Splitting co-owned property
-Property Law,Eminent domain,Government property acquisition,320,Government takes property with compensation
-Corporate Law,Dividend,Profit distribution to shareholders,417,Share of profits paid to owners
-Corporate Law,Initial public offering,Company shares sold,418,First sale of company stock to public
-Corporate Law,Stock options,Employee share rights,419,Right to buy company shares
-Corporate Law,Corporate governance,Management system,420,Rules for running company
-Corporate Law,Merger,Company combination,421,Two companies combine
-Corporate Law,Acquisition,Company purchase,422,Company bought by another
-Corporate Law,Spin-off,Company split,423,Creating a separate company from existing
-Corporate Law,Joint venture,Partnership between companies,424,Companies share business project
-Corporate Law,Proxy,Voting representation,425,Authorizing someone to vote on behalf
-Corporate Law,Hostile takeover,Unfriendly acquisition,426,Acquisition without company consent
-Family Law,Annulment,Marriage declared invalid,516,Marriage legally voided
-Family Law,Separation,Living apart legally,517,Legal separation without divorce
-Family Law,Adoption,Legal parenthood transfer,518,Legal recognition of child by new parents
-Family Law,Foster care,Temporary child care,519,Temporary guardianship of child
-Family Law,Domestic violence,Abuse within home,520,Illegal abuse in family
-Family Law,Custody,Child care responsibility,521,Legal right to care for child
-Family Law,Child support,Financial aid for child,522,Payments for child maintenance
-Family Law,Divorce,Legal marriage termination,523,Official end of marriage
-Family Law,Marriage license,Marriage legal permit,524,Official approval for marriage
-Family Law,Prenuptial agreement,Pre-marriage contract,525,Contract defining rights before marriage
-Cyber Law,Phishing,Deceptive emails or messages,616,Fraudulent messages to steal info
-Cyber Law,Hacking,Unauthorized system access,617,Illegal access to computers
-Cyber Law,Ransomware,Malware demanding payment,618,Software encrypting files for ransom
-Cyber Law,Data breach,Unauthorized data access,619,Illegal access to private information
-Cyber Law,Cyber espionage,Online spying,620,Illegal digital surveillance
-Cyber Law,Cyber theft,Stealing digital info,621,Illegal theft of digital assets
-Cyber Law,Cyber harassment,Online bullying,622,Abuse or intimidation online
-Cyber Law,Denial of service attack,Network disruption,623,Overloading system to disrupt service
-Cyber Law,SQL injection,Database attack,624,Malicious database queries
-Cyber Law,Crypto fraud,Illegal cryptocurrency schemes,625,Fraud using digital currency
-law_type,original,simplified,article_no,meaning
-Contract Law,Impossibility of performance,Contract cannot be performed,213,Contract cannot be fulfilled due to unforeseen events
-Contract Law,Condition precedent,Event must happen first,214,Obligation arises only after event occurs
-Contract Law,Condition subsequent,Event cancels obligation,215,Obligation ends if event occurs
-Contract Law,Consideration,Something of value exchanged,216,Exchange of value in contract
-Contract Law,Intention to create legal relations,Serious contractual intent,217,Parties intend legally binding agreement
-Contract Law,Capacity to contract,Ability to enter contract,218,Parties legally able to contract
-Criminal Law,Theft,Stealing property,237,Unlawful taking of property
-Criminal Law,Burglary,Illegal entry with intent,238,Entering property to commit crime
-Criminal Law,Robbery,Theft with violence,239,Stealing using force or threat
-Criminal Law,Murder,Intentional killing,240,Deliberate unlawful killing
-Criminal Law,Manslaughter,Unintentional killing,241,Killing without intent to harm
-Criminal Law,Sexual assault,Non-consensual sexual act,242,Illegal sexual activity without consent
-Criminal Law,Bribery,Offering something for influence,243,Illegal payment to influence decision
-Criminal Law,Embezzlement,Misappropriation of funds,244,Illegal use of entrusted money
-Criminal Law,Perjury,Lying under oath,245,False statement in legal proceeding
-Criminal Law,Obstruction of justice,Interfering with law,246,Hindering legal process
-Property Law,Joint tenancy,Shared ownership with rights,321,Equal ownership with survivorship
-Property Law,Tenant in common,Shared ownership without rights,322,Separate shares of ownership
-Property Law,Condominium,Individual ownership in building,323,Ownership of unit with shared areas
-Property Law,Cooperative,Ownership through corporation,324,Shareholders control property corporation
-Property Law,Real property,Land and buildings,325,Ownership of land and structures
-Property Law,Personal property,Movable items,326,Ownership of moveable assets
-Property Law,Fixtures,Attached property items,327,Items attached to land considered part
-Property Law,Freehold,Indefinite ownership,328,Ownership without time limit
-Property Law,Leasehold,Fixed term ownership,329,Ownership limited by lease term
-Property Law,Easement by necessity,Access required for use,330,Legal right to access land for use
-Corporate Law,Corporate liability,Company legal responsibility,427,Company accountable for actions
-Corporate Law,Limited liability,Shareholder risk limited,428,Investors not fully liable
-Corporate Law,Corporate veil,Company separate from owners,429,Company treated as separate legal entity
-Corporate Law,Directors’ duties,Responsibilities of directors,430,Legal obligations of company directors
-Corporate Law,Shareholder rights,Rights of owners,431,Entitlements of shareholders
-Corporate Law,Corporate charter,Founding document,432,Document defining company rules
-Corporate Law,Articles of association,Company rules document,433,Internal governance rules
-Corporate Law,Bylaws,Internal regulations,434,Company operational rules
-Corporate Law,Annual general meeting,Shareholder meeting,435,Regular company meeting for decisions
-Corporate Law,Quorum,Minimum participants required,436,Minimum number of members for meeting
-Family Law,Alimony,Financial support after divorce,526,Payments for spouse post-divorce
-Family Law,Visitation,Right to see child,527,Non-custodial parent visits child
-Family Law,Guardianship,Legal child care assignment,528,Authority to care for child
-Family Law,Paternity,Legal fatherhood,529,Recognition of biological father
-Family Law,Adultery,Spouse cheating,530,Extramarital sexual relationship
-Family Law,Child neglect,Failure to care,531,Child not properly cared for
-Family Law,Child abuse,Physical or emotional harm,532,Harming a child
-Family Law,Domestic partnership,Unmarried legal relationship,533,Legal recognition of partnership
-Family Law,Separation agreement,Dividing property and responsibilities,534,Contract settling separation terms
-Family Law,Legal adoption,Formal parental transfer,535,Official legal adoption process
-Cyber Law,Cyber stalking,Repeated online harassment,626,Persistent online harassment
-Cyber Law,Identity theft,Stealing personal information,627,Illegal use of personal data
-Cyber Law,Online piracy,Illegal distribution,628,Unauthorized sharing of digital content
-Cyber Law,Cyber bullying,Harassment via internet,629,Online intimidation or bullying
-Cyber Law,Pharming,Fake websites to steal info,630,Redirecting users to malicious sites
-Cyber Law,Cyber forgery,Digital document forgery,631,Creating fake electronic documents
-Cyber Law,Malware,Malicious software,632,Harmful software installed on devices
-Cyber Law,Spyware,Software that spies,633,Collects user data without consent
-Cyber Law,Adware,Software showing ads,634,Unwanted advertising software
-Cyber Law,Botnet,Network of infected computers,635,Group of infected devices controlled remotely
-law_type,original,simplified,article_no,meaning
-Contract Law,Frustration of contract,Contract ends due to unforeseen events,219,Contract discharged due to impossibility
-Contract Law,Specific performance,Court orders to fulfill contract,220,Legal enforcement to complete contract
-Contract Law,Rescission,Contract cancelled,221,Parties released from obligations
-Contract Law,Repudiation,Breach indicating refusal,222,One party refuses performance
-Contract Law,Injunction,Court order to stop act,223,Legal order to prevent action
-Contract Law,Liquidated damages,Pre-agreed compensation,224,Predetermined compensation for breach
-Criminal Law,Assault,Threat or attempt to harm,247,Attempt to inflict injury
-Criminal Law,Battery,Actual physical harm,248,Unlawful physical contact
-Criminal Law,Kidnapping,Unlawful abduction,249,Seizing and carrying away person
-Criminal Law,Arson,Deliberate fire,250,Intentional burning of property
-Criminal Law,Extortion,Threat to gain property,251,Obtaining property by threat
-Criminal Law,Fraud,Deception for gain,252,Tricking someone for benefit
-Criminal Law,Money laundering,Illegal money cleaning,253,Hiding origin of illegal funds
-Criminal Law,Terrorism,Violence for political aim,254,Acts causing fear for political purpose
-Criminal Law,Human trafficking,Illegal trade of humans,255,Trading humans for exploitation
-Criminal Law,Drug trafficking,Illegal drug trade,256,Distribution or sale of illicit drugs
-Property Law,Easement by prescription,Right by long use,331,Access rights gained by continuous use
-Property Law,Restrictive covenant,Limitations on land use,332,Agreements restricting property use
-Property Law,Right of way,Legal path across land,333,Right to pass through another’s property
-Property Law,Encroachment,Illegal intrusion,334,Building or using land unlawfully
-Property Law,Adverse possession,Ownership by continuous use,335,Acquiring property by long-term use
-Property Law,Lease agreement,Contract for tenancy,336,Agreement defining tenant terms
-Property Law,Sublease,Tenant rents to another,337,Tenant leasing property to another
-Property Law,License to use,Permission to use property,338,Right to use property without ownership
-Property Law,Mortgage,Loan against property,339,Property used as security for loan
-Property Law,Foreclosure,Lender takes property,340,Lender seizes property after default
-Corporate Law,Merger,Companies combine,437,Two or more companies unite
-Corporate Law,Acquisition,One company buys another,438,Purchase of one company by another
-Corporate Law,Takeover,Company controlled by another,439,Gaining control of a company
-Corporate Law,Hostile takeover,Unwanted acquisition,440,Acquisition against management wishes
-Corporate Law,Divestment,Selling assets or units,441,Company sells part of business
-Corporate Law,Spin-off,Company creates separate entity,442,Division becomes independent
-Corporate Law,IPO,Initial public offering,443,Selling company shares to public
-Corporate Law,Stock buyback,Company repurchases shares,444,Company buys its own shares
-Corporate Law,Debenture,Debt instrument,445,Long-term company borrowing
-Corporate Law,Bond,Fixed income instrument,446,Company-issued debt with interest
-Family Law,Prenuptial agreement,Pre-marriage contract,536,Agreed terms before marriage
-Family Law,Postnuptial agreement,After marriage contract,537,Agreement made after marriage
-Family Law,Separation order,Legal separation directive,538,Court grants separation
-Family Law,Child custody,Legal child guardianship,539,Parent responsible for child
-Family Law,Child support,Financial support for child,540,Payments for child’s expenses
-Family Law,Parental rights,Parent legal authority,541,Legal rights of parents
-Family Law,Visitation schedule,Times for visiting child,542,Arranged parent visits
-Family Law,Adoption consent,Agreement for adoption,543,Legal approval required
-Family Law,Foster care,Temporary child care,544,Child placed in care temporarily
-Family Law,Emancipation,Minor becomes independent,545,Minor gains legal independence
-Cyber Law,Hacking,Unauthorized computer access,636,Breaking into computer systems
-Cyber Law,Cyber espionage,Spying via computer,637,Using computer to steal info
-Cyber Law,Denial of Service attack,Overloading servers,638,Disrupting network services
-Cyber Law,Cyber trespass,Unauthorized system use,639,Illegal access to computer system
-Cyber Law,Cyber harassment,Online abuse,640,Repeated online attacks or threats
-Cyber Law,Data breach,Unauthorized data access,641,Exposure of confidential info
-Cyber Law,Encryption violation,Breaking encrypted data,642,Illegal access to encrypted info
-Cyber Law,Digital signature fraud,Forged electronic signature,643,Fake signing of documents
-Cyber Law,Cyber defamation,Online false statements,644,Harming reputation via internet
-Cyber Law,Phishing,Tricking for information,645,Fraudulent attempt to get info
-law_type,original,simplified,article_no,meaning
-Contract Law,Implied terms,Terms assumed by law,225,Contract terms not written but enforced
-Contract Law,Condition precedent,Event must occur first,226,Contract obligation triggered by event
-Contract Law,Condition subsequent,Event cancels obligation,227,Contract ends if event occurs
-Contract Law,Force majeure,Unforeseen event excuse,228,Excuses performance due to extraordinary events
-Contract Law,Mutual mistake,Both parties misunderstand,229,Both parties wrong about fact
-Contract Law,Unilateral mistake,One party misjudges,230,One party’s error affecting contract
-Contract Law,Novation,Replace contract with new,231,Substituting new contract for old
-Contract Law,Accord and satisfaction,Settlement agreement,232,Discharge by new agreement
-Contract Law,Promissory estoppel,Enforce promise without contract,233,Promise enforced without formal contract
-Contract Law,Quantum meruit,Payment for work done,234,Reasonable payment for services
-Criminal Law,Assassination,Targeted killing,257,Planned murder of a person
-Criminal Law,Hate crime,Crime motivated by bias,258,Offense driven by prejudice
-Criminal Law,Stalking,Repeated harassment,259,Persistent unwanted following
-Criminal Law,Robbery,Theft with force,260,Stealing using threat or force
-Criminal Law,Burglary,Illegal entry to steal,261,Entering property to commit theft
-Criminal Law,Embezzlement,Stealing entrusted funds,262,Misappropriating money or property
-Criminal Law,Bribery,Payment for influence,263,Offering or accepting bribe
-Criminal Law,Perjury,Lying under oath,264,False statement in court
-Criminal Law,Obstruction of justice,Interfering with law,265,Preventing law enforcement
-Criminal Law,Cyber stalking,Online harassment,266,Harassment using digital platforms
-Property Law,Joint tenancy,Shared property ownership,341,Equal ownership with right of survivorship
-Property Law,Tenancy in common,Shared ownership,342,Owners have separate shares
-Property Law,Life estate,Property for lifetime,343,Right to use property during lifetime
-Property Law,Fee simple absolute,Complete ownership,344,Full ownership without conditions
-Property Law,Leasehold estate,Right to lease property,345,Tenancy under lease
-Property Law,Real covenant,Land use restriction,346,Binding property promise
-Property Law,Profit a prendre,Right to take resources,347,Right to take natural resources
-Property Law,Co-ownership,Shared ownership,348,Multiple owners of property
-Property Law,Trust,Property held by trustee,349,Legal arrangement for holding property
-Property Law,Equitable lien,Claim for payment,350,Right to claim property as security
-Corporate Law,Proxy voting,Vote by representative,447,Authorizing someone to vote on behalf
-Corporate Law,Shareholder agreement,Shareholder rules,448,Agreement governing company shares
-Corporate Law,Corporate veil,Separate legal entity,449,Company’s liability separate from owners
-Corporate Law,Director duties,Legal responsibilities of directors,450,Obligations of board members
-Corporate Law,Fiduciary duty,Obligation to act in interest,451,Legal duty to prioritize company interests
-Corporate Law,Minority rights,Protection for small shareholders,452,Rights protecting small shareholders
-Corporate Law,Dividend,Profit distribution,453,Payment to shareholders
-Corporate Law,Reserves,Retained profits,454,Funds kept in company
-Corporate Law,Articles of association,Company rules,455,Internal governance documents
-Corporate Law,Memorandum of association,Company objectives,456,Legal document stating company purpose
-Family Law,Annulment,Marriage declared void,546,Legal invalidation of marriage
-Family Law,Domestic violence,Abuse at home,547,Physical or emotional abuse in family
-Family Law,Alimony,Spousal support,548,Payments to former spouse
-Family Law,Guardianship,Legal custodian,549,Responsibility for minor or incapacitated
-Family Law,Marital property,Property acquired in marriage,550,Property division rules
-Family Law,Community property,Shared marital property,551,Joint ownership in marriage
-Family Law,Separation agreement,Terms during separation,552,Written agreement for separated spouses
-Family Law,Parental alienation,Influencing child against parent,553,Manipulating child to reject parent
-Family Law,Legal adoption,Official adoption,554,Granting legal parental rights
-Family Law,Petition for custody,Court request for custody,555,Formal request to assign child custody
-Cyber Law,Malware,Malicious software,646,Software designed to damage systems
-Cyber Law,Ransomware,Malware demanding payment,647,Malicious software demanding money
-Cyber Law,Spyware,Software spying user,648,Software secretly monitoring activity
-Cyber Law,Identity theft,Stealing personal identity,649,Fraudulently using someone’s identity
-Cyber Law,Online fraud,Deceptive online act,650,Scamming through internet
-Cyber Law,Data mining,Analyzing data illegally,651,Extracting sensitive info without consent
-Cyber Law,Digital piracy,Illegal copying digital content,652,Unauthorized reproduction of content
-Cyber Law,Cyberbullying,Online harassment,653,Harassment using digital channels
-Cyber Law,Internet trolling,Provoking online,654,Deliberate provocation online
-Cyber Law,Pharming,Fake website redirection,655,Redirecting to fraudulent website
-law_type,original,simplified,article_no,meaning
-Contract Law,Consideration,Exchange of value,235,Something of value exchanged in contract
-Contract Law,Breach of contract,Failure to perform,236,Not fulfilling contractual obligations
-Contract Law,Specific performance,Court enforces contract,237,Court orders fulfillment of contract
-Contract Law,Injunction,Court restrains action,238,Court prohibits certain action
-Contract Law,Duress,Forced consent,239,Agreement made under threat
-Contract Law,Undue influence,Excessive persuasion,240,Contract signed under unfair pressure
-Contract Law,Rescission,Cancellation of contract,241,Contract legally canceled
-Contract Law,Frustration,Impossible performance,242,Contract cannot be performed due to unforeseen events
-Contract Law,Letter of intent,Preliminary agreement,243,Intent before formal contract
-Contract Law,Non-compete clause,Restrict competition,244,Clause preventing competition after contract
-Criminal Law,Homicide,Killing of person,267,Intentional or unintentional killing
-Criminal Law,Attempted murder,Unsuccessful killing attempt,268,Failed attempt to kill
-Criminal Law,Assault,Physical attack,269,Act of causing bodily harm
-Criminal Law,Battery,Physical contact causing harm,270,Unlawful physical contact
-Criminal Law,Kidnapping,Abduction,271,Unlawful taking of a person
-Criminal Law,Extortion,Threat for money,272,Obtaining by threat or force
-Criminal Law,Arson,Deliberate fire,273,Intentional setting of fire
-Criminal Law,Fraud,Deception for gain,274,Illegal deception for personal benefit
-Criminal Law,Forgery,Fake document,275,Creating or using false documents
-Criminal Law,Larceny,Theft of property,276,Taking property unlawfully
-Property Law,Easement,Right to use land,351,Right to use someone else’s property
-Property Law,Encumbrance,Claim on property,352,Restriction or claim affecting property
-Property Law,Lease,Property rental,353,Contract granting temporary use
-Property Law,Mortgage,Loan on property,354,Property used as security for loan
-Property Law,Deed,Legal document,355,Written legal document for property
-Property Law,Title,Ownership proof,356,Legal proof of ownership
-Property Law,Foreclosure,Lender repossession,357,Lender takes property due to default
-Property Law,Eviction,Removing tenant,358,Legal removal of tenant
-Property Law,Zoning,Land use regulation,359,Rules governing land use
-Property Law,Subdivision,Dividing land,360,Separating land into plots
-Corporate Law,Merger,Company combination,457,Two companies combine into one
-Corporate Law,Acquisition,Company purchase,458,Company bought by another
-Corporate Law,Takeover,Company control,459,Obtaining control over company
-Corporate Law,Joint venture,Business partnership,460,Two companies form temporary partnership
-Corporate Law,Share buyback,Company repurchases shares,461,Company buys back own shares
-Corporate Law,Insolvency,Unable to pay debts,462,Company cannot meet financial obligations
-Corporate Law,Bankruptcy,Legal insolvency,463,Legal declaration of inability to pay
-Corporate Law,Debenture,Loan certificate,464,Debt instrument issued by company
-Corporate Law,Equity,Share ownership,465,Ownership interest in company
-Corporate Law,IPO,Initial public offering,466,Company offers shares to public
-Family Law,Child support,Financial support for child,556,Payments to support child’s needs
-Family Law,Visitation rights,Right to see child,557,Parent’s right to access child
-Family Law,Divorce,Legal end of marriage,558,Official termination of marriage
-Family Law,Separation,Living apart,559,Married couple living separately
-Family Law,Prenuptial agreement,Marriage contract,560,Agreement before marriage
-Family Law,Domestic partnership,Non-married cohabitation,561,Legal recognition of couple
-Family Law,Adoption,Legal parenthood,562,Child legally becomes part of family
-Family Law,Foster care,Temporary guardianship,563,Temporary care of child by guardian
-Family Law,Paternity,Legal fatherhood,564,Establishing legal father
-Family Law,Child custody,Responsibility for child,565,Legal care and decision-making for child
-Cyber Law,Phishing,Deceptive emails,656,Fraudulent emails to steal info
-Cyber Law,Keylogger,Monitoring software,657,Software recording keystrokes
-Cyber Law,DDoS,Distributed attack,658,Overloading system to disrupt service
-Cyber Law,Hacker,Unauthorized access,659,Person breaking into computer systems
-Cyber Law,Data breach,Unauthorized data access,660,Illegal access to private data
-Cyber Law,Cyber espionage,Spying online,661,Stealing info from systems
-Cyber Law,Cyber terrorism,Digital terrorism,662,Using digital means to threaten
-Cyber Law,Cryptojacking,Unauthorized mining,663,Using device to mine cryptocurrency
-Cyber Law,Online impersonation,Faking identity,664,Pretending to be someone online
-Cyber Law,Digital signature,Electronic verification,665,Electronic document verification
-Contract Law,Exclusion clause,Limit liability,245,Clause limiting responsibility
-Contract Law,Severability,Independent clauses,246,Contract parts treated separately
-Contract Law,Assignment,Transfer rights,247,Transferring contractual rights
-Contract Law,Novation,Replace contract,248,Substituting new contract
-Contract Law,Indemnity,Protection against loss,249,Compensation for loss or damage
-Contract Law,Warranty,Promise about quality,250,Assurance of product/service
-Contract Law,Guarantee,Secondary promise,251,Third-party promise for obligation
-Contract Law,Restitution,Return of benefit,252,Returning something gained unjustly
-Contract Law,Estoppel,Prevent denial,253,Stop party from denying statement
-Contract Law,Liquidated damages,Pre-agreed damages,254,Fixed compensation for breach
-Criminal Law,Hate speech,Offensive speech,277,Speech inciting violence or discrimination
-Criminal Law,Smuggling,Illegal transport,278,Illegal movement of goods
-Criminal Law,Money laundering,Converting illegal money,279,Cleaning illegal funds
-Criminal Law,Organized crime,Structured illegal activity,280,Crime by organized group
-Criminal Law,Trafficking,Illegal trade,281,Illegal trade of goods/people
-Criminal Law,Terrorism,Violent threat,282,Use of violence to intimidate
-Criminal Law,Extortionate credit,Unlawful lending,283,Illegal high-interest lending
-Criminal Law,Blackmail,Threat for gain,284,Threatening to reveal info
-Criminal Law,Racketeering,Illegal business,285,Engaging in fraudulent business
-Criminal Law,Cybercrime,Crime online,286,Illegal acts using internet
-Property Law,Eminent domain,Government seizure,361,Government takes private property
-Property Law,Adverse possession,Occupying land,362,Acquiring ownership by use
-Property Law,Encroachment,Property intrusion,363,Unauthorized intrusion on land
-Property Law,Right of way,Access through land,364,Legal path across property
-Property Law,License,Permission to use,365,Legal authorization
-Property Law,Property tax,Tax on land,366,Taxes on property ownership
-Property Law,Zoning variance,Land use exception,367,Exception to zoning rules
-Property Law,Lease renewal,Extend tenancy,368,Extending lease contract
-Property Law,Sublease,Renting lease,369,Tenant rents to another,370,Inheritance,Property transfer on death,Property passes to heirs
+"Indian Contract Act, 1872","All agreements are contracts if they are made by the free consent of parties competent to contract, for a lawful consideration and with a lawful object, and are not hereby expressly declared to be void.","An agreement becomes a valid contract when: 1) Parties agree freely, 2) Parties are legally capable, 3) There is lawful purpose and consideration, 4) Not declared void by law.","Section 10","Defines essential elements of a valid contract in Indian law."
+"Indian Contract Act, 1872","When one person signifies to another his willingness to do or to abstain from doing anything, with a view to obtaining the assent of that other to such act or abstinence, he is said to make a proposal.","A proposal (offer) is made when someone shows willingness to do or not do something, wanting the other persons agreement.","Section 2(a)","Defines what constitutes a legal offer or proposal."
+"Indian Contract Act, 1872","A contract may be avoided if it is caused by coercion, undue influence, fraud, misrepresentation or mistake.","A contract can be cancelled if it was made under pressure, influence, deception, false statements, or errors.","Section 19","Lists situations where a contract can be voided due to invalid consent."
+"Indian Contract Act, 1872","When, at the desire of the promisor, the promisee or any other person has done or abstained from doing, or does or abstains from doing, or promises to do or to abstain from doing, something, such act or abstinence or promise is called a consideration for the promise.","Consideration means something in return - when someone does something because the other person asked for it, that something is called consideration.","Section 2(d)","Defines consideration in contracts."
+"Indian Contract Act, 1872","An agreement not enforceable by law is said to be void.","A void agreement is not legally binding and cannot be enforced in court.","Section 2(g)","Defines void agreements."
+"Indian Contract Act, 1872","An agreement enforceable by law is a contract.","A contract is a legally binding agreement that can be enforced in court.","Section 2(h)","Defines what constitutes a contract."
+"Indian Contract Act, 1872","All contracts are agreements but all agreements are not contracts.","While every contract is an agreement, not every agreement qualifies as a legally enforceable contract.","Section 10","Distinguishes between agreements and contracts."
+"Indian Contract Act, 1872","When a party to a contract has refused to perform, or disabled himself from performing his promise in its entirety, the promisee may put an end to the contract.","If one party refuses to fulfill their contract promise, the other party can cancel the entire contract.","Section 39","Effect of refusal of party to perform promise wholly"
+"Indian Contract Act, 1872","When a contract has been broken, the party who suffers by such breach is entitled to receive compensation for any loss or damage caused to him thereby.","If a contract is broken, the affected party can claim compensation for any losses suffered.","Section 73","Compensation for loss or damage caused by breach of contract"
+"Indian Contract Act, 1872","A contract to do an act which, after the contract is made, becomes impossible, or by reason of some event which the promisor could not prevent, unlawful, becomes void when the act becomes impossible or unlawful.","A contract becomes void if it becomes impossible or illegal to perform after the contract is made.","Section 56","Agreement to do impossible act"
+"Indian Penal Code, 1860","Whoever causes death by doing an act with the intention of causing death, or with the intention of causing such bodily injury as is likely to cause death, or with the knowledge that he is likely by such act to cause death, commits the offence of murder.","Causing death with intent to kill or cause serious injury amounts to murder.","Section 300","Murder definition and punishment"
+"Indian Penal Code, 1860","Whoever commits murder shall be punished with death or imprisonment for life, and shall also be liable to fine.","Murder is punishable with death sentence or life imprisonment, plus possible fine.","Section 302","Punishment for murder"
+"Indian Penal Code, 1860","Whoever, intending to take dishonestly any movable property out of the possession of any person without that person's consent, moves that property in order to such taking, is said to commit theft.","Dishonestly taking movable property without owner's consent constitutes theft.","Section 378","Definition of theft"
+"Indian Penal Code, 1860","Whoever commits theft shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.","Theft is punishable with up to 3 years imprisonment or fine or both.","Section 379","Punishment for theft"
+"Indian Penal Code, 1860","Whoever causes the death of a person by doing an act with the intention of causing death, or with the knowledge that he is likely by such act to cause death, commits culpable homicide.","Causing death with intent or knowledge amounts to culpable homicide.","Section 299","Culpable homicide"
+"Indian Penal Code, 1860","Whoever commits culpable homicide not amounting to murder shall be punished with imprisonment for life, or imprisonment for a term which may extend to ten years.","Culpable homicide not amounting to murder is punishable with life or up to 10 years.","Section 304","Punishment for culpable homicide not amounting to murder"
+"Indian Penal Code, 1860","Whoever enters into or upon property in possession of another with intent to commit an offence, is said to commit criminal trespass.","Entering property with intent to commit offense is criminal trespass.","Section 441","Criminal trespass"
+"Indian Penal Code, 1860","Whoever commits criminal trespass shall be punished with imprisonment which may extend to three months, or with fine, or with both.","Criminal trespass is punishable with up to 3 months imprisonment or fine.","Section 447","Punishment for criminal trespass"
+"Indian Penal Code, 1860","Whoever assaults or uses criminal force to any woman, intending to outrage or knowing it to be likely that he will thereby outrage her modesty, shall be punished.","Using force against woman with intent to outrage modesty is punishable.","Section 354","Assault or criminal force to woman with intent to outrage her modesty"
+"Indian Penal Code, 1860","Whoever, being a husband or relative of the husband of a woman, subjects such woman to cruelty shall be punished.","Husband or relatives subjecting woman to cruelty can be punished.","Section 498A","Husband or relative of husband of a woman subjecting her to cruelty"
+"Constitution of India","The State shall not deny to any person equality before the law or the equal protection of the laws within the territory of India.","Every person has equal rights under the law in India.","Article 14","Equality before law"
+"Constitution of India","All citizens shall have the right to freedom of speech and expression.","Citizens have right to free speech and expression.","Article 19(1)(a)","Freedom of speech and expression"
+"Constitution of India","No person shall be deprived of his life or personal liberty except according to procedure established by law.","No one can be denied life or personal freedom except through legal procedures.","Article 21","Protection of life and personal liberty"
+"Transfer of Property Act, 1882","A lease of immovable property from year to year, or for any term exceeding one year, or reserving a yearly rent, can be made only by a registered instrument.","Long-term leases (over 1 year) must be registered documents.","Section 107","Leases how made"
+"Transfer of Property Act, 1882","A mortgage is the transfer of an interest in specific immovable property for the purpose of securing the payment of money advanced.","Mortgage means transferring property interest as security for loan.","Section 58","Mortgage defined"
+"Hindu Marriage Act, 1955","A marriage may be solemnized between any two Hindus, if neither party has a spouse living at the time of the marriage.","Hindu marriage requires that neither party has a living spouse at marriage time.","Section 5","Conditions for a Hindu marriage"
+"Hindu Marriage Act, 1955","Any marriage solemnized, whether before or after the commencement of this Act, may be annulled by a decree of nullity on the ground that the marriage has not been consummated owing to the impotence of the respondent.","Marriage can be annulled if not consummated due to impotence.","Section 12","Voidable marriages"
+"Hindu Marriage Act, 1955","Any marriage solemnized may be dissolved by a decree of divorce on the ground that the other party has had voluntary sexual intercourse with any person other than his or her spouse.","Divorce can be granted if spouse has extramarital relations.","Section 13","Divorce"
+"Code of Civil Procedure, 1908","The Court may issue a commission for the examination on interrogatories or otherwise of any person resident within the local limits of its jurisdiction.","Court can appoint commissioner to record evidence of witnesses.","Order 26 Rule 1","Commission to examine witnesses"
+"Code of Civil Procedure, 1908","The Court shall have power to grant a temporary injunction to restrain such act.","Courts can issue temporary orders to prevent illegal actions.","Order 39 Rule 1","Cases in which temporary injunction may be granted"
+"Code of Civil Procedure, 1908","No appeal shall lie from a decree passed by the Court with the consent of parties.","No appeal against judgments where both parties agreed.","Section 96","Appeal from original decree"
+"Code of Criminal Procedure, 1973","Any police officer may without an order from a Magistrate and without a warrant, arrest any person who has been concerned in any cognizable offence.","Police can arrest without warrant anyone involved in serious crimes.","Section 41","When police may arrest without warrant"
+"Code of Criminal Procedure, 1973","In every trial the evidence of each witness shall be recorded in the presence of the accused.","Witness evidence must be recorded in presence of accused person.","Section 273","Evidence to be taken in presence of accused"
+"Code of Criminal Procedure, 1973","Whenever a person is arrested and detained in custody, it shall be the duty of the person having the custody to take reasonable care of the health and safety of the arrested person.","Police must take reasonable care of health of arrested persons.","Section 55A","Health and safety of arrested person"
+"Consumer Protection Act, 2019","A consumer means any person who buys any goods for a consideration which has been paid or promised or partly paid and partly promised.","Consumer is anyone who buys goods or uses services for payment.","Section 2(7)","Definition of consumer"
+"Consumer Protection Act, 2019","A product manufacturer shall be liable to compensate for any harm caused to a consumer by such product.","Manufacturers responsible for compensating consumers for defective products.","Section 84","Product liability action"
+"Information Technology Act, 2000","Whoever with the intent to cause or knowing that he is likely to cause wrongful loss or damage to the public or any person destroys or deletes or alters any information residing in a computer resource, commits hacking.","Unauthorized alteration or deletion of computer information is hacking.","Section 66","Computer related offences"
+"Information Technology Act, 2000","Where any person without permission accesses or secures access to such computer, he shall be liable to pay damages by way of compensation.","Unauthorized computer access can result in compensation payments.","Section 43","Penalty and compensation for damage to computer, computer system, etc."
+"Companies Act, 2013","Every company shall have a registered office within fifteen days of its incorporation.","Every company must have registered office within 15 days of incorporation.","Section 12","Registered office of company"
+"Companies Act, 2013","Every company shall hold its first annual general meeting within a period of nine months from the date of closing of the first financial year.","First company meeting must be held within 9 months of financial year end.","Section 96","Annual general meeting"
+"Negotiable Instruments Act, 1881","A negotiable instrument means a promissory note, bill of exchange or cheque payable either to order or to bearer.","Negotiable instruments include promissory notes, bills, and cheques.","Section 13","Negotiable instrument"
+"Negotiable Instruments Act, 1881","Where any cheque drawn by a person on an account maintained by him with a banker for payment of any amount is returned by the bank unpaid, such person shall be deemed to have committed an offence.","Bouncing of cheque for payment is a criminal offense.","Section 138","Dishonour of cheque for insufficiency, etc., of funds in the account"
+"Arbitration and Conciliation Act, 1996","Notwithstanding that an arbitration agreement is in writing, it shall be deemed to be in writing if it is contained in a document signed by the parties.","Arbitration agreement can be in written form through signed documents.","Section 7","Arbitration agreement"
+"Arbitration and Conciliation Act, 1996","A party may raise a plea that the arbitral tribunal does not have jurisdiction.","Objection to arbitrator's jurisdiction must be raised early.","Section 16","Competence of arbitral tribunal to rule on its jurisdiction"
+"Right to Information Act, 2005","Subject to the provisions of this Act, all citizens shall have the right to information.","All Indian citizens have right to seek information from public authorities.","Section 3","Right to information"
+"Right to Information Act, 2005","It shall be the duty of the Public Information Officer to provide information to persons requesting for the information.","Public Information Officer must provide information to applicants.","Section 5","Designation of Public Information Officers"
+"Environmental Protection Act, 1986","No person carrying on any industry, operation or process shall discharge or emit any environmental pollutant in excess of such standards as may be prescribed.","Industries cannot release pollutants beyond prescribed limits.","Section 7","Persons carrying on industry, operation, etc., not to allow emission or discharge of environmental pollutants in excess of the standards"
+"Environmental Protection Act, 1986","Whoever fails to comply with any of the provisions of this Act shall be punishable with imprisonment for a term which may extend to five years or with fine.","Violating environmental laws can lead to 5 years imprisonment or fine.","Section 15","Penalty for contravention of the provisions of the Act and the rules, orders and directions"
+"Motor Vehicles Act, 1988","No person shall drive a motor vehicle in any public place unless he holds an effective driving licence issued to him authorising him to drive the vehicle.","Driving without valid license in public places is illegal.","Section 3","Necessity for driving licence"
+"Motor Vehicles Act, 1988","Whoever drives a motor vehicle in any public place without holding an effective driving licence shall be punishable.","Driving without license is punishable.","Section 181","Punishment for driving without licence"
+"Protection of Children from Sexual Offences Act, 2012","Whoever commits penetrative sexual assault on a child shall be punished with imprisonment of either description for a term which shall not be less than ten years.","Penetrative sexual assault on child carries minimum 10 years imprisonment.","Section 4","Punishment for penetrative sexual assault"
+"Protection of Children from Sexual Offences Act, 2012","Whoever uses a child for pornographic purposes shall be punished with imprisonment which may extend to five years and shall also be liable to fine.","Using children for pornography can lead to 5 years imprisonment and fine.","Section 14","Punishment for using child for pornographic purposes"
+"Prevention of Corruption Act, 1988","Whoever, being a public servant, accepts or obtains any gratification other than legal remuneration, shall be punishable.","Public servants taking bribes can be punished.","Section 7","Public servant taking gratification other than legal remuneration in respect of an official act"
+"Prevention of Corruption Act, 1988","Whoever abets any offence punishable under this Act shall be punishable with imprisonment for a term which shall not be less than three years.","Helping corruption offenses is punishable with 3+ years imprisonment.","Section 12","Punishment for abetment of offences"
+"Hindu Succession Act, 1956","The property of a male Hindu dying intestate shall devolve according to the provisions of this Chapter.","Property of Hindu male without will follows specific inheritance rules.","Section 8","General rules of succession in the case of males"
+"Hindu Succession Act, 1956","Notwithstanding anything contained in section 6, the daughter of a coparcener shall by birth become a coparcener in her own right in the same manner as the son.","Daughter has equal birth rights as son in ancestral property.","Section 6","Devolution of interest in coparcenary property"
+"Specific Relief Act, 1963","The court may grant injunction to prevent the breach of an obligation existing in favour of the applicant.","Court can order injunction to prevent violation of legal obligations.","Section 36","Preventive relief how granted"
+"Indian Evidence Act, 1872","Evidence may be given in any suit or proceeding of the existence or non-existence of every fact in issue and of such other facts as are hereinafter declared to be relevant.","Evidence can only be given about facts directly relevant to the case.","Section 5","Evidence may be given of facts in issue and relevant facts"
+"Indian Evidence Act, 1872","No fact of which the court will take judicial notice need be proved.","Facts that are commonly known don't need to be proven.","Section 56","Facts judicially noticeable need not be proved"
+"Limitation Act, 1963","The period of limitation for any suit, appeal or application shall be computed from the time when the right to sue accrues.","Time limit for legal action starts when right to take action arises.","Section 9","Continuous running of time"
+"Limitation Act, 1963","Any suit for which no period of limitation is provided elsewhere shall be instituted within three years from the date when the right to sue accrues.","If no specific time limit, lawsuit must be filed within 3 years.","Article 113","Any suit for which no period of limitation is provided elsewhere in this Schedule"
+"Registration Act, 1908","All non-testamentary documents which purport or operate to create any right, title or interest in immovable property shall be registered.","Property documents creating rights must be registered.","Section 17","Documents of which registration is compulsory"
+"Registration Act, 1908","No document required by section 17 to be registered shall affect any immovable property unless it has been registered.","Unregistered property documents cannot affect property rights.","Section 49","Effect of non-registration of documents required to be registered"
+"Sale of Goods Act, 1930","A contract of sale of goods is a contract whereby the seller transfers or agrees to transfer the property in goods to the buyer for a price.","Sale contract means transferring goods ownership to buyer for money.","Section 4","Sale and agreement to sell"
+"Sale of Goods Act, 1930","The goods must be of merchantable quality, fit for the purpose for which such goods are commonly bought.","Goods sold must be of reasonable quality and fit for purpose.","Section 16","Implied conditions as to quality or fitness"
+"Partnership Act, 1932","The relation between persons who have agreed to share the profits of a business carried on by all or any of them acting for all.","Partnership means relationship between persons sharing business profits.","Section 4","Definition of partnership"
+"Partnership Act, 1932","Every partner is liable jointly with all the other partners for all acts of the firm done while he is a partner.","Each partner is personally liable for all partnership debts.","Section 25","Liability of a partner for acts of the firm"
+"Easements Act, 1882","An easement is a right which the owner or occupier of certain land possesses for the beneficial enjoyment of that land.","Easement is right to use neighbor's land for beneficial enjoyment.","Section 4","Easement defined"
+"Easements Act, 1882","The dominant owner is entitled to enjoy the easement without disturbance by any other person.","Easement holder has right to use easement without interference.","Section 26","Dominant owner's rights"
+"Trusts Act, 1882","A trust is an obligation annexed to the ownership of property, and arising out of a confidence reposed in and accepted by the owner.","Trust means property ownership with obligation to use for another's benefit.","Section 3","Interpretation clause—trust"
+"Trusts Act, 1882","The trustee is bound to fulfil the purpose of the trust, and to obey the directions of the author of the trust.","Trustee must fulfill trust purpose and follow directions.","Section 11","Trustee to execute trust"
+"Stamp Act, 1899","Every instrument chargeable with duty shall be stamped before or at the time of execution.","Documents requiring stamp duty must be stamped before signing.","Section 17","Instruments executed in India"
+"Stamp Act, 1899","No instrument chargeable with duty shall be admitted in evidence unless such instrument is duly stamped.","Unstamped documents cannot be used as evidence.","Section 35","Instruments not duly stamped inadmissible in evidence, etc."
+"Legal Services Authorities Act, 1987","Every person who has to file or defend a case shall be entitled to legal services if that person is a member of a Scheduled Caste or Scheduled Tribe.","SC/ST community members have right to free legal services.","Section 12","Criteria for giving legal services"
+"Legal Services Authorities Act, 1987","A woman or a child; a person with disability; a person under circumstances of undeserved want are entitled to legal services.","Women, children, disabled, and needy have right to free legal aid.","Section 12","Every person who has to file or defend a case shall be entitled to legal services"
+"Maintenance and Welfare of Parents and Senior Citizens Act, 2007","A senior citizen including parent who is unable to maintain himself from his own earning shall be entitled to make an application for maintenance.","Senior citizens unable to support themselves can claim maintenance.","Section 4","Maintenance of parents and senior citizens"
+"Maintenance and Welfare of Parents and Senior Citizens Act, 2007","A child or relative shall be liable to maintain a senior citizen if such child or relative neglects or refuses to maintain such senior citizen.","Children/relatives with means must maintain senior citizens.","Section 4","Maintenance of parents and senior citizens"
+"Juvenile Justice (Care and Protection of Children) Act, 2015","No juvenile in conflict with law shall be sentenced to death or imprisonment for any term which may extend to imprisonment for life.","Juveniles cannot be given death sentence or life imprisonment.","Section 21","Order that may be passed regarding juvenile"
+"Juvenile Justice (Care and Protection of Children) Act, 2015","No child shall be subjected to corporal punishment or mental harassment.","Children cannot be given physical punishment or mental harassment.","Section 75","Prohibition on disclosure of identity of children"
+"Prevention of Money Laundering Act, 2002","Whosoever directly or indirectly attempts to indulge in any process or activity connected with the proceeds of crime shall be guilty of offence of money-laundering.","Money laundering involves handling illegal money to make it appear legal.","Section 3","Offence of money-laundering"
+"Prevention of Money Laundering Act, 2002","Whoever commits the offence of money-laundering shall be punishable with rigorous imprisonment for a term which shall not be less than three years.","Money laundering is punishable with 3+ years rigorous imprisonment.","Section 4","Punishment for money-laundering"
+"Goods and Services Tax Act, 2017","There shall be levied a tax called the goods and services tax on all supplies of goods or services or both.","GST tax is applied to all sales of goods and services in India.","Section 7","Scope of supply"
+"Goods and Services Tax Act, 2017","Every registered person shall be entitled to take credit of input tax charged on any supply of goods or services.","Businesses can claim credit for GST paid on inputs.","Section 16","Eligibility and conditions for taking input tax credit"
+"Indian Penal Code, 1860","Whoever causes the death of a person by doing any rash or negligent act not amounting to culpable homicide, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.","Causing death by careless or reckless action is punishable with up to 2 years imprisonment or fine.","Section 304A","Causing death by negligence"
+"Indian Penal Code, 1860","Whoever, being bound by an oath or by any express provision of law to state the truth, makes any statement which is false, shall be punished.","Making false statements when legally required to tell truth is punishable.","Section 181","False statement on oath or affirmation to public servant"
+"Indian Penal Code, 1860","Whoever gives or fabricates false evidence with intent to procure conviction of capital offence shall be punished with imprisonment for life, or with rigorous imprisonment for term which may extend to ten years.","Giving false evidence in death penalty cases is punishable with life imprisonment or up to 10 years.","Section 194","Giving or fabricating false evidence with intent to procure conviction of capital offence"
+"Indian Penal Code, 1860","Whoever, being in any manner entrusted with property, dishonestly misappropriates or converts to his own use that property, commits criminal breach of trust.","Criminal breach of trust involves dishonestly using entrusted property for personal benefit.","Section 405","Defines criminal breach of trust"
+"Indian Penal Code, 1860","Whoever commits criminal breach of trust shall be punished with imprisonment of either description for a term which may extend to three years, or with fine, or with both.","Criminal breach of trust is punishable with up to 3 years imprisonment or fine or both.","Section 406","Punishment for criminal breach of trust"
+"Indian Penal Code, 1860","Whoever, by deceiving any person, fraudulently or dishonestly induces the person so deceived to deliver any property, commits cheating.","Cheating involves deceiving someone to dishonestly obtain property from them.","Section 415","Defines cheating"
+"Indian Penal Code, 1860","Whoever cheats shall be punished with imprisonment of either description for a term which may extend to one year, or with fine, or with both.","Cheating is punishable with up to 1 year imprisonment or fine or both.","Section 417","Punishment for cheating"
+"Indian Penal Code, 1860","Whoever, intending to cause, or knowing it to be likely that he will cause, wrongful loss or damage to the public or to any person, causes the destruction of any property, commits mischief.","Mischief involves intentionally causing damage or loss to property.","Section 425","Defines mischief"
+"Indian Penal Code, 1860","Whoever commits mischief shall be punished with imprisonment of either description for a term which may extend to three months, or with fine, or with both.","Mischief is punishable with up to 3 months imprisonment or fine or both.","Section 426","Punishment for mischief"
+"Indian Penal Code, 1860","Whoever, being a public servant, accepts or obtains, or agrees to accept, or attempts to obtain from any person, any gratification whatever, other than legal remuneration, as a motive or reward for doing any official act, shall be punished.","Public servants taking bribes for official acts can be punished.","Section 161","Punishment for public servant taking gratification other than legal remuneration"
+"Indian Contract Act, 1872","When a person at whose option a contract is voidable rescinds it, the other party thereto need not perform any promise therein contained in which he is promisor. The party rescinding a voidable contract shall, if he has received any benefit thereunder from another party to such contract, restore such benefit.","When contract is cancelled, both parties should return any benefits received from the contract.","Section 64","Consequences of rescission of voidable contract"
+"Indian Contract Act, 1872","Where a contract is discovered to be void, or when a contract becomes void, any person who has received any advantage under such contract is bound to restore it, or to make compensation for it, to the person from whom he received it.","If contract is found void, any benefits received must be returned or compensated.","Section 65","Obligation of person who has received advantage under void agreement"
+"Indian Contract Act, 1872","In the event of breach of contract, the party who suffers by such breach is entitled to receive compensation for any loss which naturally arose in the usual course of things from such breach.","Compensation for contract breach covers losses that naturally result from the breach.","Section 73","Compensation for loss or damage caused by breach of contract"
+"Indian Contract Act, 1872","When an obligation resembling those created by contract has been incurred and has not been discharged, any person injured by the failure to discharge it is entitled to receive the same compensation from the party in default.","Compensation available even when obligation arises without formal contract.","Section 70","Obligation of person enjoying benefit of non-gratuitous act"
+"Indian Contract Act, 1872","A contract which is contingent upon the happening of a future uncertain event cannot be enforced by law unless and until that event has happened.","Contracts depending on uncertain future events can only be enforced after the event happens.","Section 32","Enforcement of contracts contingent on an event happening"
+"Indian Contract Act, 1872","Contingent contracts to do or not to do anything if an uncertain future event happens cannot be enforced by law unless and until that event has happened.","Contracts based on 'if something happens' can only be enforced after it actually happens.","Section 31","Contingent contract definition and enforcement"
+"Indian Contract Act, 1872","A contract to do or not to do something, if some event, which is collateral to such contract, does not happen, may be enforced when the happening of that event becomes impossible.","Contracts based on 'if something doesn't happen' can be enforced when that event becomes impossible.","Section 34","Enforcement of contracts contingent on an event not happening"
+"Indian Contract Act, 1872","Where the consent of the promisor is caused by coercion, the contract is voidable at the option of the party whose consent was so caused.","Contracts made under pressure can be cancelled by the pressured party.","Section 19","Voidability of agreements without free consent"
+"Indian Contract Act, 1872","When consent to an agreement is caused by undue influence, the agreement is a contract voidable at the option of the party whose consent was so caused.","Contracts made under excessive influence can be cancelled by the influenced party.","Section 19A","Power to set aside contract induced by undue influence"
+"Code of Criminal Procedure, 1973","No female shall be sentenced to death.","Women cannot be given death sentence.","Section 416","Postponement of capital sentence on pregnant woman"
+"Code of Criminal Procedure, 1973","When any person is sentenced to death, the sentence shall direct that he be hanged by the neck till he is dead.","Death sentence must specify hanging by neck until death.","Section 354","Form and contents of judgment in death sentence cases"
+"Code of Criminal Procedure, 1973","In the case of any offence punishable with imprisonment for life, the Court may, for reasons to be recorded in writing, impose sentence of imprisonment for a term exceeding ten years.","Life imprisonment can be given for offenses punishable with life imprisonment, with reasons recorded.","Section 31","Sentence in cases of conviction of several offences at one trial"
+"Code of Criminal Procedure, 1973","No woman shall be called to a police station for questioning.","Women cannot be called to police station for questioning.","Section 160","Police officer's power to require attendance of witnesses"
+"Code of Criminal Procedure, 1973","In every inquiry or trial the proceedings shall be held as expeditiously as possible.","Court proceedings should be completed as quickly as possible.","Section 309","Power to postpone or adjourn proceedings"
+"Code of Criminal Procedure, 1973","Any person accused of an offence before a Criminal Court, or against whom proceedings are instituted under this Code, may of right be defended by a pleader of his choice.","Every accused person has the right to be defended by a lawyer of their choice.","Section 303","Right of person against whom proceedings are instituted to be defended"
+"Hindu Marriage Act, 1955","When a marriage has been dissolved by a decree of divorce and either there is no right of appeal against the decree or, if there is such a right of appeal, the time for appealing has expired without an appeal having been presented, the parties may marry again.","After divorce becomes final, both parties are free to remarry.","Section 15","Divorced persons when may marry again"
+"Hindu Marriage Act, 1955","Where in any proceeding under this Act it appears to the court that either the wife or the husband, as the case may be, has no independent income sufficient for her or his support and the necessary expenses of the proceeding, it may order the respondent to pay to the petitioner the expenses of the proceeding.","Court can order payment of legal expenses if spouse has no independent income.","Section 24","Maintenance pendente lite and expenses of proceedings"
+"Hindu Succession Act, 1956","When a female Hindu dies intestate, her property shall devolve according to the rules set out in section 16.","Property of Hindu female without will follows specific inheritance rules.","Section 15","General rules of succession in the case of female Hindus"
+"Hindu Succession Act, 1956","Any property possessed by a female Hindu, whether acquired before or after the commencement of this Act, shall be held by her as full owner thereof and not as a limited owner.","Hindu women have full ownership rights over their property, not limited ownership.","Section 14","Property of a female Hindu to be her absolute property"
+"Hindu Adoption and Maintenance Act, 1956","No person shall be capable of being taken in adoption unless he or she is a Hindu, he or she has not already been adopted, he or she has not been married, unless there is a custom or usage applicable to the parties which permits persons who are married being taken in adoption.","Only unmarried Hindu children can be adopted, unless custom allows married persons adoption.","Section 10","Persons who may be adopted"
+"Hindu Adoption and Maintenance Act, 1956","No adoption shall be made after the adoptee has completed the age of fifteen years, unless there is a custom or usage applicable to the parties which permits persons who have completed the age of fifteen years being taken in adoption.","Adoption generally not allowed after child turns 15, unless custom permits.","Section 10","Age for adoption"
+"Hindu Adoption and Maintenance Act, 1956","A Hindu wife shall be entitled to be maintained by her husband during her lifetime.","Hindu wife has right to be maintained by her husband throughout her life.","Section 18","Maintenance of wife"
+"Hindu Minority and Guardianship Act, 1956","The natural guardians of a Hindu minor, in respect of the minor's person as well as in respect of the minor's property, are the father, and after him, the mother.","Natural guardians of Hindu minor are: first father, then mother.","Section 6","Natural guardians of a Hindu minor"
+"Hindu Minority and Guardianship Act, 1956","The natural guardian of a Hindu minor has power, subject to the provisions of this section, to do all acts which are necessary or reasonable and proper for the benefit of the minor or for the realization, protection or benefit of the minor's estate.","Natural guardian can take necessary actions for minor's benefit and property protection.","Section 8","Powers of natural guardian"
+"Muslim Personal Law","A Muslim woman married under Muslim law shall be entitled to obtain a decree for the dissolution of her marriage on the ground that the husband has neglected or has failed to provide for her maintenance for a period of two years.","Muslim wife can seek divorce if husband fails to provide maintenance for 2 years.","Dissolution of Muslim Marriages Act, 1939","Grounds for Muslim woman to seek divorce"
+"Muslim Personal Law","The dower may be fixed either before or at the time of marriage or after the marriage.","Mehr (dower) can be decided before, during, or after marriage.","Muslim Law","Provisions regarding dower in Muslim marriage"
+"Muslim Personal Law","A Muslim husband may dissolve the marriage by pronouncing talaq.","Muslim husband can divorce by pronouncing talaq.","Muslim Law","Talaq provisions in Muslim law"
+"Muslim Personal Law","The mother shall be entitled to the custody of her minor child up to the age of seven years in the case of a boy and upto the age of puberty in the case of a girl.","Mother has custody rights: for son until age 7, for daughter until puberty.","Muslim Law","Hizanat (custody) rights of mother"
+"Muslim Personal Law","A Muslim is entitled to bequeath by will only one-third of his property.","Muslim can will only one-third of property, rest follows inheritance rules.","Muslim Law","Will restrictions in Muslim law"
+"Special Marriage Act, 1954","Any marriage celebrated, whether before or after the commencement of this Act, may be dissolved by a decree of divorce on the petition of either the husband or the wife on the ground that the other party has, after the solemnization of the marriage, had voluntary sexual intercourse with any person other than his or her spouse.","Marriage under Special Marriage Act can be dissolved if either spouse has extramarital affair.","Section 27","Grounds for divorce under Special Marriage Act"
+"Special Marriage Act, 1954","Any marriage under this Act may be solemnized in any form which the parties may choose to adopt.","Marriages under this Act can be performed in any form chosen by the parties.","Section 12","Form of solemnization of marriage"
+"Special Marriage Act, 1954","When a marriage has been dissolved and either there is no right of appeal against the decree or if there is such a right of appeal, the time for appealing has expired without an appeal having been presented, either party to the marriage may marry again.","After divorce becomes final under this Act, parties can remarry.","Section 30","Divorced persons when may marry again"
+"Negotiable Instruments Act, 1881","Whoever commits an offence under section 138 shall be punished with imprisonment for a term which may extend to two years, or with fine which may extend to twice the amount of the cheque, or with both.","Cheque bouncing is punishable with up to 2 years imprisonment or double the cheque amount as fine or both.","Section 138","Punishment for dishonour of cheque"
+"Negotiable Instruments Act, 1881","A promissory note is an instrument in writing containing an unconditional undertaking, signed by the maker, to pay a certain sum of money only to, or to the order of, a certain person, or to the bearer of the instrument.","Promissory note is a written promise to pay specific amount to specific person or bearer.","Section 4","Defines promissory note"
+"Negotiable Instruments Act, 1881","A bill of exchange is an instrument in writing containing an unconditional order, signed by the maker, directing a certain person to pay a certain sum of money only to, or to the order of, a certain person or to the bearer of the instrument.","Bill of exchange is a written order to pay specific amount to specific person or bearer.","Section 5","Defines bill of exchange"
+"Negotiable Instruments Act, 1881","A cheque is a bill of exchange drawn on a specified banker and not expressed to be payable otherwise than on demand.","Cheque is a type of bill of exchange payable on demand from a bank.","Section 6","Defines cheque"
+"Consumer Protection Act, 2019","The District Commission shall have jurisdiction to entertain complaints where the value of the goods or services paid as consideration does not exceed one crore rupees.","District consumer court can hear cases involving claims up to ₹1 crore.","Section 34","Jurisdiction of District Commission"
+"Consumer Protection Act, 2019","The State Commission shall have jurisdiction to entertain complaints where the value of the goods or services paid as consideration exceeds one crore rupees but does not exceed ten crore rupees.","State consumer court can hear cases involving claims between ₹1 crore and ₹10 crore.","Section 47","Jurisdiction of State Commission"
+"Consumer Protection Act, 2019","The National Commission shall have jurisdiction to entertain complaints where the value of the goods or services paid as consideration exceeds ten crore rupees.","National consumer court can hear cases involving claims over ₹10 crore.","Section 58","Jurisdiction of National Commission"
+"Right to Information Act, 2005","An information shall ordinarily be provided in the form in which it is sought unless it would disproportionately divert the resources of the public authority or would be detrimental to the safety or preservation of the record in question.","Information should be provided in requested format unless it would harm records or require excessive resources.","Section 7","Disposal of request for information"
+"Right to Information Act, 2005","Where a decision is taken to provide the information on payment of any further fee representing the cost of providing the information, the Central Public Information Officer shall send an intimation to the person making the request.","If additional fees are required for providing information, applicant must be informed about the details.","Section 7","Fees for providing information"
+"Right to Information Act, 2005","Notwithstanding anything contained in this Act, there shall be no obligation to give any citizen information which would prejudicially affect the sovereignty and integrity of India.","Certain sensitive information affecting national security and interests can be withheld.","Section 8","Exemption from disclosure of information"
+"Information Technology Act, 2000","Whoever commits hacking shall be punished with imprisonment up to three years, or with fine which may extend to five lakh rupees, or with both.","Hacking is punishable with up to 3 years imprisonment or ₹5 lakh fine or both.","Section 66","Punishment for hacking"
+"Information Technology Act, 2000","Whoever sends by means of a computer resource any information that is grossly offensive or has menacing character shall be punishable.","Sending offensive or false information through computers is punishable.","Section 66A","Punishment for sending offensive messages through communication service"
+"Information Technology Act, 2000","Whoever, intentionally or knowingly captures, publishes or transmits the image of a private area of any person without his or her consent, under circumstances violating the privacy of that person, shall be punished.","Taking or sharing private images without consent violating privacy is punishable.","Section 66E","Punishment for violation of privacy"
+"Information Technology Act, 2000","Whoever, knowingly or intentionally conceals, destroys or alters any computer source code used for a computer resource with an intention to cause damage, shall be punishable.","Destroying or altering computer source code with intent to cause damage is punishable.","Section 65","Tampering with computer source documents"
+"Companies Act, 2013","Every company shall prepare its financial statements in accordance with the accounting standards.","Companies must prepare financial statements following accounting standards.","Section 129","Financial statement preparation requirements"
+"Companies Act, 2013","The Board of Directors of every company shall consist of individuals as directors and shall have a minimum number of three directors in the case of a public company, two directors in the case of a private company.","Minimum directors required: Public company-3, Private company-2, One Person Company-1.","Section 149","Company to have Board of Directors"
+"Companies Act, 2013","No company shall appoint or re-appoint any person as its managing director, whole-time director or manager for a term exceeding five years at a time.","Managing director or whole-time director cannot be appointed for more than 5 years at once.","Section 196","Appointment of managing director, whole-time director or manager"
+"Companies Act, 2013","Every company having a paid-up share capital of five crore rupees or more shall constitute a Corporate Social Responsibility Committee of the Board.","Companies with ₹5 crore+ paid-up capital must have CSR committee.","Section 135","Corporate Social Responsibility"
+"Companies Act, 2013","The Board of every company shall ensure that the company spends, in every financial year, at least two per cent of the average net profits of the company made during the three immediately preceding financial years.","Companies must spend at least 2% of average net profits of last 3 years on CSR activities.","Section 135","CSR spending requirement"
+"Goods and Services Tax Act, 2017","The input tax credit shall be availed by a registered person on the basis of any of the following documents, namely: an invoice issued by the supplier of goods or services or both.","Input tax credit can be claimed based on invoices from suppliers.","Section 16","Documents for claiming input tax credit"
+"Goods and Services Tax Act, 2017","Every registered person required to deduct tax at source under section 51 shall furnish a return in such form and manner as may be prescribed.","Persons required to deduct TDS must file returns in prescribed format.","Section 39","Furnishing of returns"
+"Goods and Services Tax Act, 2017","Any registered person who fails to furnish the details of outward or inward supplies required under section 37 by the due date shall be liable to pay a late fee of one hundred rupees for every day.","Late filing of supply details attracts ₹100 per day late fee.","Section 47","Levy of late fee for delayed filing of return"
+"Arbitration and Conciliation Act, 1996","The arbitral tribunal shall make an arbitral award within a period of twelve months from the date the arbitral tribunal enters upon the reference.","Arbitration award should be made within 12 months from when tribunal starts proceedings.","Section 29A","Time limit for arbitral award"
+"Arbitration and Conciliation Act, 1996","An arbitral award shall be final and binding on the parties and persons claiming under them respectively.","Arbitration award is final and legally binding on all parties involved.","Section 35","Finality of arbitral awards"
+"Arbitration and Conciliation Act, 1996","Recourse to a Court against an arbitral award may be made only by an application for setting aside such award in accordance with sub-section (2) and sub-section (3).","Court can only interfere with arbitration award through specific setting aside procedure.","Section 34","Application for setting aside arbitral award"
+"Transfer of Property Act, 1882","Sale is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised.","Sale means transferring property ownership for money paid or promised.","Section 54","Defines sale of immovable property"
+"Transfer of Property Act, 1882","Gift is the transfer of certain existing movable or immovable property made voluntarily and without consideration, by one person, called the donor, to another, called the donee, and accepted by or on behalf of the donee.","Gift means transferring property voluntarily without payment, from donor to donee.","Section 122","Defines gift"
+"Transfer of Property Act, 1882","An exchange is a mutual transfer of ownership of one thing for the ownership of another.","Exchange means swapping ownership of one property for another property.","Section 118","Defines exchange"
+"Indian Evidence Act, 1872","Facts which, though not in issue, are so connected with a fact in issue as to form part of the same transaction, are relevant, whether they occurred at the same time and place or at different times and places.","Facts connected to the main issue as part of same transaction are relevant evidence.","Section 6","Relevancy of facts forming part of same transaction"
+"Indian Evidence Act, 1872","Any fact which enables the court to determine the amount of damages which ought to be awarded is relevant.","Facts that help determine compensation amount are relevant evidence.","Section 12","Facts relevant to determine damages"
+"Indian Evidence Act, 1872","When one person has, by his declaration, act or omission, intentionally caused or permitted another person to believe a thing to be true and to act upon such belief, neither he nor his representative shall be allowed to deny the truth of that thing.","If someone makes another believe something is true and they act on it, the first person cannot later deny it.","Section 115","Estoppel principle in evidence"
+"Indian Evidence Act, 1872","No witness who is not a party to a suit shall be compelled to produce his title-deeds to any property.","Witnesses cannot be forced to produce documents that might incriminate them or reveal property titles.","Section 130","Production of documents which another person, having possession, could refuse to produce"
+"Code of Civil Procedure, 1908","The Court may, either on its own motion or on the application of any party, order any fact to be proved by affidavit.","Court can allow facts to be proved through written statements (affidavits).","Order 19 Rule 1","Power to order any point to be proved by affidavit"
+"Code of Civil Procedure, 1908","No second appeal shall lie except on the grounds of substantial question of law.","Second appeal to High Court only allowed for important legal questions, not factual disputes.","Section 100","Second appeal restrictions"
+"Code of Civil Procedure, 1908","The Court may, if it thinks fit, make an order for security for costs at any stage of the suit.","Court can order plaintiff to deposit security money for defendant's legal costs.","Section 148A","Power to order security for costs"
+"Motor Vehicles Act, 1988","No person shall drive a motor vehicle in any public place, and no owner of a motor vehicle shall cause or permit the vehicle to be driven in any public place, unless the vehicle is covered by a policy of insurance.","All vehicles must have valid insurance before being driven on public roads.","Section 146","Necessity for insurance against third party risks"
+"Motor Vehicles Act, 1988","Whoever drives a motor vehicle in any public place without holding an effective policy of insurance shall be punishable with imprisonment which may extend to three months, or with fine which may extend to one thousand rupees, or with both.","Driving without insurance can lead to 3 months imprisonment or ₹1000 fine or both.","Section 196","Penalty for driving without insurance"
+"Motor Vehicles Act, 1988","Whoever drives a motor vehicle at a speed or in a manner which is dangerous to the public, having regard to all the circumstances of the case, shall be punishable.","Dangerous driving is punishable under the Act.","Section 184","Punishment for dangerous driving"
+"Environmental Protection Act, 1986","Where any offence under this Act has been committed by a company, every person who, at the time the offence was committed, was directly in charge of, and was responsible to the company for the conduct of the business of the company, shall be deemed to be guilty of the offence.","Company officials can be held personally liable for environmental offenses committed by company.","Section 16","Offences by companies"
+"Water (Prevention and Control of Pollution) Act, 1974","No person shall knowingly cause or permit any poisonous, noxious or polluting matter determined in accordance with such standards as may be laid down by the State Board to enter into any stream or well or sewer or on land.","No one can knowingly allow pollutants to enter water bodies beyond prescribed standards.","Section 24","Prohibits water pollution"
+"Air (Prevention and Control of Pollution) Act, 1981","No person operating any industrial plant shall discharge or cause or permit to be discharged the emission of any air pollutant in excess of the standards laid down by the State Board.","Industries cannot release air pollutants beyond prescribed standards.","Section 22","Restrictions on emission of air pollutants"
+"Wild Life (Protection) Act, 1972","No person shall hunt any wild animal specified in Schedules I, II, III and IV except as provided under section 11 and section 12.","Hunting protected wild animals is prohibited except under specific permissions.","Section 9","Prohibition of hunting of wild animals"
+"Forest (Conservation) Act, 1980","Notwithstanding anything contained in any other law for the time being in force in a State, no State Government shall make, except with the prior approval of the Central Government, any order directing that any forest land may be used for any non-forest purpose.","Forest land cannot be used for non-forest purposes without central government approval.","Section 2","Restriction on the dereservation of forests or use of forest land for non-forest purpose"
+"Prevention of Corruption Act, 1988","Whoever commits the offence of criminal misconduct shall be punishable with imprisonment for a term which shall be not less than four years but which may extend to ten years and shall also be liable to fine.","Criminal misconduct by public servant is punishable with 4-10 years imprisonment and fine.","Section 13","Criminal misconduct by a public servant"
+"Prevention of Money Laundering Act, 2002","Whoever commits the offence of money-laundering shall be punishable with rigorous imprisonment for a term which shall not be less than three years but which may extend to seven years and shall also be liable to fine.","Money laundering is punishable with 3-7 years rigorous imprisonment and fine.","Section 4","Punishment for money-laundering"
+"Protection of Children from Sexual Offences Act, 2012","Whoever commits sexual harassment upon a child shall be punished with imprisonment of either description for a term which may extend to three years and shall also be liable to fine.","Sexual harassment of child is punishable with up to 3 years imprisonment and fine.","Section 12","Punishment for sexual harassment"
+"Protection of Children from Sexual Offences Act, 2012","The evidence of the child shall be recorded within a period of thirty days of the special court taking cognizance of the offence.","Child's evidence must be recorded within 30 days of court taking case.","Section 35","Procedure for recording evidence of child"
+"Juvenile Justice (Care and Protection of Children) Act, 2015","No juvenile in conflict with law shall be sentenced to death or imprisonment for any term which may extend to imprisonment for life.","Juveniles cannot be given death sentence or life imprisonment.","Section 21","Prohibition of certain punishments for juvenile in conflict with law"
+"Juvenile Justice (Care and Protection of Children) Act, 2015","No child shall be subjected to corporal punishment or mental harassment.","Children cannot be given physical punishment or mental harassment.","Section 75","Prohibition of corporal punishment"
+"Maintenance and Welfare of Parents and Senior Citizens Act, 2007","A senior citizen including parent who is unable to maintain himself from his own earning or out of the property owned by him, shall be entitled to make an application for maintenance.","Senior citizens and parents unable to support themselves can claim maintenance from children/relatives.","Section 4","Maintenance of parents and senior citizens"
+"Maintenance and Welfare of Parents and Senior Citizens Act, 2007","A child or relative, as the case may be, shall be liable to maintain a senior citizen including parent, if such child or relative, being possessed of sufficient means, neglects or refuses to maintain such senior citizen.","Children/relatives with sufficient means must maintain senior citizens/parents who cannot support themselves.","Section 4","Obligation of children to maintain parents"
+"Legal Services Authorities Act, 1987","Every person who has to file or defend a case shall be entitled to legal services under this Act if that person is a member of a Scheduled Caste or Scheduled Tribe.","SC/ST community members have right to free legal services for court cases.","Section 12","Criteria for giving legal services"
+"Legal Services Authorities Act, 1987","A woman or a child; a person with disability; a person under circumstances of undeserved want such as being a victim of a mass disaster, ethnic violence, caste atrocity, flood, drought, earthquake or industrial disaster; or an industrial workman; or in custody, are entitled to legal services.","Women, children, disabled, disaster victims, workers, and persons in custody have right to free legal aid.","Section 12","Persons entitled to legal services"
+"Specific Relief Act, 1963","Any person suing for the specific performance of a contract may also ask for compensation for its breach, either in addition to, or in substitution of, such performance.","Person seeking contract enforcement can also claim compensation for breach.","Section 21","Power to award compensation in certain cases"
+"Specific Relief Act, 1963","Temporary injunctions are such as are to continue until a specified time, or until the further order of the court.","Temporary injunctions last for specified time or until court orders otherwise.","Section 37","Temporary and perpetual injunctions"
+"Limitation Act, 1963","The period of limitation for a suit to recover possession of immovable property is twelve years from the date when the possession of the defendant becomes adverse to the plaintiff.","Property possession recovery lawsuit must be filed within 12 years from when adverse possession started.","Article 65","Suit for possession of immovable property"
+"Registration Act, 1908","All non-testamentary documents which purport or operate to create, declare, assign, limit or extinguish, whether in present or in future, any right, title or interest, whether vested or contingent, of the value of one hundred rupees and upwards, to or in immovable property, shall be registered.","Property documents creating rights worth ₹100+ must be registered.","Section 17","Documents of which registration is compulsory"
+"Stamp Act, 1899","Every instrument chargeable with duty shall be stamped before or at the time of execution.","Documents requiring stamp duty must be stamped before or when signed.","Section 17","Instruments executed in India"
+"Stamp Act, 1899","No instrument chargeable with duty shall be admitted in evidence for any purpose by any person having by law or consent of parties authority to receive evidence, unless such instrument is duly stamped.","Unstamped documents cannot be used as evidence in legal proceedings.","Section 35","Instruments not duly stamped inadmissible in evidence"
+"Partnership Act, 1932","A partner may retire with the consent of all the other partners, or in accordance with an express agreement by the partners, or where the partnership is at will, by giving notice in writing to all the other partners of his intention to retire.","Partner can retire with consent of all partners, as per agreement, or by notice in partnership at will.","Section 32","Retirement of a partner"
+"Sale of Goods Act, 1930","Where there is a contract for the sale of unascertained goods, no property in the goods is transferred to the buyer unless and until the goods are ascertained.","For unspecified goods, ownership transfers only when specific goods are identified.","Section 18","Goods must be ascertained"
+"Easements Act, 1882","An easement is a right which the owner or occupier of certain land possesses, as such, for the beneficial enjoyment of that land, to do and continue to do something, or to prevent and continue to prevent something being done, in or upon, or in respect of, certain other land not his own.","Easement is right to use neighbor's land for beneficial enjoyment of one's own land.","Section 4","Definition of easement"
+"Trusts Act, 1882","A trust is an obligation annexed to the ownership of property, and arising out of a confidence reposed in and accepted by the owner, or declared and accepted by him, for the benefit of another, or of another and the owner.","Trust means property ownership with obligation to use it for another's benefit.","Section 3","Definition of trust"
+"Indian Penal Code, 1860","Whoever attempts to commit an offence punishable by this Code with imprisonment for life or imprisonment, or to cause such an offence to be committed, and in such attempt does any act towards the commission of the offence, shall be punished.","Attempting to commit serious crimes is itself a punishable offense.","Section 511","Punishment for attempting to commit offences"
+"Indian Penal Code, 1860","Whoever, being bound by an oath or by an express provision of law to state the truth, or being bound by law to make a declaration upon any subject, makes any statement which is false, and which he either knows or believes to be false or does not believe to be true, is said to give false evidence.","Giving false statement when legally required to tell truth is giving false evidence.","Section 191","Definition of giving false evidence"
+"Indian Penal Code, 1860","Whoever gives or fabricates false evidence, intending thereby to cause, or knowing it to be likely that he will thereby cause, any person to be convicted of an offence which is capital by the law for the time being in force in India, shall be punished with imprisonment for life.","Giving false evidence in death penalty cases is punishable with life imprisonment.","Section 194","Giving false evidence in capital cases"
+"Indian Penal Code, 1860","Whoever uses any false evidence knowing the same to be false, shall be punished in the same manner as if he gave or fabricated false evidence.","Using false evidence knowingly is as punishable as creating false evidence.","Section 196","Using evidence known to be false"
+"Indian Penal Code, 1860","Whoever issues or signs any certificate required by law to be given or signed, or relating to any fact of which such certificate is by law admissible in evidence, knowing or believing that such certificate is false in any material point, shall be punished.","Issuing false certificates is punishable like giving false evidence.","Section 197","Issuing or signing false certificate"
+"Indian Penal Code, 1860","Whoever, knowing or having reason to believe that an offence has been committed, causes any evidence of the commission of that offence to disappear, with the intention of screening the offender from legal punishment, shall be punished.","Hiding evidence to protect offender from punishment is a crime.","Section 201","Causing disappearance of evidence"
+"Indian Penal Code, 1860","Whoever, knowing or having reason to believe that an offence has been committed, gives any information respecting that offence which he knows or believes to be false, shall be punished.","Giving false information about a crime is punishable.","Section 203","Giving false information respecting an offence"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being, as such public servant, charged with the preparation or translation of any document, frames or translates that document in a manner which he knows or believes to be incorrect, intending thereby to cause injury to any person, shall be punished.","Public servant preparing incorrect documents to harm someone is punishable.","Section 167","Public servant framing incorrect document"
+"Indian Penal Code, 1860","Whoever, being a public servant, corruptly or maliciously makes or pronounces in any stage of a judicial proceeding any report, order, verdict, or decision which he knows to be contrary to law, shall be punished.","Public servant giving illegal judgments or orders corruptly is punishable.","Section 219","Public servant making report contrary to law"
+"Indian Penal Code, 1860","Whoever voluntarily causes hurt shall be punished with imprisonment of either description for a term which may extend to one year, or with fine which may extend to one thousand rupees, or with both.","Causing simple injury is punishable with up to 1 year imprisonment or ₹1000 fine.","Section 323","Punishment for voluntarily causing hurt"
+"Indian Penal Code, 1860","Whoever voluntarily causes grievous hurt shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.","Causing serious injury is punishable with up to 7 years imprisonment and fine.","Section 325","Punishment for voluntarily causing grievous hurt"
+"Indian Penal Code, 1860","Whoever voluntarily causes hurt by means of any instrument for shooting, stabbing or cutting, or any instrument which, used as a weapon of offence, is likely to cause death, shall be punished.","Causing injury with dangerous weapons is punishable.","Section 324","Voluntarily causing hurt by dangerous weapons"
+"Indian Penal Code, 1860","Whoever kidnaps any person from India or from lawful guardianship, shall be punished with imprisonment of either description for a term which may extend to seven years, and shall also be liable to fine.","Kidnapping is punishable with up to 7 years imprisonment and fine.","Section 363","Punishment for kidnapping"
+"Indian Penal Code, 1860","Whoever kidnaps or abducts any woman to compel her marriage, or for any other unlawful purpose, shall be punished with imprisonment of either description for a term which may extend to ten years.","Kidnapping woman for marriage is punishable with up to 10 years imprisonment.","Section 366","Kidnapping to compel marriage"
+"Indian Penal Code, 1860","Whoever imports, exports, removes, buys, sells or disposes of any person as a slave, or accepts, receives or detains against his will any person as a slave, shall be punished.","Slavery and slave trade are punishable offenses.","Section 370","Buying or disposing of any person as a slave"
+"Indian Penal Code, 1860","Whoever, by means of criminal intimidation, commits extortion, shall be punished with imprisonment of either description for a term which may extend to two years, or with fine, or with both.","Extortion through threats is punishable with up to 2 years imprisonment.","Section 388","Extortion by threat of accusation of an offence punishable with death"
+"Indian Penal Code, 1860","Whoever, being a public servant, knowingly disobeys any direction of the law as to the way in which he is to conduct himself as such public servant, intending to cause injury to any person, shall be punished.","Public servant knowingly disobeying legal directions is punishable.","Section 166","Public servant disobeying law"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant allowing document removal from custody is punishable.","Section 225","Resistance or obstruction to lawful apprehension"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant negligently allowing document removal is punishable.","Section 225","Public servant negligently suffering such escape"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant allowing prisoner escape is punishable.","Section 225","Public servant voluntarily allowing prisoner to escape"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant negligently allowing prisoner escape is punishable.","Section 225","Public servant negligently suffering prisoner to escape"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant aiding prisoner escape is punishable.","Section 225","Public servant aiding escape of prisoner"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant harboring escaped prisoner is punishable.","Section 225","Harbouring escaped prisoner"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant omitting to apprehend escaped prisoner is punishable.","Section 225","Public servant omitting to apprehend escaped prisoner"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant omitting to assist in apprehending escaped prisoner is punishable.","Section 225","Public servant omitting to assist in apprehending escaped prisoner"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant resisting lawful apprehension is punishable.","Section 225","Resistance or obstruction to lawful apprehension"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant escaping from lawful custody is punishable.","Section 225","Escape from lawful custody"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant rescuing from lawful custody is punishable.","Section 225","Rescue from lawful custody"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant harbouring offender is punishable.","Section 212","Harbouring offender"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant taking gift to screen offender is punishable.","Section 213","Taking gift, etc., to screen an offender from punishment"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant offering gift to screen offender is punishable.","Section 214","Offering gift or restoration of property in consideration of screening offender"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant taking gift to help recover stolen property is punishable.","Section 215","Taking gift to help to recover stolen property, etc."
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant harbouring robber or dacoit is punishable.","Section 216","Harbouring robber or dacoit"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant harbouring offender of capital offence is punishable.","Section 216A","Harbouring offenders of certain offences"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant omitting to apprehend or suffer escape of person charged with capital offence is punishable.","Section 221","Intentional omission to apprehend on the part of public servant bound to apprehend"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant negligently suffering escape of person charged with capital offence is punishable.","Section 222","Intentional omission to apprehend on the part of public servant bound to apprehend persons under sentence or lawfully committed"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant escaping from custody or omitting to apprehend is punishable.","Section 225","Escape from confinement or custody negligently suffered by public servant"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant resisting or obstructing lawful apprehension is punishable.","Section 225","Resistance or obstruction to lawful apprehension, or escape or rescue"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant intentionally omitting to apprehend is punishable.","Section 221","Intentional omission to apprehend on the part of public servant bound to apprehend"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant negligently suffering escape is punishable.","Section 222","Negligent suffering of escape from confinement or custody"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant resisting or obstructing lawful apprehension is punishable.","Section 225","Resistance or obstruction to lawful apprehension"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant escaping from lawful custody is punishable.","Section 225","Escape from lawful custody"
+"Indian Penal Code, 1860","Whoever, being a public servant, and being as such public servant, charged with the custody of any document, voluntarily allows any person to take away or secrete that document, shall be punished.","Public servant rescuing from lawful custody is punishable.","Section 225","Rescue from lawful custody"
+"Indian Contract Act, 1872","When a person at whose option a contract is voidable rescinds it, the other party thereto need not perform any promise therein contained in which he is promisor. The party rescinding a voidable contract shall, if he has received any benefit thereunder from another party to such contract, restore such benefit.","When contract is cancelled, both parties should return any benefits received from the contract.","Section 64","Consequences of rescission of voidable contract"
+"Indian Contract Act, 1872","Where a contract is discovered to be void, or when a contract becomes void, any person who has received any advantage under such contract is bound to restore it, or to make compensation for it, to the person from whom he received it.","If contract is found void, any benefits received must be returned or compensated.","Section 65","Obligation of person who has received advantage under void agreement"
+"Indian Contract Act, 1872","In the event of breach of contract, the party who suffers by such breach is entitled to receive compensation for any loss which naturally arose in the usual course of things from such breach.","Compensation for contract breach covers losses that naturally result from the breach.","Section 73","Compensation for loss or damage caused by breach of contract"
+"Indian Contract Act, 1872","When an obligation resembling those created by contract has been incurred and has not been discharged, any person injured by the failure to discharge it is entitled to receive the same compensation from the party in default.","Compensation available even when obligation arises without formal contract.","Section 70","Obligation of person enjoying benefit of non-gratuitous act"
+"Indian Contract Act, 1872","A contract which is contingent upon the happening of a future uncertain event cannot be enforced by law unless and until that event has happened.","Contracts depending on uncertain future events can only be enforced after the event happens.","Section 32","Enforcement of contracts contingent on an event happening"
+"Indian Contract Act, 1872","Contingent contracts to do or not to do anything if an uncertain future event happens cannot be enforced by law unless and until that event has happened.","Contracts based on 'if something happens' can only be enforced after it actually happens.","Section 31","Contingent contract definition and enforcement"
+"Indian Contract Act, 1872","A contract to do or not to do something, if some event, which is collateral to such contract, does not happen, may be enforced when the happening of that event becomes impossible.","Contracts based on 'if something doesn't happen' can be enforced when that event becomes impossible.","Section 34","Enforcement of contracts contingent on an event not happening"
+"Indian Contract Act, 1872","Where the consent of the promisor is caused by coercion, the contract is voidable at the option of the party whose consent was so caused.","Contracts made under pressure can be cancelled by the pressured party.","Section 19","Voidability of agreements without free consent"
+"Indian Contract Act, 1872","When consent to an agreement is caused by undue influence, the agreement is a contract voidable at the option of the party whose consent was so caused.","Contracts made under excessive influence can be cancelled by the influenced party.","Section 19A","Power to set aside contract induced by undue influence"
+"Code of Criminal Procedure, 1973","No female shall be sentenced to death.","Women cannot be given death sentence.","Section 416","Postponement of capital sentence on pregnant woman"
+"Code of Criminal Procedure, 1973","When any person is sentenced to death, the sentence shall direct that he be hanged by the neck till he is dead.","Death sentence must specify hanging by neck until death.","Section 354","Form and contents of judgment in death sentence cases"
+"Code of Criminal Procedure, 1973","In the case of any offence punishable with imprisonment for life, the Court may, for reasons to be recorded in writing, impose sentence of imprisonment for a term exceeding ten years.","Life imprisonment can be given for offenses punishable with life imprisonment, with reasons recorded.","Section 31","Sentence in cases of conviction of several offences at one trial"
+"Code of Criminal Procedure, 1973","No woman shall be called to a police station for questioning.","Women cannot be called to police station for questioning.","Section 160","Police officer's power to require attendance of witnesses"
+"Code of Criminal Procedure, 1973","In every inquiry or trial the proceedings shall be held as expeditiously as possible.","Court proceedings should be completed as quickly as possible.","Section 309","Power to postpone or adjourn proceedings"
+"Code of Criminal Procedure, 1973","Any person accused of an offence before a Criminal Court, or against whom proceedings are instituted under this Code, may of right be defended by a pleader of his choice.","Every accused person has the right to be defended by a lawyer of their choice.","Section 303","Right of person against whom proceedings are instituted to be defended"
+"Hindu Marriage Act, 1955","When a marriage has been dissolved by a decree of divorce and either there is no right of appeal against the decree or, if there is such a right of appeal, the time for appealing has expired without an appeal having been presented, the parties may marry again.","After divorce becomes final, both parties are free to remarry.","Section 15","Divorced persons when may marry again"
+"Hindu Marriage Act, 1955","Where in any proceeding under this Act it appears to the court that either the wife or the husband, as the case may be, has no independent income sufficient for her or his support and the necessary expenses of the proceeding, it may order the respondent to pay to the petitioner the expenses of the proceeding.","Court can order payment of legal expenses if spouse has no independent income.","Section 24","Maintenance pendente lite and expenses of proceedings"
+"Hindu Succession Act, 1956","When a female Hindu dies intestate, her property shall devolve according to the rules set out in section 16.","Property of Hindu female without will follows specific inheritance rules.","Section 15","General rules of succession in the case of female Hindus"
+"Hindu Succession Act, 1956","Any property possessed by a female Hindu, whether acquired before or after the commencement of this Act, shall be held by her as full owner thereof and not as a limited owner.","Hindu women have full ownership rights over their property, not limited ownership.","Section 14","Property of a female Hindu to be her absolute property"
+"Hindu Adoption and Maintenance Act, 1956","No person shall be capable of being taken in adoption unless he or she is a Hindu, he or she has not already been adopted, he or she has not been married, unless there is a custom or usage applicable to the parties which permits persons who are married being taken in adoption.","Only unmarried Hindu children can be adopted, unless custom allows married persons adoption.","Section 10","Persons who may be adopted"
+"Hindu Adoption and Maintenance Act, 1956","No adoption shall be made after the adoptee has completed the age of fifteen years, unless there is a custom or usage applicable to the parties which permits persons who have completed the age of fifteen years being taken in adoption.","Adoption generally not allowed after child turns 15, unless custom permits.","Section 10","Age for adoption"
+"Hindu Adoption and Maintenance Act, 1956","A Hindu wife shall be entitled to be maintained by her husband during her lifetime.","Hindu wife has right to be maintained by her husband throughout her life.","Section 18","Maintenance of wife"
+"Hindu Minority and Guardianship Act, 1956","The natural guardians of a Hindu minor, in respect of the minor's person as well as in respect of the minor's property, are the father, and after him, the mother.","Natural guardians of Hindu minor are: first father, then mother.","Section 6","Natural guardians of a Hindu minor"
+"Hindu Minority and Guardianship Act, 1956","The natural guardian of a Hindu minor has power, subject to the provisions of this section, to do all acts which are necessary or reasonable and proper for the benefit of the minor or for the realization, protection or benefit of the minor's estate.","Natural guardian can take necessary actions for minor's benefit and property protection.","Section 8","Powers of natural guardian"
+"Muslim Personal Law","A Muslim woman married under Muslim law shall be entitled to obtain a decree for the dissolution of her marriage on the ground that the husband has neglected or has failed to provide for her maintenance for a period of two years.","Muslim wife can seek divorce if husband fails to provide maintenance for 2 years.","Dissolution of Muslim Marriages Act, 1939","Grounds for Muslim woman to seek divorce"
+"Muslim Personal Law","The dower may be fixed either before or at the time of marriage or after the marriage.","Mehr (dower) can be decided before, during, or after marriage.","Muslim Law","Provisions regarding dower in Muslim marriage"
+"Muslim Personal Law","A Muslim husband may dissolve the marriage by pronouncing talaq.","Muslim husband can divorce by pronouncing talaq.","Muslim Law","Talaq provisions in Muslim law"
+"Muslim Personal Law","The mother shall be entitled to the custody of her minor child up to the age of seven years in the case of a boy and upto the age of puberty in the case of a girl.","Mother has custody rights: for son until age 7, for daughter until puberty.","Muslim Law","Hizanat (custody) rights of mother"
+"Muslim Personal Law","A Muslim is entitled to bequeath by will only one-third of his property.","Muslim can will only one-third of property, rest follows inheritance rules.","Muslim Law","Will restrictions in Muslim law"
+"Special Marriage Act, 1954","Any marriage celebrated, whether before or after the commencement of this Act, may be dissolved by a decree of divorce on the petition of either the husband or the wife on the ground that the other party has, after the solemnization of the marriage, had voluntary sexual intercourse with any person other than his or her spouse.","Marriage under Special Marriage Act can be dissolved if either spouse has extramarital affair.","Section 27","Grounds for divorce under Special Marriage Act"
+"Special Marriage Act, 1954","Any marriage under this Act may be solemnized in any form which the parties may choose to adopt.","Marriages under this Act can be performed in any form chosen by the parties.","Section 12","Form of solemnization of marriage"
+"Special Marriage Act, 1954","When a marriage has been dissolved and either there is no right of appeal against the decree or if there is such a right of appeal, the time for appealing has expired without an appeal having been presented, either party to the marriage may marry again.","After divorce becomes final under this Act, parties can remarry.","Section 30","Divorced persons when may marry again"
+"Negotiable Instruments Act, 1881","Whoever commits an offence under section 138 shall be punished with imprisonment for a term which may extend to two years, or with fine which may extend to twice the amount of the cheque, or with both.","Cheque bouncing is punishable with up to 2 years imprisonment or double the cheque amount as fine or both.","Section 138","Punishment for dishonour of cheque"
+"Negotiable Instruments Act, 1881","A promissory note is an instrument in writing containing an unconditional undertaking, signed by the maker, to pay a certain sum of money only to, or to the order of, a certain person, or to the bearer of the instrument.","Promissory note is a written promise to pay specific amount to specific person or bearer.","Section 4","Defines promissory note"
+"Negotiable Instruments Act, 1881","A bill of exchange is an instrument in writing containing an unconditional order, signed by the maker, directing a certain person to pay a certain sum of money only to, or to the order of, a certain person or to the bearer of the instrument.","Bill of exchange is a written order to pay specific amount to specific person or bearer.","Section 5","Defines bill of exchange"
+"Negotiable Instruments Act, 1881","A cheque is a bill of exchange drawn on a specified banker and not expressed to be payable otherwise than on demand.","Cheque is a type of bill of exchange payable on demand from a bank.","Section 6","Defines cheque"
+"Consumer Protection Act, 2019","The District Commission shall have jurisdiction to entertain complaints where the value of the goods or services paid as consideration does not exceed one crore rupees.","District consumer court can hear cases involving claims up to ₹1 crore.","Section 34","Jurisdiction of District Commission"
+"Consumer Protection Act, 2019","The State Commission shall have jurisdiction to entertain complaints where the value of the goods or services paid as consideration exceeds one crore rupees but does not exceed ten crore rupees.","State consumer court can hear cases involving claims between ₹1 crore and ₹10 crore.","Section 47","Jurisdiction of State Commission"
+"Consumer Protection Act, 2019","The National Commission shall have jurisdiction to entertain complaints where the value of the goods or services paid as consideration exceeds ten crore rupees.","National consumer court can hear cases involving claims over ₹10 crore.","Section 58","Jurisdiction of National Commission"
+"Right to Information Act, 2005","An information shall ordinarily be provided in the form in which it is sought unless it would disproportionately divert the resources of the public authority or would be detrimental to the safety or preservation of the record in question.","Information should be provided in requested format unless it would harm records or require excessive resources.","Section 7","Disposal of request for information"
+"Right to Information Act, 2005","Where a decision is taken to provide the information on payment of any further fee representing the cost of providing the information, the Central Public Information Officer shall send an intimation to the person making the request.","If additional fees are required for providing information, applicant must be informed about the details.","Section 7","Fees for providing information"
+"Right to Information Act, 2005","Notwithstanding anything contained in this Act, there shall be no obligation to give any citizen information which would prejudicially affect the sovereignty and integrity of India.","Certain sensitive information affecting national security and interests can be withheld.","Section 8","Exemption from disclosure of information"
+"Information Technology Act, 2000","Whoever commits hacking shall be punished with imprisonment up to three years, or with fine which may extend to five lakh rupees, or with both.","Hacking is punishable with up to 3 years imprisonment or ₹5 lakh fine or both.","Section 66","Punishment for hacking"
+"Information Technology Act, 2000","Whoever sends by means of a computer resource any information that is grossly offensive or has menacing character shall be punishable.","Sending offensive or false information through computers is punishable.","Section 66A","Punishment for sending offensive messages through communication service"
+"Information Technology Act, 2000","Whoever, intentionally or knowingly captures, publishes or transmits the image of a private area of any person without his or her consent, under circumstances violating the privacy of that person, shall be punished.","Taking or sharing private images without consent violating privacy is punishable.","Section 66E","Punishment for violation of privacy"
+"Information Technology Act, 2000","Whoever, knowingly or intentionally conceals, destroys or alters any computer source code used for a computer resource with an intention to cause damage, shall be punishable.","Destroying or altering computer source code with intent to cause damage is punishable.","Section 65","Tampering with computer source documents"
+"Companies Act, 2013","Every company shall prepare its financial statements in accordance with the accounting standards.","Companies must prepare financial statements following accounting standards.","Section 129","Financial statement preparation requirements"
+"Companies Act, 2013","The Board of Directors of every company shall consist of individuals as directors and shall have a minimum number of three directors in the case of a public company, two directors in the case of a private company.","Minimum directors required: Public company-3, Private company-2, One Person Company-1.","Section 149","Company to have Board of Directors"
+"Companies Act, 2013","No company shall appoint or re-appoint any person as its managing director, whole-time director or manager for a term exceeding five years at a time.","Managing director or whole-time director cannot be appointed for more than 5 years at once.","Section 196","Appointment of managing director, whole-time director or manager"
+"Companies Act, 2013","Every company having a paid-up share capital of five crore rupees or more shall constitute a Corporate Social Responsibility Committee of the Board.","Companies with ₹5 crore+ paid-up capital must have CSR committee.","Section 135","Corporate Social Responsibility"
+"Companies Act, 2013","The Board of every company shall ensure that the company spends, in every financial year, at least two per cent of the average net profits of the company made during the three immediately preceding financial years.","Companies must spend at least 2% of average net profits of last 3 years on CSR activities.","Section 135","CSR spending requirement"
+"Goods and Services Tax Act, 2017","The input tax credit shall be availed by a registered person on the basis of any of the following documents, namely: an invoice issued by the supplier of goods or services or both.","Input tax credit can be claimed based on invoices from suppliers.","Section 16","Documents for claiming input tax credit"
+"Goods and Services Tax Act, 2017","Every registered person required to deduct tax at source under section 51 shall furnish a return in such form and manner as may be prescribed.","Persons required to deduct TDS must file returns in prescribed format.","Section 39","Furnishing of returns"
+"Goods and Services Tax Act, 2017","Any registered person who fails to furnish the details of outward or inward supplies required under section 37 by the due date shall be liable to pay a late fee of one hundred rupees for every day.","Late filing of supply details attracts ₹100 per day late fee.","Section 47","Levy of late fee for delayed filing of return"
+"Arbitration and Conciliation Act, 1996","The arbitral tribunal shall make an arbitral award within a period of twelve months from the date the arbitral tribunal enters upon the reference.","Arbitration award should be made within 12 months from when tribunal starts proceedings.","Section 29A","Time limit for arbitral award"
+"Arbitration and Conciliation Act, 1996","An arbitral award shall be final and binding on the parties and persons claiming under them respectively.","Arbitration award is final and legally binding on all parties involved.","Section 35","Finality of arbitral awards"
+"Arbitration and Conciliation Act, 1996","Recourse to a Court against an arbitral award may be made only by an application for setting aside such award in accordance with sub-section (2) and sub-section (3).","Court can only interfere with arbitration award through specific setting aside procedure.","Section 34","Application for setting aside arbitral award"
+"Transfer of Property Act, 1882","Sale is a transfer of ownership in exchange for a price paid or promised or part-paid and part-promised.","Sale means transferring property ownership for money paid or promised.","Section 54","Defines sale of immovable property"
+"Transfer of Property Act, 1882","Gift is the transfer of certain existing movable or immovable property made voluntarily and without consideration, by one person, called the donor, to another, called the donee, and accepted by or on behalf of the donee.","Gift means transferring property voluntarily without payment, from donor to donee.","Section 122","Defines gift"
+"Transfer of Property Act, 1882","An exchange is a mutual transfer of ownership of one thing for the ownership of another.","Exchange means swapping ownership of one property for another property.","Section 118","Defines exchange"
+"Indian Evidence Act, 1872","Facts which, though not in issue, are so connected with a fact in issue as to form part of the same transaction, are relevant, whether they occurred at the same time and place or at different times and places.","Facts connected to the main issue as part of same transaction are relevant evidence.","Section 6","Relevancy of facts forming part of same transaction"
+"Indian Evidence Act, 1872","Any fact which enables the court to determine the amount of damages which ought to be awarded is relevant.","Facts that help determine compensation amount are relevant evidence.","Section 12","Facts relevant to determine damages"
+"Indian Evidence Act, 1872","When one person has, by his declaration, act or omission, intentionally caused or permitted another person to believe a thing to be true and to act upon such belief, neither he nor his representative shall be allowed to deny the truth of that thing.","If someone makes another believe something is true and they act on it, the first person cannot later deny it.","Section 115","Estoppel principle in evidence"
+"Indian Evidence Act, 1872","No witness who is not a party to a suit shall be compelled to produce his title-deeds to any property.","Witnesses cannot be forced to produce documents that might incriminate them or reveal property titles.","Section 130","Production of documents which another person, having possession, could refuse to produce"
+"Code of Civil Procedure, 1908","The Court may, either on its own motion or on the application of any party, order any fact to be proved by affidavit.","Court can allow facts to be proved through written statements (affidavits).","Order 19 Rule 1","Power to order any point to be proved by affidavit"
+"Code of Civil Procedure, 1908","No second appeal shall lie except on the grounds of substantial question of law.","Second appeal to High Court only allowed for important legal questions, not factual disputes.","Section 100","Second appeal restrictions"
+"Code of Civil Procedure, 1908","The Court may, if it thinks fit, make an order for security for costs at any stage of the suit.","Court can order plaintiff to deposit security money for defendant's legal costs.","Section 148A","Power to order security for costs"
